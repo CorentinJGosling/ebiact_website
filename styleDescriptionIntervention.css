@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+header{
+  z-index: 1;
+  position: fixed;
+  background-color: #1c2e3a; /*#22242A;*//*celle la #27313B;*/
+  padding: 20px;
+  width: calc(100% - 0%);
+  top: 0;
+  height: 30px;
+}
+
+header a{
+  text-decoration: none;
+}
+
+/*Ecriture ruban noir EI-ASD database*/
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content{
+  width: (100% - 250px);
+  margin-top: 20px;
+  padding: 10px;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+.content h2{
+  text-align: center;
+  padding: 15px;
+  margin-top: relative;
+  margin-bottom: 10px;
+  font-size: 40px;
+  opacity: 0.8;
+}
+.content h4{
+  /*background: #CDD9FF;*/
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  font-size: 34px;
+  color: #415467;
+  font-weight:600;
+}
+
+.content p{
+  /*background: #CDD9FF;*/
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 38px;
+  margin-right: 20px;
+  font-size: 16px;
+  opacity: 0.8;
+  line-height: 150%;
+  text-indent: -1em;
+}
+.list_ul {
+  margin-left: 38px;
+opacity: 0.8;
+}
+.button {
+  background-color: #1c2e3a;
+  border: none;
+  border-radius:5px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+width: 275px;}
+
+.button:hover{
+opacity: 0.7
+}

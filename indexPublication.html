@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publication - EBIA-CT database</title>
+    <link rel="stylesheet" href="stylePublication.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <i class="fa fa-bars nav_btn"></i>
+      <div class="left_area">
+      <a href="index.html">
+        <h3>EBIA-CT database</h3>
+      </a>
+      </div>
+    </header>
+    <!--header area end-->
+    <!--mobile navigation bar start-->
+    <div class="mobile_nav">
+      <div class="mobile_nav_items">
+         <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="indexIntervention.html"><i class="fas fa-book-open"></i><span>Intervention description</span></a>
+        <a href="indexShinyembed.html"><i class="fas fa-network-wired"></i><span>Database</span></a>
+        <div class="current">
+          <a href="#"><i class="fas fa-clipboard-check"></i><span>Publications</span></a>
+        </div>
+        <a href="indexAboutUs.html"><i class="fas fa-info-circle"></i><span>About us</span></a>
+      </div>
+    </div>
+    <!--mobile navigation bar end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+      <div class="profile_info">
+        <img src="profile.jpg" class="profile_image" alt="">
+      </div>
+      <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="indexIntervention.html"><i class="fas fa-book-open"></i><span>Intervention description</span></a>
+      <a href="indexShinyembed.html"><i class="fas fa-network-wired"></i><span>Database</span></a>
+      <div class="current">
+    <a href="#"><i class="fas fa-clipboard-check"></i><span>Publications</span></a>
+  </div>
+      <a href="indexAboutUs.html"><i class="fas fa-info-circle"></i><span>About us</span></a>
+    </div>
+    <!--sidebar end-->
+
+    <div class="content">
+      <div class = "color_mob">
+      </div>
+      <!--<img src="background.jpg" class="backgroundimage" alt="">-->
+      <!--<div class="background">-->
+        <img src="img-research-resized.jpg" alt="" style="width: 100%"> <!--"width: auto; height: auto; max-width: 3000px;max-height: 1500px-->
+      <!--</div>-->
+        <div class="text">
+          <h2>List of publications related to this database</h2>
+          <!--<p>-->
+            <div class = "p1">All the manuscripts in this section have been published in scientific journals (or are currently considered for publication).</div>
+        <!--</div>
+        <div class="card">-->
+          <h4><i class="fas fa-angle-right"></i> 2021</h4>
+            <p><a href="manuscript_psychosocial.pdf" target = "_blank" class="manuscript_dwnld"><i class="fas fa-file-pdf"></i></a>
+               <b>Umbrella review of psychosocial interventions for individuals with ASD: the EBIA-CT database.</b><br>
+               Gosling CJ, Cartigny A, Mellier B, Solanes AF, Radua J & Delorme R<br>
+               Under review</p>
+          </div>
+          <br>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.nav_btn').click(function(){
+        $('.mobile_nav_items').toggleClass('active');
+      });
+    });
+    </script>
+
+  </body>
+</html>

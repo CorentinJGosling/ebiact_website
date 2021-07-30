@@ -1,0 +1,479 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+/*HEADER*/
+/*ruban noir top EI-ASD database*/
+header{
+  z-index: 1;
+  position: fixed;
+  background-color: #1c2e3a; /*#22242A;*//*celle la #27313B;*/
+  padding: 20px;
+  width: calc(100% - 0%);
+  top: 0;
+  height: 30px;
+}
+header a{
+  text-decoration: none;
+}
+/*Ecriture ruban noir EI-ASD database*/
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*RUBAN GAUCHE*/
+
+/*image profile*/
+.profile_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*taille image profile*/
+.sidebar .profile_info .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 1px 0px #D0D8E1;
+}
+
+/*Nav bar ruban gauche*/
+.sidebar{
+  z-index: 1;
+  top: 0;
+  background-color: #4D6176;
+  /*background: #2f323a;*/
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 240px;
+  height: calc(100% - 9%);
+  transition: 0.5s;
+  transition-property: left;
+  overflow-y: auto;
+}
+/*Nav bar boutons ruban gauche*/
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+  font-size: 14px;
+}
+/*Nav bar bouton current*/
+.sidebar .current a{
+  background-color: #D0D8E1;/*#FFB74F*/
+  color: #27313B;
+
+}
+/*color when mouse on nav sider button*/
+.sidebar a:hover{
+  background-color: #A6B0BB;
+}
+/*ecartement icone-texte ruban gauche*/
+.sidebar i{
+  padding-right: 5px;
+}
+/*Petites barres reduction menu*/
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  top:12px;
+  left: 250px;
+  font-size:30px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+.nav_btn{
+  z-index: 0;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  top:12px;
+  left: 250px;
+  font-size:30px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+/*color when mouse over reduction sidebar menu*/
+label #sidebar_btn:hover{
+  color: #A6B0BB;
+}
+
+#check:checked ~ .sidebar{
+  left: -165px;
+}
+
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 165px;
+  width: 100%;
+}
+
+/* CONTENT */
+/** {
+  box-sizing: border-box;
+}
+*/
+.content{
+  width: (100% - 240px);
+  margin-top: 70px;
+  margin-left: 240px;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+.content .text h2{
+  text-align: center;
+  padding: 15px;
+  margin-top: relative;
+  margin-bottom: 10px;
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+.content h3{
+  /*background: #CDD9FF;*/
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 22px;
+  color: #415467;
+
+}
+
+.content p{
+  /*background: #CDD9FF;*/
+  padding: 2px;
+  margin-top: 5px;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+/* Float four columns side by side */
+.content .column {
+  float: left;
+  width: 36%;
+  padding: 5px;
+  }
+
+.content .row {
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+  .content .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contain{
+    width: calc(250px + 30px);
+    height: calc(250px + 117px);
+    /*background-color: #D8D7D7;*/
+    background-color: #4D6176;
+    color: #fff;
+    padding-bottom: 50px;
+    border: solid 1px black;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+}
+.contain:hover{
+/*    background-color: #A6B0BB;*/
+opacity: 0.9;
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.9), 0px 0px 50px rgba(0, 0, 0, 0.2);
+transform: scale(1.02398) translateZ(0) perspective(11px);
+transition: 0.8s;
+
+}
+
+.contain .photo{
+  display: block;
+  width: 250px;
+  height:250px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.contain .photo2{
+  display: block;
+  width: 250px;
+  height:250px;
+  border-radius: 10px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  border-radius: 10px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 10px;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #fff;
+  color: black;
+  transform: rotateY(180deg);
+  border: solid black 1px;
+}
+
+
+.content .desc{
+  background-color: inherit;
+  height: 130px;
+  margin-bottom: 0px;
+}
+
+.content .desc .desc_name{
+  padding-top: 15px;
+  font-size: 19px;
+  font-weight: 950;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.content .desc .desc_title{
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #F8BA6C;
+}
+
+.content .desc .desc_affiliation{
+  font-size: 14px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.content .desc .desc_lastaffiliation{
+  font-size: 14px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.content .desc .desc_image{
+  text-align: center;
+}
+
+.content .desc .desc_image .desc_image1{
+  display: inline-block;
+  margin-right: 5px;
+}
+.content .desc .desc_image .desc_image2{
+  display: inline-block;
+  margin-right: 5px;
+}
+.content .desc .desc_image .desc_image3{
+  display: inline-block;
+  margin-right: 5px;
+}
+.content .desc .desc_image .desc_image4{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.button{
+  color: #fff;
+}
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check:checked ~ .sidebar .profile_info{
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+.mobile_nav{
+  display: none;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 1300px){
+
+
+  .content .row {
+    margin-left:0px;
+  }
+}
+
+  @media screen and (max-width: 1150px){
+    .content .row {
+      margin-left: 50px;
+      display: block;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .sidebar{
+      display: none;
+    }
+    #sidebar_btn{
+      display: none;
+    }
+    header{
+      position: absolute;
+    }
+    .nav_btn{
+      position: absolute;
+  }
+
+  .background{
+    margin-top: 70px;
+  }
+
+    .color_mob {
+      height: 70px;
+      background-color: #2F323A;
+    }
+
+    .content{
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 0;
+    }
+
+
+    .contain{
+        width: 95%;
+}
+    .content .text h2{
+      font-size: 30px;
+      padding: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .content h3{
+      font-size: 25px;
+    }
+
+    .content .text h4{
+      margin-bottom: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+
+    .content .text p{
+      margin-top: 0px;
+      font-size: 16px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .content .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    #check:checked ~ .content{
+      margin-left: 0;
+    }
+
+    .mobile_nav{
+      display: block;
+      width: calc(100% - 0%);
+    }
+
+    .mobile_nav_items{
+    background-color: #2F323A;
+      display: none;
+       margin-top: 70px;
+    }
+
+    .mobile_nav_items a{
+      color: #fff;
+      display: block;
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 60px;
+      text-decoration: none;
+      box-sizing: border-box;
+      transition: 0.5s;
+      transition-property: background;
+    }
+
+    .mobile_nav_items a:hover{
+      background: #19B3D3;
+    }
+
+    .mobile_nav_items i{
+      padding-right: 10px;
+    }
+
+    .active{
+      display: block;
+    }
+  }
