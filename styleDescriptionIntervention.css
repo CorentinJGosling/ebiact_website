@@ -16,29 +16,45 @@ header {
 header a {
   text-decoration: none;
 }
+label #sidebar_btn {
+  z-index: 1;
+  position: fixed;
+  cursor: pointer;
+  top: 12px;
+  left: 20px;
+  font-size: 30px;
+  margin: 5px 0;
+  transition-property: color;
+}
+.menu_btn {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.menu_btn:hover {
+  color: #bad4f0;
+}
 
 /*Ecriture ruban noir EI-ASD database*/
 .left_area h3 {
-  color: #fff;
   margin: 0;
   text-transform: uppercase;
+  margin-left: 45px;
   font-size: 20px;
   font-weight: 600;
 }
 
 .content {
-  width: (100% - 250px);
   margin-top: 20px;
   padding: 10px;
-  height: 100vh;
   transition: 0.5s;
 }
 
 .content h2 {
-  text-align: center;
-  padding: 15px;
-  margin-top: relative;
-  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 40px;
   font-size: 40px;
   opacity: 0.8;
 }
@@ -50,7 +66,7 @@ header a {
   margin-bottom: 0px;
   font-size: 34px;
   color: #415467;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .content p {
@@ -63,12 +79,26 @@ header a {
   opacity: 0.8;
   line-height: 150%;
   text-indent: -1em;
+  max-width: 75ch;
 }
 .list_ul {
   margin-left: 38px;
   opacity: 0.8;
   font-size: 16px;
+  max-width: 75ch;
 }
+.btn_link:hover {
+  opacity: 0.6;
+}
+.btn_link {
+  margin-left: 38px;
+  margin-right: 20px;
+  max-width: 75ch;
+}
+.btn_link a {
+  text-decoration: none;
+}
+
 .button {
   background-color: #1c2e3a;
   border: none;

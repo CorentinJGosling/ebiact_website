@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+  --psycho-card-color: red;
 }
 /*HEADER*/
 /*ruban noir top EI-ASD database*/
@@ -189,6 +190,9 @@ label #sidebar_btn:hover {
   width: 28%;
   padding: 2%;
 }
+.content .row {
+  margin-bottom: 30px;
+}
 
 .content .row:after {
   content: "";
@@ -198,7 +202,6 @@ label #sidebar_btn:hover {
 
 .card_tot {
   height: 230px;
-  background-color: #2f323a;
   border-radius: 10px;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
   transition: transform 0.35s;
@@ -212,37 +215,15 @@ label #sidebar_btn:hover {
   box-shadow: rgba(0, 0, 0, 0.4) 15px 15px 9px,
     rgba(0, 0, 0, 0.3) 15px 15px 10px;
 }
-.EIBI {
-  background-color: #4d6176;
-  border-radius: 10px;
-}
-.NDBI {
-  background-color: #4d6176;
-  border-radius: 10px;
-}
-.DEV {
-  background-color: #4d6176;
-  border-radius: 10px;
-}
-.SSG {
-  background-color: #4d6176;
-  border-radius: 10px;
-}
-.PMI {
-  background-color: #4d6176;
-  border-radius: 10px;
-}
-.CBT {
-  background-color: #4d6176;
-  border-radius: 10px;
-}
-.TECH {
-  background-color: #4d6176;
-  border-radius: 10px;
-}
-
+.EIBI,
+.NDBI,
+.DEV,
+.SSG,
+.PMI,
+.CBT,
+.TECH,
 .TEA {
-  background-color: #4d6176;
+  background-color: #7794b3;
   border-radius: 10px;
 }
 .card_up {
