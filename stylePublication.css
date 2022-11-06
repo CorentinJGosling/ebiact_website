@@ -212,6 +212,26 @@ text-align: center;
   display: none;
 }
 
+.publi {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+/* .downloadpubli {
+  font-size: 4rem;
+  text-decoration: none;
+  color: red;
+  background-color: #19b3d3;
+}
+.pdf {
+  background-color: #19b3d3 !important;
+} */
+.ref {
+  max-width: 70ch;
+}
+
 /* Responsive CSS */
 
 @media screen and (max-width: 780px) {
@@ -237,6 +257,12 @@ text-align: center;
     width: 100%;
     margin-top: 0px;
     margin-left: 0;
+  }
+
+  .publi {
+    display: block;
+    width: 100%;
+    font-size: 0.75rem;
   }
 
   .content .text h2 {
