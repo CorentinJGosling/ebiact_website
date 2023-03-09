@@ -308,7 +308,7 @@ h2 {
 .home .row {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fill, 400px);
+  grid-template-columns: repeat(auto-fill, 350px);
   grid-auto-flow: row;
   margin-left: 2rem;
   margin-top: 2rem;
@@ -505,16 +505,14 @@ h2 {
     font-size: 0.9rem;
   }
   .home .row {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fill, 400px);
-    grid-auto-flow: row;
-    margin-left: 2rem;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2rem;
     margin-bottom: 4rem;
     /* align-items: start; */
     justify-content: center;
   }
-}
-@media (max-width: 440px) {
 }

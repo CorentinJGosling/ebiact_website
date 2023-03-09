@@ -47,9 +47,6 @@ svg {
   cursor: pointer;
 }
 
-.leftMarg {
-  margin-left: 150px;
-}
 svg path {
   fill: none;
   stroke-width: 1.5px;
@@ -58,14 +55,6 @@ svg path {
 
 svg + svg {
   margin-left: 1.5rem;
-}
-
-.activate {
-  display: block;
-  transition: var(--tran-05);
-}
-.fullwidth {
-  width: 250px;
 }
 
 #top,
@@ -124,9 +113,22 @@ svg:nth-child(2).open {
   left: 88px;
   width: calc(100% - 88px);
 }
-.sidebar.close .text {
-  opacity: 0;
+/* .sidebar.close .text {
+  opacity: 1;
+} */
+/* responsive */
+.leftMarg {
+  margin-left: 150px;
 }
+.activate {
+  display: flex;
+  flex-direction: column;
+  transition: var(--tran-05);
+}
+.fullwidth {
+  width: 250px !important;
+}
+/* responsive */
 
 .sidebar li {
   height: 50px;
@@ -164,6 +166,15 @@ svg:nth-child(2).open {
   white-space: nowrap;
   opacity: 1;
 }
+/* current page selected */
+.sidebar .active {
+  background-color: var(--card-color);
+  border-radius: 6px;
+}
+.sidebar .active .fas,
+.sidebar .active .text {
+  color: var(--sidebar-color);
+}
 
 .sidebar header {
   position: relative;
@@ -183,7 +194,6 @@ svg:nth-child(2).open {
 
 .sidebar li a {
   list-style: none;
-  height: 100%;
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -192,14 +202,7 @@ svg:nth-child(2).open {
   border-radius: 6px;
   text-decoration: none;
   transition: var(--tran-03);
-}
-.sidebar .active {
-  background-color: var(--card-color);
-  border-radius: 6px;
-}
-.sidebar .active .fas,
-.sidebar .active .text {
-  color: var(--sidebar-color);
+  color: red;
 }
 
 .sidebar li a:hover {
@@ -475,6 +478,8 @@ button {
   /* display: flex;
   flex-direction: column; */
   max-width: 30ch;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 16px;
