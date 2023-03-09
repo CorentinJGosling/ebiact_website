@@ -1,94 +1,167 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications | EBIA-CT</title>
-    <link rel="stylesheet" href="stylePublication.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/publications.css" />
+    <!-- <script type="text/javascript" src="js/script.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!----===== Boxicons CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!--<title>Dashboard Sidebar Menu</title>-->
   </head>
   <body>
-    <input type="checkbox" id="check">
-    <!--header area start-->
-    <header>
-      <label for="check">
-        <i class="fas fa-bars" id="sidebar_btn"></i>
-      </label>
-      <i class="fa fa-bars nav_btn"></i>
-      <div class="left_area">
-      <a href="index.html">
-        <h3>EBIA-CT database</h3>
-      </a>
-      </div>
-    </header>
-    <!--header area end-->
-    <!--mobile navigation bar start-->
-    <div class="mobile_nav">
-      <div class="mobile_nav_items">
-         <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
-        <a href="interventions.html"><i class="fas fa-book-open"></i><span>Intervention description</span></a>
-        <a href="ap.html"><i class="fas fa-network-wired"></i><span>Database</span></a>
-        <div class="current">
-          <a href="#"><i class="fas fa-clipboard-check"></i><span>Publications</span></a>
-        </div>
-        <a href="about_us.html"><i class="fas fa-info-circle"></i><span>About us</span></a>
-      </div>
-    </div>
-    <!--mobile navigation bar end-->
-    <!--sidebar start-->
-    <div class="sidebar">
-      <div class="profile_info">
-        <img src="profile.jpg" class="profile_image" alt="">
-      </div>
-      <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
-      <a href="interventions.html"><i class="fas fa-book-open"></i><span>Intervention description</span></a>
-      <a href="app.html"><i class="fas fa-network-wired"></i><span>Database</span></a>
-      <div class="current">
-    <a href="#"><i class="fas fa-clipboard-check"></i><span>Publications</span></a>
-  </div>
-      <a href="about_us.html"><i class="fas fa-info-circle"></i><span>About us</span></a>
-    </div>
-    <!--sidebar end-->
-
-    <div class="content">
-      <div class = "color_mob">
-      </div>
-      <!--<img src="background.jpg" class="backgroundimage" alt="">-->
-      <!--<div class="background">-->
-        <img src="img-research-resized.jpg" alt="" style="width: 100%"> <!--"width: auto; height: auto; max-width: 3000px;max-height: 1500px-->
-      <!--</div>-->
-        <div class="text">
-          <h2>List of publications related to this database</h2>
-          <!--<p>-->
-            <div class = "p1">All the manuscripts in this section have been published in peer-reviewed scientific journals.</div>
-        <!--</div>
-        <div class="card">-->
-          <h4><i class="fas fa-angle-right"></i> 2022</h4>
-          <div class = "publi">
-            <div class = "pdf"><a class = "downloadpubli" href = "EBIACT - Psychosocial - Molecular Psychiatry.pdf" target = "_blank" style = "background-color: #fff; color: red; font-size: 4rem;">
-                <i class="fas fa-file-pdf"></i></a>
-            </div>
-            <div class = "ref">
-              <b>Efficacy of psychosocial interventions in Autism Spectrum Disorder: an umbrella review.</b><br>
-               Gosling, C.J., Cartigny, A., Mellier, B.C., Solanes, A., Radua, J., & Delorme R. (2022).<br>
-               <u>Molecular Psychiatry</u> [Scimago Impact factor = 11.91 / SJR rank (Psychiatry) = Q1 (8/556)]<br>
-               ► Pre-registered, open R code, open data<br>
-               ► This article has been corrected to announce its post-hoc publication as a "gold open-access" paper in order to make it available for free in this platform
-            </div>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <div class="image">
+            <img src="img/profile.svg" alt="" class="img_profile" />
           </div>
+        </div>
+        <!-- <ion-icon
+          name="chevron-forward-circle-outline"
+          class="toggle"
+        ></ion-icon> -->
+        <!-- <i class="fad fa-chevron-circle-right toggle"></i> -->
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="index.html">
+                <i class="fas fa-home"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="interventions.html">
+                <i class="fas fa-book-open"></i>
+                <span class="text nav-text">Interventions</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="app.html">
+                <i class="fas fa-network-wired"></i>
+                <span class="text nav-text">Database</span>
+              </a>
+            </li>
+
+            <li class="nav-link active">
+              <a href="#">
+                <i class="fas fa-university"></i>
+                <span class="text nav-text">Publications</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="about.html">
+                <i class="fas fa-users"></i>
+                <span class="text nav-text">About us</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <div class="home">
+      <div class="hamburger">
+        <svg
+          id="hamb"
+          width="100"
+          height="100"
+          viewBox="0 0 52 42"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g transform="matrix(1,0,0,1,-389.5,-264.004)">
+            <g id="arrow_left2">
+              <g transform="matrix(1,0,0,1,0,5)">
+                <path
+                  id="top"
+                  d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                />
+              </g>
+              <g
+                transform="matrix(1,1.22465e-16,1.22465e-16,-1,0.00024296,564.935)"
+              >
+                <path
+                  id="bottom"
+                  d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                />
+              </g>
+              <path id="middle" d="M390,284.967L420,284.967" />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="mask"></div>
 
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $('.nav_btn').click(function(){
-        $('.mobile_nav_items').toggleClass('active');
-      });
-    });
-    </script>
+      <h1>List of scientific publications</h1>
+      <p>
+        This section provides the list of all scientifc papers related to this
+        database. All papers are available in open-access.
+      </p>
+      <!-- href="EBIACT - Psychosocial - Molecular Psychiatry.pdf"
+            target="_blank"
+ -->
+      <!-- <h2><i class="fas fa-angle-right"></i> 2022</h2> -->
+      <div class="publi">
+        <div class="publiHEAD">Synthesis of psychosocial interventions</div>
+        <div class="publiIMG">
+          <a id="publiBTN"
+            ><img src="img/publication1.jpg" class="imgpubli"
+          /></a>
+        </div>
+        <div class="publiTXT">
+          <div class="ref">
+            <a
+              download
+              class="download_publi"
+              href="download/EBIACT - Psychosocial - Molecular Psychiatry.pdf"
+              ><i class="fas fa-download"></i></a
+            ><br /><br />
+            <b>To cite this paper</b><br />
+            Gosling, C.J., Cartigny, A., Mellier, B.C., Solanes, A., Radua, J.,
+            & Delorme R. (2022). Efficacy of psychosocial interventions for
+            Autism spectrum disorder: an umbrella review. Mol Psychiatry 27,
+            3647–3656 (2022). https://doi.org/10.1038/s41380-022-01670-z<br /><br />
+            <b>Information on the journal</b><br />
+            ► Scimago Impact Factor = 11.91 <br />
+            ► SJR rank (Psychiatry) = Q1 (8/556)<br /><br />
+            <b>Information on the paper</b><br />
+            ► This paper has been preregistered before its completion, all data
+            analysis scripts and all raw data are available in open access.
+            <br />
+            ► This article has been corrected to announce its post-hoc
+            publication as a "gold open-access" paper in order to make it
+            available for free in this platform
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
+    <script type="text/javascript" src="js/script_publications.js"></script>
   </body>
 </html>

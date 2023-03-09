@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/about.css" />
+    <!-- <script type="text/javascript" src="js/script.js"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!----===== Boxicons CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!--<title>Dashboard Sidebar Menu</title>-->
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <div class="image">
+            <img src="img/profile.svg" alt="" class="img_profile" />
+          </div>
+        </div>
+        <!-- <ion-icon
+          name="chevron-forward-circle-outline"
+          class="toggle"
+        ></ion-icon> -->
+        <!-- <i class="fad fa-chevron-circle-right toggle"></i> -->
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="index.html">
+                <i class="fas fa-home"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="interventions.html">
+                <i class="fas fa-book-open"></i>
+                <span class="text nav-text">Interventions</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="app.html">
+                <i class="fas fa-network-wired"></i>
+                <span class="text nav-text">Database</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="publications.html">
+                <i class="fas fa-university"></i>
+                <span class="text nav-text">Publications</span>
+              </a>
+            </li>
+
+            <li class="nav-link active">
+              <a href="#">
+                <i class="fas fa-users"></i>
+                <span class="text nav-text">About us</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="home">
+      <div class="hamburger">
+        <svg
+          id="hamb"
+          width="100"
+          height="100"
+          viewBox="0 0 52 42"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g transform="matrix(1,0,0,1,-389.5,-264.004)">
+            <g id="arrow_left2">
+              <g transform="matrix(1,0,0,1,0,5)">
+                <path
+                  id="top"
+                  d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                />
+              </g>
+              <g
+                transform="matrix(1,1.22465e-16,1.22465e-16,-1,0.00024296,564.935)"
+              >
+                <path
+                  id="bottom"
+                  d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                />
+              </g>
+              <path id="middle" d="M390,284.967L420,284.967" />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <h1>Members of our team</h1>
+      <div class="mask"></div>
+      <p>
+        This section provides a brief description of the core members of the
+        team as well as our collaborators!
+      </p>
+      <div class="contain-row">
+        <div class="ml6">
+          <span class="text-wrapper">
+            <h2><span class="letters">Creators of EBIA-CT</span></h2>
+          </span>
+        </div>
+        <div class="row row1">
+          <div class="memb">
+            <img src="img/photo_gosling-resized.jpg" class="photo" />
+            <div class="memb_name">Corentin J. Gosling, PhD</div>
+            <div class="memb_affil">Université Paris Nanterre, FR</div>
+            <div class="memb_affil">Université Paris Cité, FR</div>
+            <div class="memb_affil">Southampton University, UK</div>
+            <div class="read_more_icons">
+              <div class="icons">
+                <a
+                  href="mailto: corentin.gosling@parisnanterre.fr"
+                  class="button"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </div>
+              <div class="icons">
+                <a
+                  href="https://github.com/CorentinJGosling"
+                  class="button"
+                  target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+              <div class="icons">
+                <a
+                  href="https://www.parisnanterre.fr/corentin-gosling--929655.kjsp?RH=1519826463065"
+                  target="_blank"
+                  ><i class="fas fa-university"></i
+                ></a>
+              </div>
+            </div>
+            <div class="read_more" id="readmore_cg">
+              <div>
+                Read more &nbsp
+                <i class="fas fa-plus" id="open_cg"></i>
+                <i class="fas fa-minus hide" id="close_cg"></i>
+              </div>
+              <div class="read_more_text hide" id="read_more_text_cg">
+                Dr. Corentin J. Gosling is an associate professor of
+                neuropsychology at Paris Nanterre University. His research
+                interests focus on the diagnosis and clinical interventions for
+                individuals with neurodevelopmental disorders.
+              </div>
+            </div>
+          </div>
+          <!-- ===== -->
+
+          <div class="memb">
+            <img src="img/photo_cartigny-resized.jpg" class="photo" />
+            <div class="memb_name">Ariane Cartigny, MSc</div>
+            <div class="memb_affil">Université Paris Cité, FR</div>
+            <div class="memb_affil">Hôpital Robert Debré, FR</div>
+            <div class="memb_affil">&nbsp;</div>
+            <div class="read_more_icons">
+              <div class="icons">
+                <a href="mailto: ariane.cartigny@gmail.com" class="button"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </div>
+              <div class="icons">
+                <a
+                  href="https://fr.linkedin.com/in/ariane-cartigny-700990a9"
+                  target="_blank"
+                  ><i class="fas fa-university"></i
+                ></a>
+              </div>
+            </div>
+            <div class="read_more" id="readmore_ac">
+              <div>
+                Read more &nbsp
+                <i class="fas fa-plus" id="open_ac"></i>
+                <i class="fas fa-minus hide" id="close_ac"></i>
+              </div>
+              <div class="read_more_text hide" id="read_more_text_ac">
+                Ms. Ariane Cartigny is a clinical neuropsychologist. She
+                currently works at the Excellence Centre for Autism and
+                Neurodevelopmental Disorders at Robert Debre Hospital. Since
+                2020, she co-leads the team of neuropsychologists of the
+                FondaMental network in France.
+              </div>
+            </div>
+          </div>
+          <!-- ====== -->
+          <div class="memb">
+            <img src="img/photo_delorme-resized.jpg" class="photo" />
+            <div class="memb_name">Richard Delorme, MD, PhD</div>
+            <div class="memb_affil">Robert Debré Hospital, FR</div>
+            <div class="memb_affil">Institut Pasteur, FR</div>
+            <div class="memb_affil">&nbsp;</div>
+            <div class="read_more_icons">
+              <div class="icons">
+                <a
+                  href="mailto: corentin.gosling@parisnanterre.fr"
+                  class="button"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </div>
+              <div class="icons">
+                <a
+                  href="https://research.pasteur.fr/fr/member/richard-delorme/"
+                  target="_blank"
+                  ><i class="fas fa-university"></i
+                ></a>
+              </div>
+            </div>
+            <div class="read_more" id="readmore_rd">
+              <div>
+                Read more &nbsp
+                <i class="fas fa-plus" id="open_rd"></i>
+                <i class="fas fa-minus hide" id="close_rd"></i>
+              </div>
+              <div class="read_more_text hide" id="read_more_text_rd">
+                Dr. Richard Delorme is the Head of the Center of Excellence for
+                Autism and Neurodevelopmental Disorders at Robert Debré Hospital
+                in Paris, France. He has participated in the identification of
+                the first genes involved in autism. He is the senior author of
+                this project.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Core members</h2>
+      <div class="row">
+        <div class="memb">
+          <img src="img/photo_cortese-resized.jpg" class="photo" />
+          <div class="memb_name">Samuele Cortese, MD, PhD</div>
+          <div class="memb_affil">University of Southampton, UK</div>
+          <div class="memb_affil">Solent NHS Trust, UK</div>
+          <div class="memb_affil">New York University, New York, USA</div>
+          <div class="read_more_icons">
+            <div class="icons">
+              <a href="mailto: samuele.cortese@soton.ac.uk" class="button"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a
+                href="https://twitter.com/cortesesamuele?lang=fr"
+                class="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a
+                href="https://www.southampton.ac.uk/psychology/about/staff/sc6r14.page"
+                target="_blank"
+                ><i class="fas fa-university"></i
+              ></a>
+            </div>
+          </div>
+          <div class="read_more" id="readmore_sc">
+            <div>
+              Read more &nbsp
+              <i class="fas fa-plus" id="open_sc"></i>
+              <i class="fas fa-minus hide" id="close_sc"></i>
+            </div>
+            <div class="read_more_text hide" id="read_more_text_sc">
+              Dr. Samuele Cortese is currently Professor of Child and Adolescent
+              Psychiatry at the University of Southampton and Honorary
+              Consultant Child and Adolescent Psychiatry for Solent NHS Trust.
+              He ranks #1 worldwide in terms of expertise on ADHD and #2 in
+              child psychiatry according to Expertscape.
+            </div>
+          </div>
+        </div>
+
+        <div class="memb">
+          <img src="img/photo_solmi-resized.jpg" class="photo" />
+          <div class="memb_name">Marco Solmi, MD, PhD</div>
+          <div class="memb_affil">University of Ottawa, Canada</div>
+          <div class="memb_affil">University of Southampton, UK</div>
+          <div class="memb_affil">King's College London, UK</div>
+          <div class="read_more_icons">
+            <div class="icons">
+              <a href="mailto: marco.solmi83@gmail.com" class="button"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a
+                href="https://twitter.com/solmi_marco?lang=fr"
+                class="button"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a
+                href="https://pnc.unipd.it/solmi-marco"
+                class="button"
+                target="_blank"
+                ><i class="fas fa-university"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="read_more" id="readmore_ms">
+            <div>
+              Read more &nbsp
+              <i class="fas fa-plus" id="open_ms"></i>
+              <i class="fas fa-minus hide" id="close_ms"></i>
+            </div>
+            <div class="read_more_text hide" id="read_more_text_ms">
+              Dr. Marco Solmi is Associate Professor of Psychiatry at University
+              of Ottawa, Canada, visiting senior academic at University of
+              Southampton, and visiting researcher at King's College, London,
+              UK. His clinical focus is on prevention/early intervention for
+              mental disorders, physical health in mental disorders, and
+              psychopharmacology.
+            </div>
+          </div>
+        </div>
+
+        <div class="memb">
+          <img src="img/fusarpoli_photo-resized.jpg" class="photo" />
+          <div class="memb_name">Paolo Fusar-Poli, MD, PhD</div>
+          <div class="memb_affil">King's College London, UK</div>
+          <div class="memb_affil">South London and Maudsley NHS</div>
+          <div class="memb_affil">Foundation Trust, UK</div>
+          <div class="read_more_icons">
+            <div class="icons">
+              <a
+                href="mailto: https://www.kcl.ac.uk/people/paolo-fusar-poli"
+                class="button"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a
+                href="https://www.kcl.ac.uk/people/paolo-fusar-poli"
+                class="button"
+                target="_blank"
+                ><i class="fas fa-university"></i
+              ></a>
+            </div>
+          </div>
+          <div class="read_more" id="readmore_pfp">
+            <div>
+              Read more &nbsp
+              <i class="fas fa-plus" id="open_pfp"></i>
+              <i class="fas fa-minus hide" id="close_pfp"></i>
+            </div>
+            <div class="read_more_text hide" id="read_more_text_pfp">
+              Dr. Paolo Fusar-Poli is a Professor of Preventive Psychiatry at
+              King's College London where he heads the EPIC Lab. He ranked as
+              the number two expert in psychosis in the world in 2019 according
+              to expertscape and he was an external advisory member for the
+              DSM-5 and DSM-5TR Psychosis Working Group, US.
+            </div>
+          </div>
+        </div>
+
+        <div class="memb">
+          <img src="img/photo_quim-resized.jpg" class="photo" />
+          <div class="memb_name">Joaquim Radua, MD, PhD</div>
+          <div class="memb_affil">Hospital Clinic de Barcelona, Spain</div>
+          <div class="memb_affil">King's College London, UK</div>
+          <div class="memb_affil">Karolinska Institutet, Sweden</div>
+          <div class="read_more_icons">
+            <div class="icons">
+              <a href="mailto: quimradua@gmail.com" class="button"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a href="https://www.radua.net/" class="button" target="_blank"
+                ><i class="fas fa-university"></i
+              ></a>
+            </div>
+          </div>
+          <div class="read_more" id="readmore_jr">
+            <div>
+              Read more &nbsp
+              <i class="fas fa-plus" id="open_jr"></i>
+              <i class="fas fa-minus hide" id="close_jr"></i>
+            </div>
+            <div class="read_more_text hide" id="read_more_text_jr">
+              Dr. Joaquim Radua is a psychiatrist medical doctor and
+              statistician interested in improving the treatment of psychiatric
+              disorders. He is the developer of numerous methods for
+              meta-analysis of neuroimaging studies and he has been named as one
+              of the most cited researchers in Psychiatry and Psychology.
+            </div>
+          </div>
+        </div>
+
+        <div class="memb">
+          <img src="img/photo_sandbank-resized.jpg" class="photo" />
+          <div class="memb_name">Micheal P Sandbank, PhD</div>
+          <div class="memb_affil">
+            University of North Carolina <br />at Chapel Hill, US
+          </div>
+          <div class="memb_affil">&nbsp;</div>
+          <div class="read_more_icons">
+            <div class="icons">
+              <a href="mailto: msandbank@austin.utexas.edu" class="button"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a
+                href="https://www.med.unc.edu/healthsciences/ocsci/directory/micheal-sandbank-phd/"
+                class="button"
+                target="_blank"
+                ><i class="fas fa-university"></i
+              ></a>
+            </div>
+          </div>
+          <div class="read_more" id="readmore_sd">
+            <div>
+              Read more &nbsp
+              <i class="fas fa-plus" id="open_sd"></i>
+              <i class="fas fa-minus hide" id="close_sd"></i>
+            </div>
+            <div class="read_more_text hide" id="read_more_text_sd">
+              Dr. Micheal Sandbank is an internationally-recognized expert on
+              early interventions for young children on the autism spectrum. She
+              is the lead researcher on Project AIM, a scoping systematic review
+              and meta-analysis of all group design studies of interventions for
+              young children on the autism spectrum.
+            </div>
+          </div>
+        </div>
+        <div class="memb">
+          <img src="img/photo_solanes-resized.jpg" class="photo" />
+          <div class="memb_name">Aleix Solanes Font, PhD</div>
+          <div class="memb_affil">Hospital Clínic de Barcelona, Spain</div>
+          <div class="memb_affil">&nbsp;</div>
+          <div class="memb_affil">&nbsp;</div>
+          <div class="read_more_icons">
+            <div class="icons">
+              <a href="mailto: al.solanes@gmail.com" class="button"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a
+                href="https://es.linkedin.com/in/aleixsolanes"
+                class="button"
+                target="_blank"
+                ><i class="fas fa-university"></i
+              ></a>
+            </div>
+          </div>
+          <div class="read_more" id="readmore_as">
+            <div>
+              Read more &nbsp
+              <i class="fas fa-plus" id="open_as"></i>
+              <i class="fas fa-minus hide" id="close_as"></i>
+            </div>
+            <div class="read_more_text hide" id="read_more_text_as">
+              Dr. Aleix Solanes Font earned his PhD in Computer engineering in
+              2021 at the University of Barcelona. He has a lot of experience in
+              applying machine learning, deep learning and statistical
+              techniques to neuroimaging and clinical data. He is the programmer
+              of several softwares related to neuroimaging topics.
+            </div>
+          </div>
+        </div>
+
+        <div class="memb">
+          <img src="img/caparos-resized.jpg" class="photo" />
+          <div class="memb_name">Serge Caparos, PhD</div>
+          <div class="memb_affil">Université Paris 8, FR</div>
+          <div class="memb_affil">Institut Universitaire de France, FR</div>
+          <div class="memb_affil">&nbsp;</div>
+          <div class="read_more_icons">
+            <div class="icons">
+              <a href="mailto: scaparos@gmail.com" class="button"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a href="" class="button" target="_blank"
+                ><i class="fas fa-university"></i
+              ></a>
+            </div>
+          </div>
+          <div class="read_more" id="readmore_scf">
+            <div>
+              Read more &nbsp
+              <i class="fas fa-plus" id="open_scf"></i>
+              <i class="fas fa-minus hide" id="close_scf"></i>
+            </div>
+            <div class="read_more_text hide" id="read_more_text_scf">
+              Dr. Serge Caparos is an associate professor of cognitive
+              psychology at Paris VIII University. His research interests focus
+              on the links between emotion and cognition, with
+              neurodevelopmental and crosscultural perspectives.
+            </div>
+          </div>
+        </div>
+
+        <div class="memb">
+          <img src="img/photo_quim-resized.jpg" class="photo" />
+          <div class="memb_name">Klara Kovarski, PhD</div>
+          <div class="memb_affil">Sorbonne Université, FR</div>
+          <div class="memb_affil">&nbsp;</div>
+          <div class="memb_affil">&nbsp;</div>
+          <div class="read_more_icons">
+            <div class="icons">
+              <a href="mailto: XXXXX" class="button"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="icons">
+              <a href="XXXX" class="button" target="_blank"
+                ><i class="fas fa-university"></i
+              ></a>
+            </div>
+          </div>
+          <div class="read_more" id="readmore_kk">
+            <div>
+              Read more &nbsp
+              <i class="fas fa-plus" id="open_kk"></i>
+              <i class="fas fa-minus hide" id="close_kk"></i>
+            </div>
+            <div class="read_more_text hide" id="read_more_text_kk">INC</div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+      <h2>Graduate student working on this database</h2>
+      <div class="row">
+        <div class="memb">
+          <img src="img/photo_boisseleau-resized.jpg" class="photo" />
+          <div class="memb_name">Laure Boisseleau, MSc</div>
+          <div class="memb_affil">Université Paris Nanterre, FR</div>
+        </div>
+
+        <div class="memb">
+          <img src="img/photo_mellier.png" class="photo" />
+          <div class="memb_name">Baptiste C Mellier, MSc</div>
+          <div class="memb_affil">Université Paris Nanterre</div>
+        </div>
+      </div>
+      <h2>Undergraduate students that provided assistance</h2>
+      <div class="row">
+        <div class="memb">
+          <img src="img/photo_lily.jpg" class="photo" />
+          <div class="memb_name">Lily Griffin, BSc</div>
+          <div class="memb_affil">University of Southampton, UK</div>
+        </div>
+
+        <div class="memb">
+          <img src="img/photo_grace.jpg" class="photo" />
+          <div class="memb_name">Grace Gair, BSc</div>
+          <div class="memb_affil">University of Southampton, UK</div>
+        </div>
+      </div>
+      <h2>Significant contributors to this database</h2>
+      <div class="row">
+        <div class="memb">
+          <img src="img/photo_sand-resized.jpg" class="photo" />
+          <div class="memb_name">Project Aim Team</div>
+          <div class="memb_affil">University of Texas, US</div>
+          <div class="memb_affil">Vanderbilt University, US</div>
+          <div class="memb_affil">Boston & Mount Holyoke Colleges, US</div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script type="text/javascript" src="js/script_about.js"></script>
+  </body>
+</html>

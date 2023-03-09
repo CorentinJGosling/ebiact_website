@@ -1,110 +1,360 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | EBIA-CT</title>
-    <link rel="stylesheet" href="styleIndex.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script type="text/javascript" src="js/script.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!----===== Boxicons CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <!--<title>Dashboard Sidebar Menu</title>-->
   </head>
   <body>
-    <input type="checkbox" id="check">
-    <!--header area start-->
-    <header>
-      <label for="check">
-        <i class="fas fa-bars" id="sidebar_btn"></i>
-      </label>
-      <i class="fa fa-bars nav_btn"></i>
-      <div class="left_area">
-      <a href="index.html">
-        <h3>EBIA-CT database</h3>
-      </a>
-      </div>
-    </header>
-    <!--header area end-->
-    <!--mobile navigation bar start-->
-    <div class="mobile_nav">
-      <div class="mobile_nav_items">
-        <div class="current">
-         <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
-        </div>
-        <a href="interventions.html"><i class="fas fa-book-open"></i><span>Intervention description</span></a>
-        <a href="app.html"><i class="fas fa-network-wired"></i><span>Database</span></a>
-        <a href="publications.html"><i class="fas fa-clipboard-check"></i><span>Publications</span></a>
-        <a href="about_us.html"><i class="fas fa-info-circle"></i><span>About us</span></a>
-      </div>
-    </div>
-    <!--mobile navigation bar end-->
-    <!--sidebar start-->
-    <div class="sidebar">
-      <div class="profile_info">
-        <img src="profile.jpg" class="profile_image" alt="">
-      </div>
-      <div class="current">
-       <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
-      </div>
-      <a href="interventions.html"><i class="fas fa-book-open"></i><span>Intervention description</span></a>
-      <a href="app.html"><i class="fas fa-network-wired"></i><span>Database</span></a>
-      <a href="publications.html"><i class="fas fa-clipboard-check"></i><span>Publications</span></a>
-      <a href="about_us.html"><i class="fas fa-info-circle"></i><span>About us</span></a>
-    </div>
-    <!--sidebar end-->
-
-    <div class="content">
-      <div class = "color_mob">
-      </div>
-      <!--<img src="background.jpg" class="backgroundimage" alt="">-->
-      <!--<div class="background">-->
-        <img src="img-background-resized.jpg" alt="" style="width: 100%"> <!--"width: auto; height: auto; max-width: 3000px;max-height: 1500px-->
-      <!--</div>-->
-        <div class="text">
-          <h2>Welcome to the EBIA-CT database!</h2>
-          <!--<p>-->
-            <div class = "p1">The <em>evidence-based interventions for Autism: clinical trials</em> (EBIA-CT) database allows to access information on meta-analyses and individual clinical trials exploring the efficacy of interventions in people with Autism Spectrum Disorder (ASD).</div>
-        <!--</div>
-        <div class="card">-->
-          <h4><i class="fas fa-angle-right"></i> How this database has been created?</h4>
-            <p>Our team has reviewed the scientific literature in a systematic manner to locate any meta-analysis of controlled clinical trials exploring the efficacy of interventions in people with ASD.</p>
-              <p>For now, we have focused on the efficacy of psychosocial interventions. If you are interested in obtaining more information on the interventions described in the database, a brief description of each intervention is available
-                 in the "Intervention description" section.</p>
-
-          <h4><i class="fas fa-angle-right"></i> How this database is working?</h4>
-            <p>We have extracted critical information from identified meta-analyses (such as characteristics of included participants, type of intervention assessed, clinical outcome targeted by the intervention, 
-              efficacy and risk of bias of included clinical trials).
-              Using this information, we have replicated meta-analytic calculations to determine the efficacy of the different types of interventions on core and related ASD symptoms. 
-              Finally, we have assessed the methodological quality of the meta-analyses to present information coming from the most reliable and up-to-date scientific studies.</p>
-              <p>Precise methodology employed by our team can be retrieved in scientific articles published along with this database. These papers are freely accessible in the "Publications" section of this website.</p>
-              <p>All our data and results have then been stored (and can be downloaded) in an online database so that everyone can access the results of our work.
-                We have implanted an online filtering system to faciliate searches for precise information about a specific intervention, outcome or population.</p>
-
-          <h4><i class="fas fa-angle-right"></i> How to access this database?</h4>
-            <p>Simply click on the "Database" section of this website, everyting is open-access!</p>
-
-          <h4><i class="fas fa-angle-right"></i> I know a meta-analysis that is not listed in the database, or I have additional information about a meta-analysis already included in the database.</h4>
-            <p>Many thanks for noticing this! If you want to provide more information about a meta-analysis, simply email us the reference at <a href = "mailto: corentin.gosling@parisnanterre.fr" class="button">corentin.gosling@parisnanterre.fr</a>.</p>
-            <p>Your work will be acknowledged in the "About us" section. If you provide information about one meta-analysis, you (or your team) will appear as a 'Contributor'. If you provide information on several meta-analyses, you will appear as a 'Significant contributor'.</p>
-
-            <h4><i class="fas fa-angle-right"></i> I noticed an error in the information stored about a clinical trial or a meta-analysis.</h4>
-              <p>We are sorry for this mistake. Please, provide a proof that the information stored in the database is erroneous as well as corrected information and email it to us at <a href = "mailto: corentin.gosling@parisnanterre.fr" class="button">corentin.gosling@parisnanterre.fr</a>.</p>
-              <p>Your work will be acknowledged in the "About us" section, in which you will appear as a 'Contributor' for a minor correction or as a 'Debunker' for a major one.</p><br><br><br>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <div class="image">
+            <img src="img/profile.svg" alt="" class="img_profile" />
           </div>
+        </div>
+      </header>
 
-<br><br><br>
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link active">
+              <a href="#">
+                <i class="fas fa-home"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="interventions.html">
+                <i class="fas fa-book-open"></i>
+                <span class="text nav-text">Interventions</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="app.html">
+                <i class="fas fa-network-wired"></i>
+                <span class="text nav-text">Database</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="publications.html">
+                <i class="fas fa-university"></i>
+                <span class="text nav-text">Publications</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="about.html">
+                <i class="fas fa-users"></i>
+                <span class="text nav-text">About us</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="home">
+      <section class="logoZONE">
+        <img src="img/logo_upn.jpg" class="logo1" />
+        <img src="img/logo_dysco.png" class="logo2" />
+        <img src="img/INOVAND.svg" class="logo3" />
+        <!-- <img src="img/logo_upn.jpg" class="logo" /> -->
+      </section>
+      <div class="hamburger">
+        <svg
+          id="hamb"
+          width="100"
+          height="100"
+          viewBox="0 0 52 42"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g transform="matrix(1,0,0,1,-389.5,-264.004)">
+            <g id="arrow_left2">
+              <g transform="matrix(1,0,0,1,0,5)">
+                <path
+                  id="top"
+                  d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                />
+              </g>
+              <g
+                transform="matrix(1,1.22465e-16,1.22465e-16,-1,0.00024296,564.935)"
+              >
+                <path
+                  id="bottom"
+                  d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                />
+              </g>
+              <path id="middle" d="M390,284.967L420,284.967" />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="mask"></div>
+
+      <section class="sectionHero">
+        <!-- <div class="heroCONT"> -->
+        <div class="heroIMG">
+          <img src="img/main.svg" alt="" class="content_img" />
         </div>
 
-      </div>
+        <div class="heroRIGHT">
+          <div class="heroTXT">
+            <p>
+              <b>Evidence-Based Interventions for Autism: Clinical Trials</b>
+            </p>
+            <h2>EBIACT-<span>database</span></h2>
+          </div>
+          <p>
+            An open-access scientific database about interventions for people
+            with Autism Spectrum Disorder.
+          </p>
+          <div class="listVIG">
+            <div class="VIG col1">
+              <div class="vigNUM vig1">1</div>
+              <div class="vigTXT">intervention type</div>
+            </div>
+            <div class="VIG col2">
+              <div class="vigNUM vig2">1</div>
+              <div class="vigTXT">meta-analytic reports</div>
+            </div>
+            <div class="VIG col3">
+              <div class="vigNUM vig3">1</div>
+              <div class="vigTXT">unique meta-analyses</div>
+            </div>
+            <div class="VIG col4">
+              <div class="vigNUM vig4">1</div>
+              <div class="vigTXT">controlled clinical trials</div>
+            </div>
+          </div>
+          <button onclick="window.location.href='app.html'">
+            <span>Go to database</span><i></i>
+          </button>
+        </div>
+        <!-- </div> -->
+      </section>
+      <section class="sectionMTD">
+        <h3>What is the EBIACT-database?</h3>
+        <div class="heroDESC">
+          <div class="imgDESC">
+            <img src="img/Spreadsheets.svg" alt="" class="content_img" />
+          </div>
+          <div class="quadDESC">
+            <div class="boxDESC">
+              <!-- <ion-icon name="extension-puzzle-outline"></ion-icon> -->
+              <ion-icon name="extension-puzzle-sharp"></ion-icon>
+              <div class="boxTITLE">Autism Spectrum Disorder</div>
+              <div class="boxPARAG">
+                EBIA-CT interactively displays scientific results about
+                interventions for people with ASD.
+              </div>
+            </div>
+            <div class="boxDESC">
+              <!-- <ion-icon name="umbrella-outline"></ion-icon> -->
+              <ion-icon name="umbrella-sharp"></ion-icon>
+              <div class="boxTITLE">Umbrella review</div>
+              <div class="boxPARAG">
+                EBIA-CT synthesizes results of meta-analyses published in the
+                scientific literature.
+              </div>
+            </div>
+            <div class="boxDESC">
+              <!-- <ion-icon name="school-outline"></ion-icon> -->
+              <ion-icon name="school-sharp"></ion-icon>
+              <div class="boxTITLE">Scientifically validated</div>
+              <div class="boxPARAG">
+                EBIA-CT displays contents collected in the framework of
+                scientific peer-review articles.
+              </div>
+            </div>
+            <div class="boxDESC">
+              <!-- <ion-icon name="sync-outline"></ion-icon> -->
+              <ion-icon name="sync-sharp"></ion-icon>
+              <div class="boxTITLE">Living actualization</div>
+              <div class="boxPARAG">
+                EBIA-CT contains information that is updated at least once per
+                year.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- </div> -->
+      <section class="sectionTIME">
+        <h3>How we created this database</h3>
+        <h4>
+          We provide a short summary of the methods used to create the ebiact
+          database. In the next few months, you will be able to obtain more
+          information on a dedicated section of the website. For now, you can
+          obtain this information by reading our paper published in Molecular
+          Psychiatry (see section publications).
+        </h4>
+        <div class="wrapper">
+          <div class="center-line appear">
+            <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+          </div>
+          <div class="row row-1">
+            <section class="appear">
+              <i class="fas fa-search"></i>
+              <div class="details">
+                <span class="title">Databases search</span>
+                <span>Step 1.</span>
+              </div>
+              <div class="timeBOD">
+                <div class="timeTXT">
+                  <p>
+                    Our team has reviewed the scientific literature in a
+                    systematic manner to locate information on the
+                    efficacy/acceptability of interventions in people with ASD.
+                    For now, we have focused on the efficacy of psychosocial
+                    interventions.
+                  </p>
+                </div>
+                <!-- <div class="timeIMG">
+                  <span class="material-symbols-outlined"> counter_1 </span>
+                </div> -->
+              </div>
+              <div class="bottom">
+                <!-- <a href="#">Read more</a> -->
+                <!-- <i>- Someone famous</i> -->
+              </div>
+            </section>
+          </div>
+          <div class="row row-2">
+            <section class="appear">
+              <i class="fas fa-broom"></i>
+              <div class="details">
+                <span class="title">Study selection</span>
+                <span>Step 2.</span>
+              </div>
+              <p>
+                Among all scientific papers located, we retained only the
+                meta-analyses of controlled clinical trials. We developped
+                strict criteria to retain the most high-quality papers from the
+                literature.
+              </p>
+              <div class="bottom">
+                <!-- <a href="#">Read more</a> -->
+                <!-- <i>- Someone famous</i> -->
+              </div>
+            </section>
+          </div>
+          <div class="row row-1">
+            <section class="appear">
+              <i class="fas fa-users-cog"></i>
+              <div class="details">
+                <span class="title">Data extraction</span>
+                <span>Step 3.</span>
+              </div>
+              <p>
+                We extracted data from meta-analytic reports in duplicate. When
+                information was not reported in the manuscript, we contacted the
+                team that have published the paper to obtain the missing
+                information.
+              </p>
+              <div class="bottom">
+                <!-- <a href="#">Read more</a> -->
+                <!-- <i>- Someone famous</i> -->
+              </div>
+            </section>
+          </div>
+          <div class="row row-2">
+            <section class="appear">
+              <i class="fas fa-chart-bar"></i>
+              <div class="details">
+                <span class="title">Data analysis</span>
+                <span>Step 4.</span>
+              </div>
+              <p>
+                Once the data have been extracted, we have conducted the
+                statistical analyses using an R package developped by our team.
+                This allows to estimate - for each intervention included in the
+                database - the pooled intervention effect on a wide range of
+                outcomes.
+              </p>
+              <div class="bottom">
+                <!-- <a href="#">Read more</a> -->
+                <!-- <i>- Someone famous</i> -->
+              </div>
+            </section>
+          </div>
+          <div class="row row-1">
+            <section class="appear">
+              <i class="fas fa-cloud-upload-alt"></i>
+              <div class="details">
+                <span class="title">Filling the web platform</span>
+                <span>Step 5.</span>
+              </div>
+              <p>
+                We present the results of our study in this web platform. You
+                can retrieve the list of interventions included in the database
+                and their description in the 'interventions' sections. You can
+                retrieve the raw results generated by our analyses in the
+                'database' section.
+              </p>
+              <div class="bottom">
+                <!-- <a href="#">Read more</a> -->
+                <!-- <i>- Someone famous</i> -->
+              </div>
+            </section>
+          </div>
+          <div class="row row-2">
+            <section class="appear">
+              <i class="fas fa-graduation-cap"></i>
+              <div class="details">
+                <span class="title">Publishing the results</span>
+                <span>Step 6.</span>
+              </div>
+              <p>
+                Each time we update the database with new information, we
+                publish the approach used to arrive at these results in the
+                scientific literature. This ensures that independent experts can
+                give their opinion on the method used. At this time, we have
+                only synthesized the literature on psychosocial interventions
+                and the associated article has been published in 'Molecular
+                Psychiatry', one of the 10 most prestigious journals in
+                psychiatry ! (among more than 500 scientific journals)
+              </p>
+              <div class="bottom">
+                <!-- <a href="#">Read more</a> -->
+                <!-- <i>- Someone famous</i> -->
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $('.nav_btn').click(function(){
-        $('.mobile_nav_items').toggleClass('active');
-      });
-    });
-    </script>
-
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

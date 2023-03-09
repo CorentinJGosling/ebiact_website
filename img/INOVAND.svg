@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="144.30136mm"
+   height="30.531794mm"
+   viewBox="0 0 409.04321 86.546809"
+   version="1.1"
+   id="svg84"
+   sodipodi:docname="INOVAND.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview86"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.129322"
+     inkscape:cx="268.16048"
+     inkscape:cy="67.861977"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Calque_1" />
+  <defs
+     id="defs9">
+    <style
+       id="style2">
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-4 {
+        fill: #78c7c9;
+      }
+
+      .cls-5 {
+        fill: url(#Dégradé_sans_nom_47);
+      }
+
+      .cls-6 {
+        fill: #8fceca;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #005c7e;
+      }
+
+      .cls-8 {
+        font-size: 14px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01499em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.00602em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.01099em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.00003em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.00397em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.01298em;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.01201em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.01003em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0.00003em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.004em;
+      }
+    </style>
+    <linearGradient
+       id="Dégradé_sans_nom_47"
+       data-name="Dégradé sans nom 47"
+       x1="-16.12533"
+       y1="68.111099"
+       x2="531.65747"
+       y2="74.505447"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#009ba4"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#86d1f5"
+         id="stop6" />
+    </linearGradient>
+  </defs>
+  <g
+     id="Calque_1"
+     data-name="Calque 1"
+     style="isolation:isolate"
+     transform="translate(-23.809111,-9.77357)">
+    <rect
+       class="cls-2"
+       width="450.49548"
+       height="121.63378"
+       id="rect11"
+       x="0"
+       y="0" />
+    <g
+       id="g982">
+      <g
+         class="cls-3"
+         id="g17">
+        <path
+           class="cls-4"
+           d="m 286.28507,31.20713 h 16.7353 l 34.1746,79.98658 v 2.50758 h -17.9017 L 311.85882,95.7872 h -34.883 l -7.65009,17.91409 h -18.50226 z m 19.09166,48.55275 -10.96,-26.75133 -10.95882,26.75133 z"
+           transform="translate(-17.75511,-19.4071)"
+           id="path13" />
+        <path
+           class="cls-5"
+           d="M 319.28329,31.20713 H 336.0174 L 374.67153,82 V 31.20713 h 17.91288 v 82.49416 H 377.14648 L 337.195,61.2588 v 52.44249 h -17.91171 z"
+           transform="translate(-17.75511,-19.4071)"
+           id="path15"
+           style="fill:url(#D%C3%A9grad%C3%A9_sans_nom_47)" />
+      </g>
+      <path
+         class="cls-6"
+         d="m 356.84021,11.80003 h 32.17324 c 25.926,0 43.83884,17.79548 43.83884,41.01168 v 0.236 c 0,23.2162 -17.91289,41.24649 -43.83884,41.24649 h -29.62208 l -2.55116,-3.34879 z m 32.17324,66.11344 c 14.84854,0 24.86577,-10.01722 24.86577,-24.631 v -0.2348 c 0,-14.61374 -10.01723,-24.86576 -24.86577,-24.86576 H 374.9891 v 49.73156 z"
+         id="path19" />
+      <g
+         id="g27">
+        <rect
+           class="cls-7"
+           x="23.809111"
+           y="11.85715"
+           width="3.8190501"
+           height="82.477158"
+           id="rect21" />
+        <polygon
+           class="cls-7"
+           points="104.5,94.334 108.105,94.334 108.105,11.857 104.406,11.857 104.406,88.304 43.155,11.857 39.471,11.857 39.471,94.334 43.173,94.334 43.173,17.79 "
+           id="polygon23" />
+        <path
+           class="cls-7"
+           d="m 174.85129,29.18067 c -23.72891,0 -41.62383,18.55139 -41.62383,43.15481 v 0.23719 c 0,24.60342 17.89492,43.15481 41.62383,43.15481 23.72891,0 41.62384,-18.55139 41.62384,-43.15481 v -0.23719 c 0,-24.60342 -17.89492,-43.15481 -41.62384,-43.15481 z m -0.11739,3.58186 c 23.73849,0 37.92218,20.1806 37.92218,39.69274 v 0.2348 c 0,22.49264 -16.201,39.45555 -37.68739,39.45555 -23.7385,0 -37.92218,-20.1806 -37.92218,-39.69035 v -0.23719 c 0,-22.49263 16.20103,-39.45555 37.68739,-39.45555 z"
+           transform="translate(-17.75511,-19.4071)"
+           id="path25" />
+      </g>
+      <polygon
+         class="cls-7"
+         points="268.975,11.8 264.93,11.8 231.813,89.073 199.217,11.8 195.056,11.8 230.08,94.294 233.416,94.294 "
+         id="polygon29" />
+    </g>
+    <text
+       class="cls-8"
+       transform="scale(1.0433839,0.95842)"
+       id="text77"
+       x="19.287233"
+       y="178.97903"
+       style="stroke-width:1.04338"><tspan
+         xml:space="preserve"
+         id="tspan31"
+         style="stroke-width:1.04338"> E</tspan><tspan
+         class="cls-9"
+         x="29.570595"
+         y="178.97903"
+         id="tspan33"
+         style="stroke-width:1.04338">x</tspan><tspan
+         class="cls-10"
+         x="36.114803"
+         y="178.97903"
+         id="tspan35"
+         style="stroke-width:1.04338">c</tspan><tspan
+         x="42.571033"
+         y="178.97903"
+         id="tspan37"
+         style="stroke-width:1.04338">ellen</tspan><tspan
+         class="cls-10"
+         x="72.209053"
+         y="178.97903"
+         id="tspan39"
+         style="stroke-width:1.04338">c</tspan><tspan
+         x="78.665283"
+         y="178.97903"
+         id="tspan41"
+         style="stroke-width:1.04338">e</tspan><tspan
+         class="cls-11"
+         x="89.080147"
+         y="178.97903"
+         id="tspan43"
+         style="stroke-width:1.04338">C</tspan><tspan
+         class="cls-12"
+         x="97.391907"
+         y="178.97903"
+         id="tspan45"
+         style="stroke-width:1.04338">e</tspan><tspan
+         class="cls-13"
+         x="104.7097"
+         y="178.97903"
+         id="tspan47"
+         style="stroke-width:1.04338">n</tspan><tspan
+         class="cls-10"
+         x="112.75845"
+         y="178.97903"
+         id="tspan49"
+         style="stroke-width:1.04338">t</tspan><tspan
+         x="117.50562"
+         y="178.97903"
+         id="tspan51"
+         style="stroke-width:1.04338">er</tspan><tspan
+         class="cls-14"
+         x="132.69714"
+         y="178.97903"
+         id="tspan53"
+         style="stroke-width:1.04338">f</tspan><tspan
+         x="136.77277"
+         y="178.97903"
+         id="tspan55"
+         style="stroke-width:1.04338">or</tspan><tspan
+         class="cls-15"
+         x="152.66531"
+         y="178.97903"
+         id="tspan57"
+         style="stroke-width:1.04338">A</tspan><tspan
+         x="161.42963"
+         y="178.97903"
+         id="tspan59"
+         style="stroke-width:1.04338">utism and Neu</tspan><tspan
+         class="cls-16"
+         x="250.25615"
+         y="178.97903"
+         id="tspan61"
+         style="stroke-width:1.04338">r</tspan><tspan
+         class="cls-17"
+         x="254.88632"
+         y="178.97903"
+         id="tspan63"
+         style="stroke-width:1.04338">ode</tspan><tspan
+         class="cls-18"
+         x="278.46262"
+         y="178.97903"
+         id="tspan65"
+         style="stroke-width:1.04338">v</tspan><tspan
+         x="285.34238"
+         y="178.97903"
+         id="tspan67"
+         style="stroke-width:1.04338">elopme</tspan><tspan
+         class="cls-19"
+         x="331.93948"
+         y="178.97903"
+         id="tspan69"
+         style="stroke-width:1.04338">n</tspan><tspan
+         x="339.98776"
+         y="178.97903"
+         id="tspan71"
+         style="stroke-width:1.04338">tal Diso</tspan><tspan
+         class="cls-18"
+         x="385.35782"
+         y="178.97903"
+         id="tspan73"
+         style="stroke-width:1.04338">r</tspan><tspan
+         x="389.98798"
+         y="178.97903"
+         id="tspan75"
+         style="stroke-width:1.04338">ders</tspan></text>
+  </g>
+</svg>
