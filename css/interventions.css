@@ -40,8 +40,8 @@
   flex-direction: row;
   align-items: left;
   justify-content: center; */
-  left: 250px;
-  width: calc(100% - 250px);
+  left: 88px;
+  width: calc(100% - 88px);
   transition: var(--tran-05);
   background-color: #e5e5f7;
   /* opacity: 0.8; , #*/

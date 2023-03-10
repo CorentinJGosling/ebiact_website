@@ -36,8 +36,8 @@
   display: flex;
   align-items: left;
   justify-content: center;
-  left: 250px;
-  width: calc(100% - 250px);
+  left: 88px;
+  width: calc(100% - 88px);
   transition: var(--tran-05);
   min-height: 100vh;
   color: #fff;
@@ -363,6 +363,7 @@ h2::before {
     opacity: 1;
   }
 }
+
 .colorMob {
   background-color: #fff !important;
 }
@@ -419,8 +420,6 @@ h2::before {
     justify-content: center;
     width: 100%;
   }
-}
-@media (max-width: 440px) {
 }
 .memb {
   /* border: 2px solid red; */

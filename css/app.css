@@ -82,8 +82,8 @@ body {
 /* ===== Sidebar ===== */
 .home {
   position: absolute;
-  left: 250px;
-  width: calc(100% - 250px);
+  left: 88px;
+  width: calc(100% - 88px);
   transition: var(--tran-05);
   overflow-x: hidden;
 }
