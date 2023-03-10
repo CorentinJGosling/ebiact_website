@@ -830,6 +830,13 @@ ion-icon {
     padding-right: 1rem;
     /* border: 3px solid red; */
   }
+  .heroTXT h2 {
+    font-size: 2.3rem !important;
+  }
+  .heroTXT p {
+    font-size: 0.95rem !important;
+  }
+
   .sectionMTD {
     padding-left: 0rem;
     padding-right: 0rem;
