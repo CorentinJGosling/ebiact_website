@@ -1,4 +1,3 @@
-/* Google Font Import - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -33,60 +32,68 @@
   background-color: var(--primary-color);
   color: #fff;
 }
-svg {
-  z-index: 5;
-  position: fixed;
-  top: 0px;
-  left: -85px;
-  margin-left: 5rem;
-  fill-rule: evenodd;
-  clip-rule: evenodd;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 1.5;
-  cursor: pointer;
-}
-
-svg path {
-  fill: none;
-  stroke-width: 1.5px;
-  stroke: #fff;
-}
-
-svg + svg {
-  margin-left: 1.5rem;
-}
-
-#top,
-#bottom {
-  stroke-dasharray: 30, 75.39;
-  transition: all 0.6s cubic-bezier(0.6, 0.33, 0.67, 1.29);
-}
-
-svg.open #top,
-svg.open #bottom {
-  stroke-dasharray: 75.39;
-  stroke-dashoffset: -60;
-}
-
-svg:nth-child(2) {
-  transform: rotate(0deg);
-  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-svg:nth-child(2) path {
-  transition: all 0.4s ease-in-out 0.6s;
-}
-
-svg:nth-child(2).open {
-  transform: rotate(180deg);
-}
-
-.rocket #top {
-  stroke-dasharray: 30, 88;
-}
 
 /* ===== Sidebar ===== */
+.menu-toggle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+  margin-top: 15px;
+
+  cursor: pointer;
+  width: 55px;
+  z-index: 3;
+}
+
+.menu-toggle div {
+  background-color: #fff;
+  border-radius: 25px;
+  /* box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.3); */
+  height: 7px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.13, 0.24, 0.35, 1.64);
+}
+
+.menu-toggle .one,
+.menu-toggle .two {
+  margin-bottom: 7px;
+}
+
+.menu-toggle.active .one {
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.4);
+  transform: translate(0, 14px) rotate(45deg);
+}
+
+.menu-toggle.active .two {
+  background-color: transparent;
+  box-shadow: none;
+  transform: translateX(-55px);
+}
+
+.menu-toggle.active .three {
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -14px) rotate(-45deg);
+}
+/* .mask {
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 5px;
+  margin-top: 25px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.inc_width {
+  width: 100px !important;
+} */
+
+/* Home */
 .home {
   position: absolute;
   left: 250px;
@@ -729,30 +736,16 @@ ion-icon {
     text-align: left;
   }
 }
-.mask {
-  background-color: #fff;
-  height: 50px;
-  width: 50px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin-left: 5px;
-  margin-top: 25px;
-  border: 1px solid #000;
-  border-radius: 10px;
-  z-index: 2;
-}
 .colorMob {
-  stroke: #fff;
+  background-color: #fff !important;
 }
-.inc_width {
-  width: 100px !important;
-}
+
 /* =========================== */
 @media (max-width: 900px) {
-  #hamb {
-    width: 50px;
+  .menu-toggle div {
+    background-color: #000;
   }
+
   .logoZONE {
     padding: 0.5rem;
     display: flex;

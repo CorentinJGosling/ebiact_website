@@ -106,26 +106,35 @@ toggleButtonSD.addEventListener("click", () => {
 
 const body = document.querySelector("body"),
   sidebar = body.querySelector("nav"),
-  home = body.querySelector(".home");
+  home = body.querySelector(".home"),
+  hamb = body.querySelector(".menu-toggle"),
+  hamb1 = body.querySelector(".one"),
+  hamb3 = body.querySelector(".three"),
+  profile = body.querySelector(".img_profile");
 
-const svgElement = document.getElementById("hamb");
-const svgElementT = document.getElementById("top");
-const svgElementB = document.getElementById("bottom");
-const svgElementM = document.getElementById("middle");
-const profile = body.querySelector(".img_profile");
-svgElement.addEventListener("click", function () {
-  svgElement.classList.toggle("open");
-  svgElement.classList.toggle("inc_width");
-  profile.classList.toggle("leftMarg");
+var menuToggle = document.querySelector("#menu-toggle"),
+  activeElements = document.querySelectorAll(".active-element");
+
+var toggledMenu = menuToggle.addEventListener("click", function () {
+  for (var activated = 0; activated < activeElements.length; activated++) {
+    activeElements[activated].classList.toggle("active");
+  }
+});
+
+hamb.addEventListener("click", function () {
+  sidebar.classList.toggle("fullwidth");
   sidebar.classList.toggle("activate");
-  svgElementT.classList.toggle("colorMob");
-  svgElementB.classList.toggle("colorMob");
-  svgElementM.classList.toggle("colorMob");
-  if (sidebar.classList.contains("activate")) {
-    sidebar.classList.remove("close");
-    sidebar.classList.add("fullwidth");
-  } else {
+  profile.classList.toggle("leftMarg");
+  hamb1.classList.toggle("colorMob");
+  hamb3.classList.toggle("colorMob");
+});
+
+document.addEventListener("click", function (event) {
+  var targetElement = event.target; // clicked element
+  if (!hamb.contains(targetElement)) {
     sidebar.classList.remove("fullwidth");
-    sidebar.classList.add("close");
+    profile.classList.remove("leftMarg");
+    sidebar.classList.remove("activate");
+    hambColor.classList.remove("colorMob");
   }
 });
