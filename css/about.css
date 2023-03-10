@@ -411,14 +411,8 @@ h2::before {
     font-size: 0.9rem;
   }
   .home .row {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fill, 300px);
-    grid-auto-flow: row;
-    margin-bottom: 4rem;
-    /* align-items: start; */
+    align-items: center;
     justify-content: center;
-    width: 100%;
   }
 }
 .memb {
