@@ -135,6 +135,7 @@ document.addEventListener("click", function (event) {
     sidebar.classList.remove("fullwidth");
     profile.classList.remove("leftMarg");
     sidebar.classList.remove("activate");
+    hamb.classList.remove("active");
     hambColor.classList.remove("colorMob");
   }
 });
