@@ -36,10 +36,6 @@
 
 .home {
   position: absolute;
-  /* display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: center; */
   left: 88px;
   width: calc(100% - 88px);
   transition: var(--tran-05);
@@ -427,7 +423,14 @@ h2 {
   background-color: #fff !important;
 }
 
+#menu-toggle {
+  display: none;
+}
+/* =========================== */
 @media (max-width: 900px) {
+  #menu-toggle {
+    display: block;
+  }
   .menu-toggle div {
     background-color: #000;
   }

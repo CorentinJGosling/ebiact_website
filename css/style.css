@@ -730,8 +730,14 @@ ion-icon {
   background-color: #fff !important;
 }
 
+#menu-toggle {
+  display: none;
+}
 /* =========================== */
 @media (max-width: 900px) {
+  #menu-toggle {
+    display: block;
+  }
   .menu-toggle div {
     background-color: #000;
   }

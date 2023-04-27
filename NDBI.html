@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NDBI | EBIA-CT</title>
-    <link rel="stylesheet" href="styleDescriptionIntervention.css" />
+    <link rel="stylesheet" href="css/description.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -22,19 +22,65 @@
     ></script>
   </head>
 
-  <header>
-    <a href="interventions.html" class="menu_btn">
-      <label for="check">
-        <i class="fas fa-home" id="sidebar_btn"></i>
-      </label>
-      <div class="left_area">
-        <h3>EBIA-CT database</h3>
-      </div>
-    </a>
-  </header>
-
   <body>
-    <div class="content">
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <div class="image">
+            <img src="img/profile.svg" alt="" class="img_profile" />
+          </div>
+        </div>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="index.html">
+                <i class="fas fa-home"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+
+            <li class="nav-link active">
+              <a href="interventions.html">
+                <i class="fas fa-book-open"></i>
+                <span class="text nav-text">Interventions</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="app.html">
+                <i class="fas fa-network-wired"></i>
+                <span class="text nav-text">Database</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="publications.html">
+                <i class="fas fa-university"></i>
+                <span class="text nav-text">Publications</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="about.html">
+                <i class="fas fa-users"></i>
+                <span class="text nav-text">About us</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="home">
+      <div id="menu-toggle" class="menu-toggle active-element">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+
       <h2>Naturalistic Developmental Behavioral Interventions (NDBI)</h2>
       <h4><i class="fas fa-angle-right"></i> History</h4>
       <p>
@@ -117,20 +163,17 @@
         Pivotal Response Training (PRT) or Early Start Denver Model (ESDM).
       </p>
       <h4><i class="fas fa-angle-right"></i> Additional resources</h4>
-      <p>
-        <div class = "btn_link"><a
-          href="https://pubmed.ncbi.nlm.nih.gov/25737021/"
-          target="_blank"
-        >
+      <div class="btn_link">
+        <a href="https://pubmed.ncbi.nlm.nih.gov/25737021/" target="_blank">
           Schreibman L, Dawson G, Stahmer AC, Landa R, Rogers SJ, McGee GG,
           Kasari C, Ingersoll B, Kaiser AP, Bruinsma Y, McNerney E, Wetherby A,
           Halladay A. Naturalistic Developmental Behavioral Interventions:
           Empirically Validated Treatments for Autism Spectrum Disorder.
           <i>J Autism Dev Disord</i> 2015;45(8):2411-28.</a
-        ></div>
-      </p>
-      <p>
-        <div class = "btn_link"><a
+        >
+      </div>
+      <div class="btn_link">
+        <a
           href="https://products.brookespublishing.com/Naturalistic-Developmental-Behavioral-Interventions-for-Autism-Spectrum-Disorder-P1142.aspx"
           target="_blank"
         >
@@ -140,15 +183,13 @@
             Spectrum Disorder</i
           >
           2019; Brookes Publishing.
-        </a></div>
-      </p>
+        </a>
+      </div>
 
       <a href="interventions.html" class="button"
         ><i class="far fa-arrow-alt-circle-left fa-2x"></i>Back to other
         interventions</a
       >
-      <p></p>
-      <br /><br /><br />
     </div>
   </body>
 </html>

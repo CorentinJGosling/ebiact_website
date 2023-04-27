@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TECH | EBIA-CT</title>
-    <link rel="stylesheet" href="styleDescriptionIntervention.css" />
+    <link rel="stylesheet" href="css/description.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -22,19 +22,59 @@
     ></script>
   </head>
 
-  <header>
-    <a href="interventions.html" class="menu_btn">
-      <label for="check">
-        <i class="fas fa-home" id="sidebar_btn"></i>
-      </label>
-      <div class="left_area">
-        <h3>EBIA-CT database</h3>
-      </div>
-    </a>
-  </header>
-
   <body>
     <div class="content">
+      <nav class="sidebar close">
+        <header>
+          <div class="image-text">
+            <div class="image">
+              <img src="img/profile.svg" alt="" class="img_profile" />
+            </div>
+          </div>
+        </header>
+
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link">
+                <a href="index.html">
+                  <i class="fas fa-home"></i>
+                  <span class="text nav-text">Home</span>
+                </a>
+              </li>
+
+              <li class="nav-link active">
+                <a href="interventions.html">
+                  <i class="fas fa-book-open"></i>
+                  <span class="text nav-text">Interventions</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="app.html">
+                  <i class="fas fa-network-wired"></i>
+                  <span class="text nav-text">Database</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="publications.html">
+                  <i class="fas fa-university"></i>
+                  <span class="text nav-text">Publications</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="about.html">
+                  <i class="fas fa-users"></i>
+                  <span class="text nav-text">About us</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
       <h2>Technology-based interventions (TECH)</h2>
       <h4><i class="fas fa-angle-right"></i> History</h4>
       <p>
@@ -93,34 +133,30 @@
         target the emotion recognition).
       </p>
       <h4><i class="fas fa-angle-right"></i> Additional resources</h4>
-      <p>
-        <div class = "btn_link"><a
-          href="https://pubmed.ncbi.nlm.nih.gov/24092843/"
-          target="_blank"
-          
-        >
-          Grynszpan O, Weiss PL, Perez-Diaz F, Gal E. Innovative technology-based interventions for autism spectrum disorders: a meta-analysis.
-          <i>Autism</i
-          >
+      <div class="btn_link">
+        <a href="https://pubmed.ncbi.nlm.nih.gov/24092843/" target="_blank">
+          Grynszpan O, Weiss PL, Perez-Diaz F, Gal E. Innovative
+          technology-based interventions for autism spectrum disorders: a
+          meta-analysis.
+          <i>Autism</i>
           2014 May;18(4):346-61.</a
-        ></div>
-      </p>
-      <p>
-        <div class = "btn_link"><a
+        >
+      </div>
+      <div class="btn_link">
+        <a
           href="https://files.eric.ed.gov/fulltext/EJ848688.pdf"
           target="_blank"
         >
-          Goldsmith, T. R., & LeBlanc, L. A. Use of technology in interventions for children with autism.
-          <i> Journal of Early and Intensive Behavior Intervention</i> 2004; 1(2):166
-          </a
-        ></div> 
-      </p>
+          Goldsmith, T. R., & LeBlanc, L. A. Use of technology in interventions
+          for children with autism.
+          <i> Journal of Early and Intensive Behavior Intervention</i> 2004;
+          1(2):166
+        </a>
+      </div>
       <a href="interventions.html" class="button"
         ><i class="far fa-arrow-alt-circle-left fa-2x"></i>Back to other
         interventions</a
       >
-      <p></p>
-      <br /><br /><br />
     </div>
   </body>
 </html>

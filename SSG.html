@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SSG | EBIA-CT</title>
-    <link rel="stylesheet" href="styleDescriptionIntervention.css" />
+    <link rel="stylesheet" href="css/description.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -22,19 +22,59 @@
     ></script>
   </head>
 
-  <header>
-    <a href="interventions.html" class="menu_btn">
-      <label for="check">
-        <i class="fas fa-home" id="sidebar_btn"></i>
-      </label>
-      <div class="left_area">
-        <h3>EBIA-CT database</h3>
-      </div>
-    </a>
-  </header>
-
   <body>
-    <div class="content">
+    <div class="home">
+      <nav class="sidebar close">
+        <header>
+          <div class="image-text">
+            <div class="image">
+              <img src="img/profile.svg" alt="" class="img_profile" />
+            </div>
+          </div>
+        </header>
+
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-links">
+              <li class="nav-link">
+                <a href="index.html">
+                  <i class="fas fa-home"></i>
+                  <span class="text nav-text">Home</span>
+                </a>
+              </li>
+
+              <li class="nav-link active">
+                <a href="interventions.html">
+                  <i class="fas fa-book-open"></i>
+                  <span class="text nav-text">Interventions</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="app.html">
+                  <i class="fas fa-network-wired"></i>
+                  <span class="text nav-text">Database</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="publications.html">
+                  <i class="fas fa-university"></i>
+                  <span class="text nav-text">Publications</span>
+                </a>
+              </li>
+
+              <li class="nav-link">
+                <a href="about.html">
+                  <i class="fas fa-users"></i>
+                  <span class="text nav-text">About us</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
       <h2>Social Skills Groups (SSG)</h2>
       <h4><i class="fas fa-angle-right"></i> History</h4>
       <p>
@@ -94,36 +134,28 @@
         intesive summer camp (the SummerMAX program).
       </p>
       <h4><i class="fas fa-angle-right"></i> Additional resources</h4>
-      <p>
-        <div class = "btn_link"><a
-          href="https://pubmed.ncbi.nlm.nih.gov/17699124/"
-          target="_blank"
-        >
+      <div class="btn_link">
+        <a href="https://pubmed.ncbi.nlm.nih.gov/17699124/" target="_blank">
           Matson JL, Matson ML, Rivet TT. Social-skills treatments for children
           with autism spectrum disorders: An overview
           <i>Behavior Modification</i> 2007; 31(5):682-707.</a
-        ></div>
-      </p>
-      <p>
-        <div class = "btn_link"><a
+        >
+      </div>
+      <div class="btn_link">
+        <a
           href="https://www.guilford.com/books/Social-Skills-Training-Children-Asperger-Syndrome-High-Functioning/Susan-Williams-White/9781462515332"
           target="_blank"
         >
           White SW.
           <i>Social Skills Training Groups</i>
-          2011; In: White SW. Social skills training for children
-          with Asperger syndrome and high-functioning autism. Guilford Press.</a
-        ></div>
-      </p>
-
-      <!--<h4><i class="fas fa-angle-right"></i> References</h4>-->
+          2011; In: White SW. Social skills training for children with Asperger
+          syndrome and high-functioning autism. Guilford Press.</a
+        >
+      </div>
       <a href="interventions.html" class="button"
         ><i class="far fa-arrow-alt-circle-left fa-2x"></i>Back to other
         interventions</a
       >
-      <br /><br /><br />
-
-      <!--<div class = "return" style="color: blue; margin-left:20px;margin-top:50px;font-family:arial;"></div>-->
     </div>
   </body>
 </html>

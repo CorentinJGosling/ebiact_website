@@ -13,6 +13,29 @@ const body = document.querySelector("body"),
   hamb3 = body.querySelector(".three"),
   profile = body.querySelector(".img_profile");
 
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    sidebar.addEventListener("mouseenter", () => {
+      sidebar.classList.add("fullwidth");
+      sidebar.classList.add("activate");
+      profile.classList.add("leftMarg");
+      hamb1.classList.add("colorMob");
+      hamb3.classList.add("colorMob");
+    });
+    sidebar.addEventListener("mouseleave", () => {
+      var targetElement = event.target; // clicked element
+      if (!hamb.contains(targetElement)) {
+        sidebar.classList.remove("fullwidth");
+        profile.classList.remove("leftMarg");
+        sidebar.classList.remove("activate");
+        hamb.classList.remove("active");
+        hamb1.classList.remove("colorMob");
+        hamb3.classList.remove("colorMob");
+      }
+    });
+  }, 100);
+});
+
 var menuToggle = document.querySelector("#menu-toggle"),
   activeElements = document.querySelectorAll(".active-element");
 
