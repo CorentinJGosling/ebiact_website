@@ -26,6 +26,11 @@ body {
   margin-right: auto;
   margin-bottom: 2rem;
 }
+@media (max-width: 768px) {
+  body {
+    padding: 0.5rem 0.5rem;
+  }
+}
 body ul {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -119,10 +124,25 @@ body .bottom_ressources .ressources a {
   top: 0;
   bottom: auto;
 }
+@media (max-width: 768px) {
+  .hero .hero_image {
+    display: block; /* Ensure it's displayed as a block element */
+    margin-top: 2rem;
+    float: none; /* Remove floating */
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw; /* Set width to 95vw */
+  }
+}
 .hero .hero_image img {
   width: auto;
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 10px;
+}
+@media (max-width: 400px) {
+  .hero .hero_image img {
+    width: 80vw;
+  }
 }
 
 .custom-hr {
