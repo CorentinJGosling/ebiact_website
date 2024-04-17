@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  // background-color: green;
+  margin: 0;
+  padding: 0;
+  // font: inherit;
+  font-family: "Avenir Next LT Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100vh;
+}
+body {
+  padding: 0.5rem 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: disc; /* or other list-style-type value as desired */
+    margin-left: 40px; /* Adjust margin as needed */
+  }
+
+  ul li {
+    color: #7a7a7a;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    a {
+      color: #145062;
+    }
+  }
+
+  // .hrztl_list {
+  //   text-align: left;
+  //   margin-left: 0;
+  //   // list-style-type: none; /* Remove default list styles */
+  //   padding: 0; /* Remove default padding */
+  //   display: grid; /* Use CSS Grid to create the layout */
+  //   grid-template-columns: repeat(
+  //     2,
+  //     1fr
+  //   ); /* Create three columns of equal width */
+  // }
+
+  // .hrztl_list li {
+  //   text-align: left; /* Align text in the center */
+  // }
+
+  .header_shalf {
+    font-size: 1.4rem;
+    color: #1088ad;
+    text-align: center;
+    font-weight: bold;
+  }
+  .shalf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    @media (max-width: 900px) {
+      grid-template-columns: auto;
+    }
+  }
+
+  .desc_tab {
+    color: #1088ad;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .header_tab {
+    font-size: 1.1rem;
+    color: #1088ad;
+    margin-top: 1.2rem;
+  }
+
+  .bottom_ressources {
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 1px solid #000;
+    .header_tab {
+      margin-top: 0;
+    }
+    .ressources {
+      a {
+        color: #145062;
+      }
+    }
+  }
+}
+
+.btn_container {
+  max-width: 100%; /* Or specify a fixed width */
+  margin: auto; /* Center the container horizontally */
+}
+.button {
+  background-color: #1c2e3a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  font-size: 1rem;
+  gap: 1rem;
+  cursor: pointer;
+  width: auto; /* Ensure the button takes only the minimum space required by its content */
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.hero {
+  position: relative; /* Ensure proper positioning of the child line */
+  width: 100%; /* Set the width of the parent div */
+  .hero_image {
+    float: right;
+    margin: 5px;
+    margin: 5px;
+    top: 0;
+    bottom: auto;
+  }
+
+  .hero_image img {
+    width: auto;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+}
+
+.custom-hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 5px; /* Set the height of the horizontal rule */
+  width: 95%; /* Set the width of the horizontal rule */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1088ad; /* Set the color of the horizontal rule */
+  border: none; /* Remove default border */
+}

@@ -1,0 +1,255 @@
+/* Google Font Import - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.25s ease-out;
+}
+
+:root {
+  --d: 3500ms;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+  --c1: #56c7ea;
+  --c2: rgba(255, 255, 255, 0.1);
+  /* ===== Colors ===== */
+  /* ====== Transition ====== */
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+  --glow-color: hsl(186 100% 69%);
+  --clr: #0ff0fc;
+  overflow-y: scroll;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+body {
+  --body-color: linear-gradient(#162542, #0a121d);
+  /* --body-color: #0e182a; */
+  --sidebar-color: #373737;
+  --primary-color: #56c7ea;
+  --primary-color-light: #3a3b3c;
+  --text-color: #ffffff;
+  --card-color: #fff;
+  --card-text: #0e182a;
+  --time-color: #fff;
+  --time-text: #0e182a;
+}
+
+.home {
+  color: #fff;
+  padding-top: 2rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  left: 88px;
+  width: calc(100% - 88px);
+  transition: var(--tran-05);
+  min-height: 100vh;
+  background: radial-gradient(ellipse at center, #56c7ea, #1088ad);
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+h2 {
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 2rem;
+  margin-bottom: 0px;
+  font-size: 1.7rem;
+}
+
+.home p {
+  text-align: center;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.publiHEAD {
+  font-size: 1.7rem;
+  color: #1088ad;
+  padding-bottom: 1rem;
+}
+.publi {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  background: #ffff;
+  width: 100%;
+  padding: 3rem;
+}
+.imgpubli {
+  /* width: 200px; */
+  width: max(600px, 50vw);
+  border: 0.35rem solid;
+  padding: 1rem;
+  border-image: conic-gradient(
+      from var(--angle),
+      var(--c2),
+      var(--c1) 0.1turn,
+      var(--c1) 0.15turn,
+      var(--c2) 0.25turn
+    )
+    30;
+  animation: borderRotate var(--d) linear infinite forwards;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.publiTXT {
+  display: none;
+  /* gap: 1rem; */
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255, 0.1);
+  color: #000;
+}
+.show {
+  display: block !important;
+}
+
+.download_publi {
+  color: #000;
+  font-size: 3rem;
+}
+.download_publi:hover {
+  color: #808080;
+}
+.publiIMG a {
+  cursor: pointer;
+}
+.ref {
+  margin-top: 1rem;
+  max-width: 80ch;
+}
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: "<percentage>";
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: "<percentage>";
+  initial-value: 0%;
+  inherits: true;
+}
+
+p {
+  margin: 0;
+}
+
+@keyframes borderRotate {
+  100% {
+    --angle: 420deg;
+  }
+}
+
+@keyframes borderRadial {
+  20% {
+    --gradX: 100%;
+    --gradY: 50%;
+  }
+  40% {
+    --gradX: 100%;
+    --gradY: 100%;
+  }
+  60% {
+    --gradX: 50%;
+    --gradY: 100%;
+  }
+  80% {
+    --gradX: 0%;
+    --gradY: 50%;
+  }
+  100% {
+    --gradX: 50%;
+    --gradY: 0%;
+  }
+}
+.right {
+  left: auto;
+  right: 0;
+}
+.activate {
+  display: block;
+  transition: var(--tran-05);
+}
+
+/* =========================== */
+.colorMob {
+  background-color: #fff !important;
+}
+
+/* =========================== */
+#menu-toggle {
+  display: none;
+}
+/* =========================== */
+@media (max-width: 900px) {
+  #menu-toggle {
+    display: block;
+  }
+  .menu-toggle div {
+    background-color: #000;
+  }
+  h1 {
+    font-size: 2.5rem;
+    line-height: 100%;
+    margin-bottom: 1rem;
+  }
+  .publi {
+    font-size: 0.9rem;
+  }
+
+  nav {
+    display: none;
+  }
+  .home {
+    left: 0;
+    width: 100%;
+  }
+  .sidebar.close ~ .home {
+    left: 0;
+    width: 100%;
+  }
+  .sidebar.close {
+    width: 100%;
+  }
+
+  .sidebar.close .text {
+    opacity: 1;
+  }
+  .publi {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background: #ffff;
+    width: 100%;
+    padding: 0rem;
+    text-align: center;
+  }
+  .imgpubli {
+    width: 95vw;
+    padding: 1rem;
+  }
+}
+@media (max-width: 440px) {
+  .imgpubli {
+    width: 300px;
+  }
+}

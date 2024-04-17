@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="../styles/intervention.css" />
+    <link rel="stylesheet" href="../styles/nav.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!----===== Boxicons CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+    <!--<title>Dashboard Sidebar Menu</title>-->
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <div class="image">
+            <img src="../img/profile.svg" alt="" class="img_profile" />
+          </div>
+        </div>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="../index.html">
+                <i class="fas fa-home"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+
+            <li class="nav-link active">
+              <a href="#">
+                <i class="fas fa-book-open"></i>
+                <span class="text nav-text">Interventions</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="app.html">
+                <i class="fas fa-network-wired"></i>
+                <span class="text nav-text">Database</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="publications.html">
+                <i class="fas fa-university"></i>
+                <span class="text nav-text">Publications</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="about.html">
+                <i class="fas fa-users"></i>
+                <span class="text nav-text">About us</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="menu-toggle" class="menu-toggle active-element">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+
+    <div class="home">
+      <h1>Description of the interventions</h1>
+      <h2>
+        This section provides a brief overview of the different interventions
+        included in the database.
+      </h2>
+
+      <script src="https://www.amcharts.com/lib/4/core.js"></script>
+      <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+      <script src="https://www.amcharts.com/lib/4/plugins/wordCloud.js"></script>
+      <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+      <!-- <div id="chartdiv"></div> -->
+      <section id="intervention_material">
+        <div class="cont cont2">
+          <div id="pafilter-nel">
+            <div class="filters">
+              <div>
+                <label for="filter1">Filter a type of intervention</label><br />
+                <select
+                  id="filter1"
+                  class="js-example-basic-multiple"
+                  style="width: 300px"
+                  multiple
+                ></select>
+              </div>
+              <div>
+                <label for="filter2">Filter an age group</label><br />
+                <select
+                  id="filter2"
+                  class="js-example-basic-multiple"
+                  style="width: 300px"
+                  multiple
+                ></select>
+              </div>
+              <div>
+                <label for="filter3">Filter an outcome</label><br />
+                <select
+                  id="filter3"
+                  class="js-example-basic-multiple"
+                  style="width: 300px"
+                  multiple
+                ></select>
+              </div>
+            </div>
+          </div>
+          <div id="data-table"></div>
+          <!-- <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="closemod" onclick="closeModal()">&times;</span>
+              <p id="modalText"></p>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script type="text/javascript" src="../js/nav.js"></script>
+    <script type="text/javascript" src="../js/intervention.js"></script>
+  </body>
+</html>

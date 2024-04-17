@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!----======== CSS ======== -->
-    <link rel="stylesheet" href="css/publications.css" />
+    <link rel="stylesheet" href="../styles/app.css" />
+    <link rel="stylesheet" href="../styles/nav.css" />
     <!-- <script type="text/javascript" src="js/script.js"></script> -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <link
@@ -27,7 +28,7 @@
       <header>
         <div class="image-text">
           <div class="image">
-            <img src="img/profile.svg" alt="" class="img_profile" />
+            <img src="../img/profile.svg" alt="" class="img_profile" />
           </div>
         </div>
         <!-- <ion-icon
@@ -41,7 +42,7 @@
         <div class="menu">
           <ul class="menu-links">
             <li class="nav-link">
-              <a href="index.html">
+              <a href="../index.html">
                 <i class="fas fa-home"></i>
                 <span class="text nav-text">Home</span>
               </a>
@@ -54,15 +55,15 @@
               </a>
             </li>
 
-            <li class="nav-link">
-              <a href="app.html">
+            <li class="nav-link active">
+              <a href="#">
                 <i class="fas fa-network-wired"></i>
                 <span class="text nav-text">Database</span>
               </a>
             </li>
 
-            <li class="nav-link active">
-              <a href="#">
+            <li class="nav-link">
+              <a href="publications.html">
                 <i class="fas fa-university"></i>
                 <span class="text nav-text">Publications</span>
               </a>
@@ -78,6 +79,7 @@
         </div>
       </div>
     </nav>
+
     <div class="home">
       <div id="menu-toggle" class="menu-toggle active-element">
         <div class="one"></div>
@@ -85,49 +87,14 @@
         <div class="three"></div>
       </div>
 
-      <h1>List of scientific publications</h1>
-      <p>
-        This section provides the list of all scientifc papers related to this
-        database. All papers are available in open-access.
-      </p>
-      <!-- href="EBIACT - Psychosocial - Molecular Psychiatry.pdf"
-            target="_blank"
- -->
-      <!-- <h2><i class="fas fa-angle-right"></i> 2022</h2> -->
-      <div class="publi">
-        <div class="publiHEAD">Synthesis of psychosocial interventions</div>
-        <div class="publiIMG">
-          <a id="publiBTN"
-            ><img src="img/publication1.jpg" class="imgpubli"
-          /></a>
-        </div>
-        <div class="publiTXT">
-          <div class="ref">
-            <a
-              download
-              class="download_publi"
-              href="download/EBIACT - Psychosocial - Molecular Psychiatry.pdf"
-              ><i class="fas fa-download"></i></a
-            ><br /><br />
-            <b>To cite this paper</b><br />
-            Gosling, C.J., Cartigny, A., Mellier, B.C., Solanes, A., Radua, J.,
-            & Delorme R. (2022). Efficacy of psychosocial interventions for
-            Autism spectrum disorder: an umbrella review. Mol Psychiatry 27,
-            3647–3656 (2022). https://doi.org/10.1038/s41380-022-01670-z<br /><br />
-            <b>Information on the journal</b><br />
-            ► Scimago Impact Factor = 11.91 <br />
-            ► SJR rank (Psychiatry) = Q1 (8/556)<br /><br />
-            <b>Information on the paper</b><br />
-            ► This paper has been preregistered before its completion, all data
-            analysis scripts and all raw data are available in open access.
-            <br />
-            ► This article has been corrected to announce its post-hoc
-            publication as a "gold open-access" paper in order to make it
-            available for free in this platform
-          </div>
-        </div>
-      </div>
+      <iframe
+        id="example1"
+        src="https://ebiact.shinyapps.io/application/"
+        style="border: none; width: 100%; height: 100vh; overflow: hidden"
+        frameborder="0"
+      ></iframe>
     </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -136,7 +103,7 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
-    <script type="text/javascript" src="js/script_publications.js"></script>
+    <script type="text/javascript" src="../js/nav.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
   </body>
 </html>

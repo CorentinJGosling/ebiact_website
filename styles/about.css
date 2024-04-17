@@ -1,0 +1,360 @@
+/* Google Font Import - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.25s ease-out;
+}
+
+:root {
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+  --glow-color: hsl(186 100% 69%);
+  --body-color: linear-gradient(#162542, #0a121d);
+  /* --body-color: #0e182a; */
+  --sidebar-color: #373737;
+  --primary-color: #56c7ea;
+  --primary-color-light: #3a3b3c;
+  --text-color: #ffffff;
+  --card-color: #fff;
+  --card-text: #0e182a;
+  --time-color: #fff;
+  --time-text: #0e182a;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.home {
+  position: absolute;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  left: 88px;
+  width: calc(100% - 88px);
+  transition: var(--tran-05);
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#1088ad, #56c7ea, #1088ad);
+  overflow-x: hidden;
+}
+
+/* =========================== */
+.view {
+  display: block;
+}
+
+.hide {
+  display: none !important;
+}
+
+h1 {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0px;
+  margin-top: relative;
+  margin-bottom: 0px;
+  font-size: 3rem;
+  /* opacity: 0.8; */
+}
+
+.contain-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #000;
+  margin-top: 2rem;
+}
+
+h2 {
+  position: relative;
+  height: 100%;
+  /*background: #CDD9FF;*/
+  margin-top: 2rem;
+  font-size: 2rem;
+  /* color: #415467; */
+  color: #fff;
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
+  animation: modifyColor 2s forwards;
+  z-index: 2;
+  /* border: 3px solid yellow; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h2::before {
+  /* border: 3px solid blue; */
+  z-index: -1;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #fff; /* Set the final background color */
+  animation: fill-background 1s forwards; /* Set animation properties */
+  animation-delay: 2s;
+}
+
+.ml6 {
+  width: 100%;
+}
+
+.ml6 .letter {
+  display: inline-block;
+}
+
+@keyframes fill-background {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes modifyColor {
+  99% {
+    color: #fff;
+  }
+  100% {
+    color: #1088ad;
+  }
+}
+.home p {
+  text-align: center;
+  font-size: 1rem;
+  max-width: 60ch;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home .icons {
+  color: #000;
+}
+
+.home .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  /* margin-left: 2rem; */
+  margin-bottom: 4rem;
+  align-items: flex-start;
+  justify-content: center;
+  color: #000;
+  background-color: #fff;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  z-index: 1;
+  width: 100%;
+}
+
+.home .row1 {
+  overflow-x: hidden;
+  margin-top: 0;
+  transform: translateX(100%);
+  animation: slideFromRight 1.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+  width: 100%;
+  /* padding-top: 3rem;
+  padding-bottom: 3rem; */
+  z-index: 1;
+}
+
+.row .memb {
+  /* visibility: hidden; */
+  animation: fadeIn 3s ease forwards;
+  opacity: 0;
+  /* animation-delay: 0.5s; */
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes fadeIn {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.colorMob {
+  background-color: #fff !important;
+}
+
+/* =========================== */
+#menu-toggle {
+  display: none;
+}
+
+/* =========================== */
+@media (max-width: 900px) {
+  #menu-toggle {
+    display: block;
+  }
+  .menu-toggle div {
+    background-color: #000;
+  }
+  nav {
+    display: none;
+  }
+  .home {
+    left: 0;
+    width: 100%;
+  }
+  .sidebar.close ~ .home {
+    left: 0;
+    width: 100%;
+  }
+  .sidebar.close {
+    width: 100%;
+  }
+  .sidebar.close .text {
+    opacity: 1;
+  }
+  h1 {
+    font-size: 2.5rem;
+    line-height: 100%;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    text-align: center;
+    /* padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.7rem; */
+    /* color: #415467; */
+  }
+  .home p {
+    font-size: 0.9rem;
+  }
+  .home .row {
+    align-items: center;
+    justify-content: center;
+  }
+}
+.memb {
+  /* border: 2px solid red; */
+  width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.memb_name {
+  display: grid;
+  /* flex-wrap: wrap; */
+  grid-template-columns: 100%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #1088ad;
+}
+
+.memb_affil {
+  font-size: 0.93rem;
+  font-weight: 300;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.photo {
+  width: 50%;
+  border-radius: 50%;
+  border: solid 2px #fff;
+  -webkit-filter: grayscale(30%);
+  filter: grayscale(30%);
+}
+
+.read_more {
+  color: #1088ad;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  border-top: 1px solid #1088ad;
+  border-bottom: 1px solid #1088ad;
+  animation: fade_in_show 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+/* .read_more:hover,
+.read_more_hide:hover {
+  color: rgb(230, 230, 230);
+  animation: fade_in_show 0.5s;
+} */
+.read_more_hide {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  border-top: 1px solid #fff;
+  font-weight: bold;
+  width: 90%;
+  animation: fade_in_show 0.5s;
+}
+
+@keyframes fade_in_show {
+  0% {
+    opacity: 0;
+    transform: scaleY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(100%);
+  }
+}
+.read_more_text {
+  /* border: 2px solid red; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* display: none; */
+  font-size: 0.9em;
+  width: 90%;
+  font-style: oblique;
+  line-height: 150%;
+  animation: fade_in_show 0.5s;
+}
+
+.read_more_icons {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.icons {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.icons a {
+  color: #000;
+}
+
+/*.icons a:hover {
+  color: rgb(228, 228, 228);
+} *//*# sourceMappingURL=about.css.map */
