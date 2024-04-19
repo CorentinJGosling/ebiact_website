@@ -83,10 +83,16 @@ h2 {
   color: #1088ad;
   padding-bottom: 1rem;
 }
+@media (max-width: 900px) {
+  .publiHEAD {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+}
 
 .publi {
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   background: white;
   width: 100%;
   padding: 3rem;
@@ -100,6 +106,11 @@ h2 {
   border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
   animation: borderRotate var(--d) linear infinite forwards;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+@media (max-width: 900px) {
+  .imgpubli {
+    margin-bottom: 2rem;
+  }
 }
 
 .publiTXT {
@@ -241,7 +252,7 @@ p {
     text-align: center;
   }
   .imgpubli {
-    width: 95vw;
+    width: 85vw;
     padding: 1rem;
   }
 }

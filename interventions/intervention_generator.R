@@ -4,10 +4,10 @@ library(readxl)
 library(tableHTML)
 library(tidyverse)
 dat = readxl::read_excel(
-  paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Données/ebiact/website/interventions/",
+  paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Donnees/ebiact/website/interventions/",
          "list_interventions.xlsx"))
 dat_ur = readxl::read_excel(
-  paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Données/7 - Data analysis/data/",
+  paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Donnees/7 - Data analysis/data/",
          "ur_homogeneized_scored.xlsx"))
 # df_agg_meta$Age <- with(df_agg_meta,
 #                         ifelse(mean_age < 6, ,
@@ -229,7 +229,7 @@ html_tbl = dat[, c("Group", "Interventions", "Age", "Outcome",
             rownames = FALSE)
 
 writeLines(as.character(html_tbl),
-           paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Données/ebiact/",
+           paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Donnees/ebiact/",
                   "website/interventions/interventions_list",
                   ".html"))
 # INDIVIDUAL PAGES =============================================
@@ -251,6 +251,7 @@ for (fact in dat$Acronym) {
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
     <!----===== Boxicons CSS ===== -->
+    <link rel="icon" href="../img/profile_icon_inter.svg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -275,7 +276,7 @@ for (fact in dat$Acronym) {
         </html>"
     )),
     paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/",
-             "Article 2 - Base de Données/ebiact/website/",
+             "Article 2 - Base de Donnees/ebiact/website/",
              "html/",
               fact,
              ".html"))
@@ -291,6 +292,6 @@ for (i in 1:nrow(dat)){
 rio::export(
   data.frame(word),
   paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/",
-  "Article 2 - Base de Données/ebiact/website/",
+  "Article 2 - Base de Donnees/ebiact/website/",
   "js/world_cloud.txt")
 )
