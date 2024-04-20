@@ -197,11 +197,11 @@ h2 {
     background: #fff;
   }
 }
-#intervention_material .table-fill td:nth-child(even) {
+#intervention_material .table-fill tr:nth-child(odd) {
   background: #ffffff;
 }
 @media (max-width: 767px) {
-  #intervention_material .table-fill td:nth-child(even) {
+  #intervention_material .table-fill tr:nth-child(odd) {
     background: rgba(16, 136, 173, 0.1333333333);
   }
 }
@@ -252,19 +252,6 @@ h2 {
   }
   .table-fill tbody tr {
     display: table-cell;
-  }
-  .table-fill tbody tr:nth-child(odd) {
-    background-color: #fff;
-  }
-  .table-fill tr:nth-child(even) {
-    background-color: #fff;
-  }
-  .table-fill tr td:nth-child(odd) {
-    background-color: #fff;
-    border-right: 1px solid #e6e4e4;
-  }
-  .table-fill tr td:nth-child(even) {
-    border-right: 1px solid #e6e4e4;
   }
   .table-fill tbody td {
     display: block;
