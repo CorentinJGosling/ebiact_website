@@ -203,7 +203,7 @@ dat$Age_boundsSAVE = gsub("school-age children", "<li class='child'>School-age c
 dat$Age_boundsSAVE = gsub("adolescents", "<li class='adol'>Adolescents</li>", dat$Age_boundsSAVE)
 dat$Age_boundsSAVE = gsub("adults", "<li class='adult'>Adults</li>", dat$Age_boundsSAVE)
 dat$Age_boundsSAVE = paste0("<ul class='ul_age'>", dat$Age_boundsSAVE, "</ul>")
-dat$Age_img = dat$Age_boundsSAVE
+dat$Age = dat$Age_boundsSAVE
 
 custom_order <- c("Overall ASD symptoms",
                   "Social communication",
@@ -248,9 +248,6 @@ dat$Outcome = gsub("<li>Global cognition",
 dat$Outcome = gsub("<li>Specific cognition", 
                    "<li class='B_ADAPT'>Specific cognition", 
                    dat$Outcome)
-dat$Outcome = sort(dat$Outcome)
-
-
 
 dat$Outcome = gsub("<li></li>", "",   dat$Outcome)
 
