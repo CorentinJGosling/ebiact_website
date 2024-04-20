@@ -96,23 +96,25 @@ h2 {
       display: block;
       font-weight: bold;
       text-align: right;
-      font-size: 1rem;
       color: #000;
       padding: 0 0;
     }
   }
 
   #data-table {
-    position: relative; /* Make the container relatively positioned */
-    max-height: 90vh; /* Set the height to 70% of viewport height */
-    overflow-y: auto; /* Allow vertical scrollbar if content exceeds container height */
-    padding-right: -2rem; /* Create space for scrollbar */
+    position: relative;
+    max-height: 100vh;
+    overflow-y: auto;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    @media (max-width: 767px) {
+      // max-height: 80vh;
+    }
   }
 
   .table-fill {
+    font-size: 0.8rem;
     margin-top: 1rem;
     border-collapse: collapse;
     border: none;
@@ -171,8 +173,8 @@ h2 {
         // text-decoration: none; /* Enlever la soulignement */
       }
 
-      @media (max-width: 900px) {
-        font-size: 0.7rem;
+      @media (max-width: 768px) {
+        font-size: 0.6rem;
       }
     }
 
@@ -183,6 +185,9 @@ h2 {
     th:last-child {
       border-radius: 0 20px 0 0 !important;
       border: none;
+      @media (max-width: 767px) {
+        border-radius: 0 0 0 20px !important;
+      }
     }
     td {
       border: 1px solid rgb(227, 227, 227);
@@ -194,6 +199,15 @@ h2 {
 
     tr:nth-child(even) {
       background: #1088ad22;
+      @media (max-width: 767px) {
+        background: #fff;
+      }
+    }
+    td:nth-child(even) {
+      background: #ffffff;
+      @media (max-width: 767px) {
+        background: #1088ad22;
+      }
     }
 
     td:nth-child(3),
@@ -236,17 +250,19 @@ h2 {
   }
   .table-fill td,
   .table-fill th {
-    height: 160px;
+    height: 120px;
     vertical-align: middle;
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
-    width: 120px;
+    width: 260px;
     text-overflow: ellipsis;
+    font-size: 0.5rem;
   }
   .table-fill thead th {
     text-align: left;
     border-bottom: 1px solid #f7f7f9;
+    width: 120px;
   }
   .table-fill tbody tr {
     display: table-cell;
@@ -270,55 +286,6 @@ h2 {
   }
 }
 
-// .modal {
-//   display: none;
-//   position: fixed;
-//   z-index: 1;
-//   left: 0;
-//   top: 0;
-//   width: 100%;
-//   overflow: auto;
-//   background-color: rgba(0, 0, 0, 0.4);
-//   min-height: 100vh !important;
-//   height: 100%;
-//   ul {
-//     margin-left: 2rem; /* Adjust margin as needed */
-//   }
-// }
-
-// .modal-content {
-//   background-color: #fefefe;
-//   margin-left: auto;
-//   margin-right: auto;
-//   padding: 20px;
-//   border: 1px solid #888;
-//   width: 80%;
-//   min-height: 70vh !important;
-// }
-
-// .closemod {
-//   color: #aaa;
-//   float: right;
-//   font-size: 28px;
-//   font-weight: bold;
-// }
-
-// .closemod:hover,
-// .closemod:focus {
-//   color: black;
-//   text-decoration: none;
-//   cursor: pointer;
-// }
-
-// .desc_tab {
-//   font-weight: bold;
-//   text-align: center;
-//   font-size: 1.5rem;
-// }
-// .header_tab {
-//   font-weight: bold;
-//   margin-top: 1rem;
-// }
 .ul_age {
   list-style-type: none; /* Remove default bullet */
   padding-left: 0; /* Remove default padding */
@@ -331,7 +298,6 @@ h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   //  margin-bottom: 0.4rem;
-  font-size: 0.8rem; /* Example font size */
 }
 
 /* Style for colored bullets */
@@ -369,7 +335,6 @@ h2 {
   padding-left: 0; /* Remove default padding */
   li {
     line-height: 0.9; /* Adjust line height for proper spacing */
-    font-size: 0.8rem; /* Example font size */
     padding-left: 30px; /* Example padding */
     position: relative; /* Position relative for absolute positioning of bullets */
     line-height: 1.5; /* Adjust line height for proper spacing */
@@ -406,21 +371,14 @@ h2 {
   }
 }
 
-#data-footer {
-  background-color: #1088ad;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 40px;
-  border-radius: 0 0 20px 20px;
-}
-
 #data-table::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   padding-top: 4rem;
   border-radius: 10px;
   background-color: #f5f5f5;
+  @media (max-width: 767px) {
+    margin-top: 4rem;
+  }
 }
 
 #data-table::-webkit-scrollbar {
@@ -432,4 +390,18 @@ h2 {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #555;
+}
+
+#data-table::after {
+  content: "";
+  display: block;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: #1088ad;
+  height: 40px;
+  border-radius: 0 0 20px 20px;
+  @media (max-width: 767px) {
+    height: 0px;
+  }
 }

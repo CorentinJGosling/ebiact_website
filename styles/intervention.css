@@ -106,21 +106,20 @@ h2 {
     display: block;
     font-weight: bold;
     text-align: right;
-    font-size: 1rem;
     color: #000;
     padding: 0 0;
   }
 }
 #intervention_material #data-table {
-  position: relative; /* Make the container relatively positioned */
-  max-height: 90vh; /* Set the height to 70% of viewport height */
-  overflow-y: auto; /* Allow vertical scrollbar if content exceeds container height */
-  padding-right: -2rem; /* Create space for scrollbar */
+  position: relative;
+  max-height: 100vh;
+  overflow-y: auto;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 #intervention_material .table-fill {
+  font-size: 0.8rem;
   margin-top: 1rem;
   border-collapse: collapse;
   border: none;
@@ -164,10 +163,10 @@ h2 {
   color: #00627f;
   padding: 0.5rem;
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   #intervention_material .table-fill td,
   #intervention_material .table-fill th {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 #intervention_material .table-fill th:nth-child(1) {
@@ -178,6 +177,11 @@ h2 {
   border-radius: 0 20px 0 0 !important;
   border: none;
 }
+@media (max-width: 767px) {
+  #intervention_material .table-fill th:last-child {
+    border-radius: 0 0 0 20px !important;
+  }
+}
 #intervention_material .table-fill td {
   border: 1px solid rgb(227, 227, 227);
 }
@@ -187,6 +191,19 @@ h2 {
 }
 #intervention_material .table-fill tr:nth-child(even) {
   background: rgba(16, 136, 173, 0.1333333333);
+}
+@media (max-width: 767px) {
+  #intervention_material .table-fill tr:nth-child(even) {
+    background: #fff;
+  }
+}
+#intervention_material .table-fill td:nth-child(even) {
+  background: #ffffff;
+}
+@media (max-width: 767px) {
+  #intervention_material .table-fill td:nth-child(even) {
+    background: rgba(16, 136, 173, 0.1333333333);
+  }
 }
 #intervention_material .table-fill td:nth-child(3),
 #intervention_material .table-fill td:nth-child(4) {
@@ -219,17 +236,19 @@ h2 {
   }
   .table-fill td,
   .table-fill th {
-    height: 160px;
+    height: 120px;
     vertical-align: middle;
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
-    width: 120px;
+    width: 260px;
     text-overflow: ellipsis;
+    font-size: 0.5rem;
   }
   .table-fill thead th {
     text-align: left;
     border-bottom: 1px solid #f7f7f9;
+    width: 120px;
   }
   .table-fill tbody tr {
     display: table-cell;
@@ -263,7 +282,6 @@ h2 {
   line-height: 0.9; /* Adjust line height for proper spacing */
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 0.8rem; /* Example font size */
 }
 
 /* Style for colored bullets */
@@ -305,7 +323,6 @@ h2 {
 }
 .ul_outcome li {
   line-height: 0.9; /* Adjust line height for proper spacing */
-  font-size: 0.8rem; /* Example font size */
   padding-left: 30px; /* Example padding */
   position: relative; /* Position relative for absolute positioning of bullets */
   line-height: 1.5; /* Adjust line height for proper spacing */
@@ -335,21 +352,16 @@ h2 {
   color: rgb(99, 168, 214); /* Color for class3 */
 }
 
-#data-footer {
-  background-color: #1088ad;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 40px;
-  border-radius: 0 0 20px 20px;
-}
-
 #data-table::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   padding-top: 4rem;
   border-radius: 10px;
   background-color: #f5f5f5;
+}
+@media (max-width: 767px) {
+  #data-table::-webkit-scrollbar-track {
+    margin-top: 4rem;
+  }
 }
 
 #data-table::-webkit-scrollbar {
@@ -361,4 +373,20 @@ h2 {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #555;
+}
+
+#data-table::after {
+  content: "";
+  display: block;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: #1088ad;
+  height: 40px;
+  border-radius: 0 0 20px 20px;
+}
+@media (max-width: 767px) {
+  #data-table::after {
+    height: 0px;
+  }
 }/*# sourceMappingURL=intervention.css.map */
