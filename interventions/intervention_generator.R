@@ -182,12 +182,6 @@ dat$'More information' = paste0('<a class="learnMORE" href="../html/',
                                 dat$Acronym, '.html" target="_blank"',
                                 '>Learn<br>more</a>')
 
-# dat$'More information' = paste0('<button class="learnMORE" onclick="openModal',
-#                    "(this)",
-#                    '">Learn more</button>')
-
-# dat$"N<br>(CCT)" = dat$n_cct_intervention
-# dat$"N<br>(SR/MA)" = dat$n_meta_intervention
 dat$"Number of clinical trials<br>[meta-analyses]" = paste0("nCCT=", dat$n_cct_intervention, " [nSR/MA=", 
                                                          dat$n_meta_intervention, "]")
 dat$Outcome = dat$outcome_intervention
@@ -195,21 +189,72 @@ dat$Age = stringr::str_to_sentence(dat$Age)
 
 dat$Age_bounds = gsub(" to ", "", dat$Age_bounds)
 dat$Age_bounds = gsub("\\s*\\([^\\)]+\\)", "", dat$Age_bounds)
-
+dat$Age_boundsSAVE = dat$Age_bounds
 dat$Age_bounds = gsub("very young children", "<li>Very young children</li>", dat$Age_bounds)
 dat$Age_bounds = gsub("school-age children", "<li>School-age children</li>", dat$Age_bounds)
 dat$Age_bounds = gsub("adolescents", "<li>Adolescents</li>", dat$Age_bounds)
 dat$Age_bounds = gsub("adults", "<li>Adults</li>", dat$Age_bounds)
 dat$Age_bounds = paste0("<ul>", dat$Age_bounds, "</ul>")
 dat$Age = dat$Age_bounds
+
+
+dat$Age_boundsSAVE = gsub("very young children", "<li class='baby'>Very young children</li>", dat$Age_boundsSAVE)
+dat$Age_boundsSAVE = gsub("school-age children", "<li class='child'>School-age children</li>", dat$Age_boundsSAVE)
+dat$Age_boundsSAVE = gsub("adolescents", "<li class='adol'>Adolescents</li>", dat$Age_boundsSAVE)
+dat$Age_boundsSAVE = gsub("adults", "<li class='adult'>Adults</li>", dat$Age_boundsSAVE)
+dat$Age_boundsSAVE = paste0("<ul class='ul_age'>", dat$Age_boundsSAVE, "</ul>")
+dat$Age_img = dat$Age_boundsSAVE
+
+custom_order <- c("Overall ASD symptoms",
+                  "Social communication",
+                  "Restricted repetitive behaviors",
+                  "Language (Expressive)", 
+                  "Language (Receptive)",
+                  "Language (Overall skills)", 
+                  "Global cognition (IQ)", 
+                  "Specific cognition (nvIQ)",
+                  "Adaptive behaviors", 
+                  "Disruptive behaviors")
+
 for (i in 1:nrow(dat)) {
   words <- strsplit(dat$Outcome[i], "\\|")[[1]]
   words <- trimws(words)
-  sorted_words <- sort(words)
+  ordered_vector <- factor(words, levels = custom_order)
+  sorted_words <- ordered_vector[order(ordered_vector)]
   sorted_string <- paste(sorted_words, collapse = "</li><li>")
-  dat$Outcome[i] <- paste0("<ul><li>", sorted_string, "</li></ul>")
+  dat$Outcome[i] <- paste0("<ul class='ul_outcome'><li>", sorted_string, "</li></ul>")
 }
+dat$Outcome = gsub("<li>Social communication</li>", 
+                   "<li class='A_CORE_SYMPT'>Social communication</li>", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Overall ASD symptoms</li>", 
+                   "<li class='A_CORE_SYMPT'>Overall ASD symptoms</li>", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Restricted repetitive behaviors</li>", 
+                   "<li class='A_CORE_SYMPT'>Restricted repetitive behaviors</li>", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Disruptive behaviors</li>", 
+                   "<li class='D_PROB'>Disruptive behaviors</li>", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Language", 
+                   "<li class='C_LANG'>Language", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Adaptive behaviors</li>", 
+                   "<li class='B_ADAPT'>Adaptive behaviors</li>", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Global cognition", 
+                   "<li class='B_ADAPT'>Global cognition", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Specific cognition", 
+                   "<li class='B_ADAPT'>Specific cognition", 
+                   dat$Outcome)
+dat$Outcome = sort(dat$Outcome)
+
+
+
 dat$Outcome = gsub("<li></li>", "",   dat$Outcome)
+
+
 dat$Interventions = paste0('<a class="learnMORE" href="../html/', 
                             dat$Acronym, '.html" target="_blank"',
                             '>', dat$Interventions, '</a>')

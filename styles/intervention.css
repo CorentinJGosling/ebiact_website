@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -79,10 +80,16 @@ h2 {
   text-align: left;
 }
 #intervention_material .filters {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
+  margin-bottom: 1rem;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 900px) {
   #intervention_material .filters {
@@ -104,9 +111,29 @@ h2 {
     padding: 0 0;
   }
 }
+#intervention_material #data-table {
+  position: relative; /* Make the container relatively positioned */
+  max-height: 90vh; /* Set the height to 70% of viewport height */
+  overflow-y: auto; /* Allow vertical scrollbar if content exceeds container height */
+  padding-right: -2rem; /* Create space for scrollbar */
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 #intervention_material .table-fill {
+  margin-top: 1rem;
   border-collapse: collapse;
-  width: 100%; /* Set width to 100vw */
+  border: none;
+  overflow-y: auto;
+  width: 100%;
+  width: 100%;
+  height: 100%; /* Fill the height of the container */
+}
+#intervention_material .table-fill thead {
+  position: sticky; /* Stick the header to the top */
+  top: 0; /* Position the header at the top of the container */
+  z-index: 2; /* Ensure header stays above other elements */
+  background-color: #f8f8f8; /* Background color of header */
 }
 @media (max-width: 767px) {
   #intervention_material .table-fill {
@@ -115,7 +142,9 @@ h2 {
 }
 #intervention_material .table-fill .classPSY {
   padding: 5px;
-  background-color: #c6e6bb;
+  background-color: #0bb2ff;
+  color: #fff;
+  font-weight: bold;
   border-radius: 5px;
 }
 #intervention_material .table-fill .classCOMP {
@@ -125,16 +154,15 @@ h2 {
 }
 #intervention_material .table-fill td,
 #intervention_material .table-fill th {
+  border: none;
   padding: 8px;
-  border: 1px solid #ddd;
   text-align: center;
   max-width: 30ch;
 }
 #intervention_material .table-fill td a,
 #intervention_material .table-fill th a {
-  color: #1088ad;
+  color: #00627f;
   padding: 0.5rem;
-  border-radius: 5px;
 }
 @media (max-width: 900px) {
   #intervention_material .table-fill td,
@@ -142,19 +170,27 @@ h2 {
     font-size: 0.7rem;
   }
 }
+#intervention_material .table-fill th:nth-child(1) {
+  border-radius: 20px 0 0 0 !important;
+  border: none;
+}
+#intervention_material .table-fill th:last-child {
+  border-radius: 0 20px 0 0 !important;
+  border: none;
+}
+#intervention_material .table-fill td {
+  border: 1px solid rgb(227, 227, 227);
+}
 #intervention_material .table-fill thead th {
   color: #ffffff;
   background: #1088ad;
 }
 #intervention_material .table-fill tr:nth-child(even) {
-  background: #f8f8f8;
+  background: rgba(16, 136, 173, 0.1333333333);
 }
 #intervention_material .table-fill td:nth-child(3),
 #intervention_material .table-fill td:nth-child(4) {
   text-align: left;
-}
-#intervention_material .table-fill ul {
-  margin-left: 1rem;
 }
 #intervention_material .table-fill .select2-results {
   background-color: #000;
@@ -215,4 +251,114 @@ h2 {
     display: block;
     text-align: center;
   }
+}
+.ul_age {
+  list-style-type: none; /* Remove default bullet */
+  padding-left: 0; /* Remove default padding */
+}
+
+.ul_age li {
+  padding-left: 30px; /* Example padding */
+  position: relative; /* Position relative for absolute positioning of bullets */
+  line-height: 0.9; /* Adjust line height for proper spacing */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.8rem; /* Example font size */
+}
+
+/* Style for colored bullets */
+.ul_age li::before {
+  content: ""; /* Empty content */
+  width: 25px; /* Example width of the bullet */
+  height: 25px; /* Example height of the bullet */
+  background-size: cover;
+  display: inline-block; /* Display as block element to apply width and height */
+  position: absolute; /* Position absolute to place the bullet */
+  left: 0; /* Align bullet to the left of the list item */
+  top: 40%; /* Center bullet vertically */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.ul_age .baby::before {
+  background-image: url("../img/baby.svg"); /* URL of your class1 bullet image */
+}
+
+.ul_age .child::before {
+  background-image: url("../img/child.svg"); /* URL of your class1 bullet image */
+}
+
+.ul_age .adol::before {
+  background-image: url("../img/adol.svg"); /* URL of your class1 bullet image */
+}
+
+.ul_age .adult::before {
+  background-image: url("../img/adult.svg"); /* URL of your class1 bullet image */
+}
+
+.ul_outcome {
+  list-style-type: none; /* Remove default bullet */
+  padding-left: 0; /* Remove default padding */
+  /* Style for colored bullets */
+  /* Change the color of bullets based on class */
+}
+.ul_outcome li {
+  line-height: 0.9; /* Adjust line height for proper spacing */
+  font-size: 0.8rem; /* Example font size */
+  padding-left: 30px; /* Example padding */
+  position: relative; /* Position relative for absolute positioning of bullets */
+  line-height: 1.5; /* Adjust line height for proper spacing */
+}
+.ul_outcome li::before {
+  content: "•"; /* Unicode for bullet */
+  font-size: 54px; /* Example bullet size */
+  margin-right: 10px; /* Example margin between bullet and text */
+  width: 20px; /* Example width of the bullet */
+  text-align: center; /* Center bullet horizontally */
+  display: inline-block; /* Display as block element to apply width */
+  position: absolute; /* Position absolute to place the bullet */
+  left: 0; /* Align bullet to the left of the list item */
+  top: 50%; /* Center bullet vertically */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+}
+.ul_outcome .A_CORE_SYMPT::before {
+  color: rgb(209, 36, 36); /* Color for class1 */
+}
+.ul_outcome .D_PROB::before {
+  color: rgb(231, 62, 211); /* Color for class2 */
+}
+.ul_outcome .C_LANG::before {
+  color: rgb(255, 194, 51); /* Color for class3 */
+}
+.ul_outcome .B_ADAPT::before {
+  color: rgb(99, 168, 214); /* Color for class3 */
+}
+
+#data-footer {
+  background-color: #1088ad;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 40px;
+  border-radius: 0 0 20px 20px;
+}
+
+#data-table::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  padding-top: 4rem;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+#data-table::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+#data-table::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
 }/*# sourceMappingURL=intervention.css.map */
