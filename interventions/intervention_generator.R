@@ -252,10 +252,10 @@ dat$Outcome = gsub("<li>Specific cognition",
 dat$Outcome = gsub("<li></li>", "",   dat$Outcome)
 
 
-dat$Interventions = paste0('<a class="learnMORE" href="../html/', 
+dat$Interventions = paste0('<a class="learnMORE" style="font-weight: 600" href="../html/', 
                             dat$Acronym, '.html" target="_blank"',
                             '>', dat$Interventions, '<br>[',
-                            dat$Acronym, ']</b>')
+                            dat$Acronym, ']')
 dat$Group = ifelse(dat$Group == "Psychosocial", 
                    paste0('<div class="classPSY">', dat$Group, '</div>'),
                    paste0('<div class="classCOMP">', dat$Group, '</div>'))
