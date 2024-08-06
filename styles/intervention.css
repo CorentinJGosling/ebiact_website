@@ -327,16 +327,25 @@ h2 {
   transform: translateY(-50%); /* Adjust vertical alignment */
 }
 .ul_outcome .A_CORE_SYMPT::before {
-  color: rgb(209, 36, 36); /* Color for class1 */
+  color: rgb(3, 115, 20); /* Color for class1 */
 }
-.ul_outcome .D_PROB::before {
-  color: rgb(231, 62, 211); /* Color for class2 */
+.ul_outcome .B_ADAPT::before {
+  color: rgb(99, 168, 214); /* Color for class3 */
 }
 .ul_outcome .C_LANG::before {
   color: rgb(255, 194, 51); /* Color for class3 */
 }
-.ul_outcome .B_ADAPT::before {
-  color: rgb(99, 168, 214); /* Color for class3 */
+.ul_outcome .D_PROB::before {
+  color: rgb(231, 62, 211); /* Color for class2 */
+}
+.ul_outcome .F_SAFETY::before {
+  color: rgb(194, 61, 61); /* Color for class3 */
+}
+.ul_outcome .G_SLEEP::before {
+  color: rgb(80, 186, 184); /* Color for class3 */
+}
+.ul_outcome .E_COMORB::before {
+  color: rgb(203, 121, 210); /* Color for class3 */
 }
 
 #data-table::-webkit-scrollbar-track {

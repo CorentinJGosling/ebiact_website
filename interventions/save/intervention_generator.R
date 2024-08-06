@@ -6,16 +6,12 @@ library(tidyverse)
 dat = readxl::read_excel(
   paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Donnees/ebiact/website/interventions/",
          "list_interventions.xlsx"))
-dat_ur = readxl::read_excel(
-  paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Donnees/7 - Data analysis/data/",
-         "ur_homogeneized_scored.xlsx"))
-# df_agg_meta$Age <- with(df_agg_meta,
-#                         ifelse(mean_age < 6, ,
-#                                ifelse(mean_age < 13, ,
-#                                       ifelse(mean_age < 20, , 
-#                                              ifelse(mean_age >= 20, , 
-#                                                     "Unknown")))))
 
+chemin = "C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Donnees/7 - Data analysis/data/"
+dat_ur = bind_rows(
+  readxl::read_excel(paste0(chemin, "UR_CAM_analysis.xlsx")),
+  readxl::read_excel(paste0(chemin, "UR_PSY_analysis.xlsx")))
+  
 dat_ur$Age_cont = factor(dat_ur$Age, levels = c("< 6 yo", "6-12 yo", "13-19 yo", ">= 20 yo"))
 dat_ur$Acronym = dat_ur$intervention_general
 dat_agg = dat_ur %>%
@@ -27,7 +23,7 @@ dat = dplyr::left_join(dat, dat_agg[,
          "URL_meta", "outcome_intervention",
          "Age", "min_age_intervention", "max_age_intervention",
          "IQ", "min_IQ_intervention", "max_IQ_intervention",
-         "parent_imp", "prof_imp", "tech_imp", 
+         "parent_imp", "prof_imp", "tech_imp",
          "sett_home", "sett_clin", "sett_class",
          "outcome_test", "outcome_report", "outcome_observation",
          "duration_month",
@@ -37,28 +33,28 @@ dat = dplyr::left_join(dat, dat_agg[,
 # SECTION - Key characteristics
 dat_agg_age = dat_ur %>% group_by(Acronym) %>%
   arrange(mean_age) %>%
-# %>% 
-#   slice(c(which.min(mean_age), which.max(mean_age))) %>%
   summarise(n_age = length(unique(Age)),
             Age_bounds = colapsunique(Age))
 dat = dplyr::left_join(dat, dat_agg_age)
+
 for (age in c("Age", "Age_bounds")) {
   dat[[age]] <- gsub("< 6 yo", "very young children (<6 yo)", dat[[age]])
   dat[[age]] <- gsub("6-12 yo", "school-age children (6-12 yo)", dat[[age]])
   dat[[age]] <- gsub("13-19 yo", "adolescents (13-19 yo)", dat[[age]])
-  dat[[age]] <- gsub(">= 20 yo", "adults (>19 yo)", dat[[age]])
+  dat[[age]] <- gsub(">= 20 yo", "adults (>=20 yo)", dat[[age]])
 }
 dat$Age_bounds = gsub("\\|", "to", dat$Age_bounds)
 
 Age_text = with(dat, paste0("The intervention is typically designed for ",
                             ifelse(n_age == 1, 
                                    paste0("<u>", Age, "</u>, "), 
-                                   paste0("different age groups, <u>", Age_bounds, "</u>, but "))))
+                                   paste0("different age groups, <u>", Age_bounds, "</u>"))))
 
-IQ_text = with(dat, paste0("with ",
-                           ifelse(IQ == "Low (< 70)", 
-                                  "<u>important cognitive difficulties</u>. ",
-                                  "<u>no specific cognitive difficulties</u>. ")))
+IQ_text = with(dat, paste0(ifelse(
+  is.na(IQ), ". ",
+  ifelse(IQ == "Low (< 70)", 
+         ", with <u>important cognitive difficulties</u>. ",
+         ", with <u>no specific cognitive difficulties</u>. "))))
 
 dat_agg_dur = dat_ur %>% group_by(Acronym) %>% 
   slice(c(which.min(duration_month), which.max(duration_month))) %>%
@@ -206,47 +202,88 @@ dat$Age_boundsSAVE = paste0("<ul class='ul_age'>", dat$Age_boundsSAVE, "</ul>")
 dat$Age = dat$Age_boundsSAVE
 
 custom_order <- c("Overall ASD symptoms",
-                  "Social communication",
-                  "Restricted repetitive behaviors",
-                  "Language (Expressive)", 
-                  "Language (Receptive)",
-                  "Language (Overall skills)", 
+                  "Social-communication",
+                  "Restricted/repetitive behaviors", "Sensory Profile",
+                  "Acceptability", "Tolerability", "Adverse events",
+                  "Language", 
                   "Global cognition (IQ)", 
                   "Specific cognition (nvIQ)",
-                  "Adaptive behaviors", 
-                  "Disruptive behaviors")
+                  "Adaptive behaviors", "Quality of life",
+                  "Disruptive behaviors", "ADHD symptoms",
+                  "Anxiety", "Mood related symptoms",
+                  "Sleep quality", "Sleep quantity")
+
+dat$Outcome = gsub("\\(Overall skills\\)", "", dat$Outcome)
+dat$Outcome = gsub("\\(Receptive skills\\)", "", dat$Outcome)
+dat$Outcome = gsub("\\(Expressive skills\\)", "", dat$Outcome)
 
 for (i in 1:nrow(dat)) {
   words <- strsplit(dat$Outcome[i], "\\|")[[1]]
-  words <- trimws(words)
+  words <- unique(trimws(words))
   ordered_vector <- factor(words, levels = custom_order)
   sorted_words <- ordered_vector[order(ordered_vector)]
   sorted_string <- paste(sorted_words, collapse = "</li><li>")
   dat$Outcome[i] <- paste0("<ul class='ul_outcome'><li>", sorted_string, "</li></ul>")
 }
-dat$Outcome = gsub("<li>Social communication</li>", 
-                   "<li class='A_CORE_SYMPT'>Social communication</li>", 
+
+dat$Outcome = gsub("<li>Social\\-communication</li>", 
+                   "<li class='A_CORE_SYMPT'>Social\\-communication</li>", 
                    dat$Outcome)
 dat$Outcome = gsub("<li>Overall ASD symptoms</li>", 
                    "<li class='A_CORE_SYMPT'>Overall ASD symptoms</li>", 
                    dat$Outcome)
-dat$Outcome = gsub("<li>Restricted repetitive behaviors</li>", 
-                   "<li class='A_CORE_SYMPT'>Restricted repetitive behaviors</li>", 
+dat$Outcome = gsub("<li>Restricted/repetitive behaviors</li>", 
+                   "<li class='A_CORE_SYMPT'>Restricted/repetitive behaviors</li>", 
                    dat$Outcome)
+dat$Outcome = gsub("<li>Sensory Profile</li>", 
+                   "<li class='A_CORE_SYMPT'>Sensory Profile</li>", 
+                   dat$Outcome)
+
 dat$Outcome = gsub("<li>Disruptive behaviors</li>", 
                    "<li class='D_PROB'>Disruptive behaviors</li>", 
                    dat$Outcome)
 dat$Outcome = gsub("<li>Language", 
                    "<li class='C_LANG'>Language", 
                    dat$Outcome)
+dat$Outcome = gsub("<li>Quality of life</li>", 
+                   "<li class='B_ADAPT'>Quality of life</li>", 
+                   dat$Outcome)
 dat$Outcome = gsub("<li>Adaptive behaviors</li>", 
                    "<li class='B_ADAPT'>Adaptive behaviors</li>", 
                    dat$Outcome)
-dat$Outcome = gsub("<li>Global cognition", 
+dat$Outcome = gsub("<li>Global cognition (IQ)", 
                    "<li class='B_ADAPT'>Global cognition", 
                    dat$Outcome)
-dat$Outcome = gsub("<li>Specific cognition", 
+dat$Outcome = gsub("<li>Specific cognition (nvIQ)", 
                    "<li class='B_ADAPT'>Specific cognition", 
+                   dat$Outcome)
+
+dat$Outcome = gsub("<li>ADHD symptoms", 
+                   "<li class='E_COMORB'>ADHD symptoms", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Anxiety", 
+                   "<li class='E_COMORB'>Anxiety", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Mood related symptoms", 
+                   "<li class='E_COMORB'>Mood-related symptoms", 
+                   dat$Outcome)
+
+dat$Outcome = gsub("<li>Acceptability", 
+                   "<li class='F_SAFETY'>Acceptability", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Tolerability", 
+                   "<li class='F_SAFETY'>Tolerability", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Adverse events", 
+                   "<li class='F_SAFETY'>Adverse events", 
+                   dat$Outcome)
+
+
+dat$Outcome = gsub("<li>Sleep quality", 
+                   "<li class='G_SLEEP'>Sleep quality", 
+                   dat$Outcome)
+dat$Outcome = gsub("<li>Sleep quantity", 
+                   "<li class='G_SLEEP'>Sleep quantity", 
                    dat$Outcome)
 
 dat$Outcome = gsub("<li></li>", "",   dat$Outcome)
@@ -266,7 +303,6 @@ html_tbl = dat[, c("Group", "Interventions", "Age", "Outcome",
                    # "More information"
                    )] %>%
             distinct() %>%
-  filter(grepl("ychosocial", Group, fixed=TRUE)) %>%
   arrange(Interventions) %>%
   tableHTML(class='table-fill', escape = FALSE,
             rownames = FALSE)

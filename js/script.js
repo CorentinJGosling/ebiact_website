@@ -11,13 +11,13 @@ function countUpTo(div, number) {
       count += 5;
       counterElement.innerHTML = count;
     }
-  }, 50);
+  }, 40);
 }
 
 window.onload = function () {
-  countUpTo(".vig1", 8);
-  countUpTo(".vig2", 44);
-  countUpTo(".vig3", 128);
-  countUpTo(".vig4", 192);
+  countUpTo(".vig1", 28);
+  countUpTo(".vig2", 96);
+  countUpTo(".vig3", 368);
+  countUpTo(".vig4", 394);
 };
 ScrollReveal().reveal(".appear", { delay: 400 });
