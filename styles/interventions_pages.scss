@@ -46,21 +46,6 @@ body {
     }
   }
 
-  .header_shalf {
-    font-size: 1.4rem;
-    color: #1088ad;
-    text-align: center;
-    font-weight: bold;
-  }
-  .shalf {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    @media (max-width: 900px) {
-      grid-template-columns: auto;
-    }
-  }
-
   .desc_tab {
     color: #1088ad;
     font-weight: bold;
@@ -69,10 +54,128 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  .header_shalf {
+    font-size: 1.4rem;
+    color: #1088ad;
+    text-align: center;
+    font-weight: bold;
+    // border: 2px solid red;
+  }
+  // .shalf {
+  //   border: 2px solid red;
+  //   display: grid;
+  //   grid-template-columns: 1fr;
+  //   gap: 2rem;
+  //   @media (max-width: 900px) {
+  //     grid-template-columns: auto;
+  //   }
+  // }
   .header_tab {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #1088ad;
     margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+
+  .card_carac_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 0.8rem;
+    gap: 2rem;
+    text-align: center;
+    @media (max-width: 900px) {
+      grid-template-columns: auto;
+    }
+
+    .card_caracteristic {
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      border-radius: 5px;
+      border: 1px solid #a7a7a7;
+      padding: 0.5rem;
+    }
+
+    .card_caracteristic_head {
+      font-size: 1.1rem;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .ul_age {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; // Adjust height according to your layout needs
+      gap: 1rem;
+
+      .baby,
+      .child,
+      .adol,
+      .adult,
+      .school,
+      .clinic,
+      .homeT,
+      .short,
+      .medium,
+      .long {
+        background-size: contain; // Ensure the background image scales correctly
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .baby,
+      .child,
+      .adol,
+      .adult {
+        width: 100px; // Set the desired width for the images
+        height: 100px; // Set the desired height for the images
+        border-radius: 50%;
+        border: 2px solid #000;
+      }
+      .school,
+      .clinic,
+      .homeT,
+      .short,
+      .medium,
+      .long {
+        width: 150px; // Set the desired width for the images
+        height: 100px; // Set the desired height for the images
+      }
+
+      .baby {
+        background-image: url("../img/baby.svg");
+      }
+      .child {
+        background-image: url("../img/child.svg");
+      }
+      .adol {
+        background-image: url("../img/adol.svg");
+      }
+      .adult {
+        background-image: url("../img/adult.svg");
+      }
+      .school {
+        background-image: url("../img/school.svg");
+      }
+      .homeT {
+        background-image: url("../img/home.svg");
+      }
+      .clinic {
+        background-image: url("../img/building.svg");
+      }
+      .short {
+        background-image: url("../img/calendar-short.svg");
+      }
+      .medium {
+        background-image: url("../img/calendar-medium.svg");
+      }
+      .long {
+        background-image: url("../img/calendar-long.svg");
+      }
+    }
   }
 
   .bottom_ressources {

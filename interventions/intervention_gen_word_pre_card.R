@@ -95,9 +95,7 @@ for (i in 1:length(filter_tables)) {
   dat[i, "Ressources"] <- urls_clickable
 }
 
-#############################
-##### START #################
-#############################
+
 dat_ur_raw = readxl::read_excel(paste0(chemin, "UR_TOTAL_analysis.xlsx"))
 info_meta = readxl::read_excel(paste0(chemin, "intervention_features_level.xlsx"))
 
@@ -124,13 +122,6 @@ dat = dplyr::left_join(dat_1, info_meta)
 
 # SECTION - Key characteristics
 
-#### creation of cards
-card_carac = paste0("<div class='card_caracteristic'>")
-card_carac_head = paste0("<div class='card_caracteristic_head'>")
-card_carac_img = paste0("<div class='card_caracteristic_img'>")
-card_carac_body = paste0("<div class='card_caracteristic_body'>")
-c_div = "</div>"
-
 ###################################################################################
 ####################               PARTICIPANTS              ######################
 ###################################################################################
@@ -155,28 +146,10 @@ dat_ur$Age = factor(dat_ur$Age, levels = c("very young children (<6 yo)",
 
 dat$Age_bounds = gsub("\\|", "to", dat$Age_bounds)
 
-dat$Age = stringr::str_to_sentence(dat$Age)
-
-dat$Age_bounds_list = gsub(" to ", "", dat$Age_bounds)
-dat$Age_bounds_list = gsub("\\s*\\([^\\)]+\\)", "", dat$Age_bounds_list)
-
-dat$Age_bounds_list = paste0("<ul class='ul_age'>", dat$Age_bounds_list, "</ul>")
-dat$Age_bounds_list = gsub("very young children", "<li class='baby'>Very young children</li>", dat$Age_bounds_list)
-dat$Age_bounds_list = gsub("school-age children", "<li class='child'>School-age children</li>", dat$Age_bounds_list)
-dat$Age_bounds_list = gsub("adolescents", "<li class='adol'>Adolescents</li>", dat$Age_bounds_list)
-dat$Age_bounds_list = gsub("adults", "<li class='adult'>Adults</li>", dat$Age_bounds_list)
-Age_bounds_list = dat$Age_bounds_list
-
-Age_bounds_list_wo_names = gsub("Very young children|School-age children|Adolescents|Adults", "", dat$Age_bounds_list)
-Age_bounds_list_wo_names = gsub("</li>", "</div>", Age_bounds_list_wo_names)
-Age_bounds_list_wo_names = gsub("</ul>", "</div>", Age_bounds_list_wo_names)
-Age_bounds_list_wo_names = gsub("<li", "<div", Age_bounds_list_wo_names)
-Age_bounds_list_wo_names = gsub("<ul", "<div", Age_bounds_list_wo_names)
-
 Age_text = with(dat, paste0("The intervention is typically designed for ",
                             ifelse(n_age == 1, 
-                                   paste0("", Age, ""), 
-                                   paste0("different age groups, ", Age_bounds, ""))))
+                                   paste0("<u>", Age, "</u>"), 
+                                   paste0("different age groups, <u>", Age_bounds, "</u>"))))
 
 IQ_text = with(dat, paste0(ifelse(
   is.na(INTER_IQ), ". ",
@@ -184,20 +157,7 @@ IQ_text = with(dat, paste0(ifelse(
          ", with <b>important cognitive difficulties</b>. ",
          ", with <b>no specific cognitive difficulties</b>. "))))
 
-participant_card = paste0(
-  card_carac, 
-    card_carac_head,
-      paste0("Users of ", dat$Acronym),
-    c_div,
-    card_carac_img,
-      Age_bounds_list_wo_names,
-    c_div,
-    card_carac_body,
-      Age_text, 
-      IQ_text,
-    d_civ,
-  d_civ
-)
+
 
 ###################################################################################
 ####################             DURATION AND DOSE           ######################
@@ -208,8 +168,6 @@ dat_agg_dur = dat_ur_raw %>% group_by(Acronym) %>%
   summarise(n_duration = length(unique(Duration)),
             Duration_bounds = collapsunique(Duration))
 dat = dplyr::left_join(dat, dat_agg_dur)
-
-dat$INTER_length_num = dat$INTER_length
 
 dat$INTER_length  = ifelse(round(dat$INTER_length) < 1,
                                ifelse(round(dat$INTER_length * 4.345) >= 1,
@@ -232,22 +190,13 @@ dat$INTER_max_length  = ifelse(round(dat$INTER_max_length) < 1,
 dat$Duration_bounds = gsub("\\,", " to", dat$Duration_bounds)
 Duration_text = with(dat, paste0(
   ifelse(is.na(Duration), "No specific information was available on duration. ",
-         # paste0("Regarding the length, we found that on average this type of intervention lasts about <b>",
-         paste0("On average this type of intervention lasts about <b>",
-                       INTER_length, "</b>",
+         paste0("Regarding the length, we found that on average this type of intervention lasts about <b>",
+                INTER_length, "</b>",
                 ifelse(INTER_min_length == INTER_max_length, ". ",
                        paste0(" (from ", INTER_min_length, 
-                              " to ", INTER_max_length, ")"))))))
+                              " to ", INTER_max_length, "). "))))))
                 
-length_list = ifelse(
-  dat$INTER_length_num < 2, "short",
-  ifelse(dat$INTER_length_num < 7, "medium",
-         ifelse(dat$INTER_length_num >= 7, "long", NA)))
-# dat$Measure = gsub("NA and ", "", dat$Measure)
-
-length_img = paste0("<div class='ul_age'><div class='", length_list, "'></div></div>")
-
-
+                
 dat$INTER_dose = ifelse(
   round(dat$INTER_dose) == 0, round(dat$INTER_dose, 2), round(dat$INTER_dose))
 dat$INTER_min_dose = ifelse(
@@ -256,29 +205,12 @@ dat$INTER_max_dose = ifelse(
   round(dat$INTER_max_dose) == 0, round(dat$INTER_max_dose, 2), round(dat$INTER_max_dose))
 
 Dose_text = ifelse(is.na(dat$INTER_dose), 
-       ". No specific information on dosage was available. ", paste0(
-         # "Regarding dosage/intensity, we found that ", dat$Interventions, 
-         # " is provided for an average of ", dat$INTER_dose, " ", dat$INTER_dose_metric, 
-         ", for an average of <b>", dat$INTER_dose, " ", dat$INTER_dose_metric, 
-         ifelse(dat$INTER_min_dose == dat$INTER_max_dose, "</b>. ",
-                paste0("</b> (from ", dat$INTER_min_dose, " ", dat$INTER_dose_metric,
-                       "</b> to ", dat$INTER_max_dose, " ", dat$INTER_dose_metric, "). "))))
-
-length_card = paste0(
-  card_carac, 
-    card_carac_head,
-      "Duration and dosage",
-    c_div,
-    card_carac_img,
-      length_img,
-    c_div,
-    card_carac_body,
-      Duration_text,
-      Dose_text,
-    d_civ,
-  d_civ
-)
-
+       "No specific information on dosage was available. ", paste0(
+         "Regarding dosage/intensity, we found that ", dat$Interventions, 
+         " is provided for an average of ", dat$INTER_dose, " ", dat$INTER_dose_metric, 
+         ifelse(dat$INTER_min_dose == dat$INTER_max_dose, ". ",
+                paste0(" (from ", dat$INTER_min_dose, " ", dat$INTER_dose_metric,
+                       " to ", dat$INTER_max_dose, " ", dat$INTER_dose_metric, "). "))))
 
 ###################################################################################
 ####################                IMPLEMENTER              ######################
@@ -293,7 +225,7 @@ length_card = paste0(
 type = "set"
 exam = function(x, y, z, type = "pro") {
   if (type == "pro") {
-    typeok = data.frame(imp = c("caregivers", "professionals", "technological supports"),
+    typeok = data.frame(imp = c("Caregiver", "Professional", "technological supports"),
                         value = c(x, y, z))
   } else if (type == "set") {
     typeok = data.frame(place = c("at home", "in clinic/community", "at school"),
@@ -306,17 +238,17 @@ exam = function(x, y, z, type = "pro") {
   typeok = typeok[order(typeok$value, decreasing = TRUE), ]
   
   if (nrow(typeok) == 1 & type == "pro") {
-    return(paste0("is typically administered by <b>", typeok$imp, "</b>"))
+    return(paste0("is typically administered by ", typeok$imp))
   } else if (type == "pro") {
-    return(paste0("is mainly administered by <b>", typeok$imp[1],
-                  "</b>, and is supported by ", paste(typeok$imp[2:nrow(typeok)], collapse = " and ")))
+    return(paste0("is mainly administered by ", typeok$imp[1],
+                  ", and is supported by ", paste(typeok$imp[2:nrow(typeok)], collapse = " and ")))
   }
   
   if (nrow(typeok) == 1 & type == "set") {
-    return(paste0("is delivered <b>", typeok$place, "</b>"))
+    return(paste0("is delivered ", typeok$place))
   } else if (type == "set") {
-    return(paste0("is primarily delivered <b>", typeok$place[1],
-                  "</b>, but is also provided ", paste(typeok$place[2:nrow(typeok)], collapse = " and ")))
+    return(paste0("is primarily delivered ", typeok$place[1],
+                  ", but is also provided ", paste(typeok$place[2:nrow(typeok)], collapse = " and ")))
   }
   
   
@@ -330,44 +262,16 @@ for (i in 1:nrow(dat)) {
 }
 dat$Implementer = gsub("NA and ", "", dat$Implementer)
 dat$Setting = gsub("NA and ", "", dat$Setting)
-
-clean_set = gsub(",.*$", "", dat$Setting)
-setting_list = ifelse(
-  grepl("delivered NA", clean_set, fixed = TRUE), NA,
-  ifelse(grepl("clinic", clean_set, fixed = TRUE), "clinic",
-         ifelse(grepl("home", clean_set, fixed = TRUE), "homeT",
-                ifelse(grepl("school", clean_set, fixed = TRUE), "school", NA))))
 # dat$Measure = gsub("NA and ", "", dat$Measure)
 
-implement_img = paste0("<div class='ul_age'><div class='", setting_list, "'></div></div>")
+
 
 Implent_setting_text = with(dat, paste0(
   "This type of intervention ", stringr::str_to_lower(Setting), 
   ". It ", stringr::str_to_lower(Implementer), ". "
-))
+  ))
 
-implement_card = paste0(
-  card_carac, 
-    card_carac_head,
-      "Implementation",
-    c_div,
-    card_carac_img,
-      implement_img,
-    c_div,
-    card_carac_body,
-      Implent_setting_text,
-    d_civ,
-  d_civ
-)
-
-
-# key = with(dat, paste0(Age_text, IQ_text, Implent_setting_text, Duration_text, Dose_text))
-key = paste0(
-  "<div class='card_carac_container'>",
-    participant_card, 
-    implement_card,
-    length_card,
-  "</div>")
+key = with(dat, paste0(Age_text, IQ_text, Implent_setting_text, Duration_text, Dose_text))
 
 
 
@@ -452,6 +356,25 @@ dat$'More information' = paste0('<a class="learnMORE" href="../html/',
 dat$"Number of clinical trials<br>[meta-analyses]" = paste0("nCCT=", dat$n_cct_intervention, " [nSR/MA=", 
                                                             dat$n_meta_intervention, "]")
 dat$Outcome = dat$outcome_intervention
+dat$Age = stringr::str_to_sentence(dat$Age)
+
+dat$Age_bounds = gsub(" to ", "", dat$Age_bounds)
+dat$Age_bounds = gsub("\\s*\\([^\\)]+\\)", "", dat$Age_bounds)
+dat$Age_boundsSAVE = dat$Age_bounds
+dat$Age_bounds = gsub("very young children", "<li>Very young children</li>", dat$Age_bounds)
+dat$Age_bounds = gsub("school-age children", "<li>School-age children</li>", dat$Age_bounds)
+dat$Age_bounds = gsub("adolescents", "<li>Adolescents</li>", dat$Age_bounds)
+dat$Age_bounds = gsub("adults", "<li>Adults</li>", dat$Age_bounds)
+dat$Age_bounds = paste0("<ul>", dat$Age_bounds, "</ul>")
+dat$Age = dat$Age_bounds
+
+
+dat$Age_boundsSAVE = gsub("very young children", "<li class='baby'>Very young children</li>", dat$Age_boundsSAVE)
+dat$Age_boundsSAVE = gsub("school-age children", "<li class='child'>School-age children</li>", dat$Age_boundsSAVE)
+dat$Age_boundsSAVE = gsub("adolescents", "<li class='adol'>Adolescents</li>", dat$Age_boundsSAVE)
+dat$Age_boundsSAVE = gsub("adults", "<li class='adult'>Adults</li>", dat$Age_boundsSAVE)
+dat$Age_boundsSAVE = paste0("<ul class='ul_age'>", dat$Age_boundsSAVE, "</ul>")
+dat$Age = dat$Age_boundsSAVE
 
 custom_order <- c("Overall ASD symptoms",
                   "Social-communication",
@@ -553,7 +476,7 @@ dat$Group = ifelse(dat$Group == "Psychosocial",
                    paste0('<div class="classCOMP">', dat$Group, '</div>'), NA)))
 
 # TABLE INTERVENTIONS =============================================
-html_tbl = dat[, c("Group", "Interventions", "Age_bounds_list", "Outcome",
+html_tbl = dat[, c("Group", "Interventions", "Age", "Outcome",
                    "Number of clinical trials<br>[meta-analyses]"#,  "N<br>(CCT)", "N<br>(SR/MA)", 
                    # "More information"
 )] %>%
