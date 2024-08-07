@@ -187,11 +187,12 @@
 body {
   --delay-anim: 1s;
   --anim-dur: 2s;
+  --timedelay: 1s;
 }
 
 .heroIMG {
-  animation: slide-down linear var(--anim-dur) forwards;
-  animation-delay: calc(var(--delay-anim) * 1.3);
+  animation: slide-down linear 0.3s forwards;
+  animation-delay: 1.5s;
   transform: translateY(-10%);
   opacity: 0;
   width: 500px;
@@ -222,6 +223,16 @@ body {
   }
 }
 
+@keyframes slide-down {
+  0% {
+    scale: 2;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
 #svgContainer svg {
   z-index: 9999;
   width: 100%;
@@ -253,6 +264,45 @@ body {
   cursor: pointer;
 }
 
+@keyframes shade {
+  0% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#fig_litterature {
+  animation: shade linear 1s forwards;
+  animation-delay: calc(var(--timedelay));
+}
+
+#fig_quality {
+  animation: shade linear 1s forwards;
+  animation-delay: calc(var(--timedelay) * 1.05);
+}
+
+#fig_data {
+  animation: shade linear 1s forwards;
+  animation-delay: calc(var(--timedelay) * 1.1);
+}
+
+#fig_dev {
+  animation: shade linear 1s forwards;
+  animation-delay: calc(var(--timedelay) * 1.15);
+}
+
+#fig_features {
+  animation: shade linear 1s forwards;
+  animation-delay: calc(var(--timedelay) * 1.2);
+}
+
 /* Optional: ensure text elements have pointer cursor */
 text {
   cursor: pointer;
@@ -273,6 +323,32 @@ text {
   opacity: 0;
 }
 
+@keyframes slide-right {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
 button {
   position: relative;
   background: #fff;
@@ -303,45 +379,6 @@ button {
   }
   100% {
     transform: translateY(0%);
-    opacity: 1;
-  }
-}
-@keyframes slide-down {
-  0% {
-    transform: translateY(-10%);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
-@keyframes slide-right {
-  0% {
-    transform: translateX(-50%);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-}
-@keyframes slide-left {
-  0% {
-    transform: translateX(50%);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(0%);
     opacity: 1;
   }
 }

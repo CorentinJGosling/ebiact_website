@@ -11,7 +11,7 @@ function countUpTo(div, number) {
       count += 5;
       counterElement.innerHTML = count;
     }
-  }, 40);
+  }, 25);
 }
 
 window.onload = function () {
@@ -20,7 +20,6 @@ window.onload = function () {
   countUpTo(".vig3", 368);
   countUpTo(".vig4", 394);
 };
-ScrollReveal().reveal(".appear", { delay: 400 });
 document.addEventListener("DOMContentLoaded", function () {
   fetch("img/ebiact-main.svg")
     .then((response) => response.text())
