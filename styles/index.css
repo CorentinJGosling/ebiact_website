@@ -191,17 +191,17 @@ body {
 }
 
 .heroIMG {
-  animation: slide-down linear 0.3s forwards;
+  animation: slide-down linear 0.5s forwards;
   animation-delay: 1.5s;
   transform: translateY(-10%);
   opacity: 0;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
 }
 @media screen and (max-width: 1600px) {
   .heroIMG {
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -227,6 +227,9 @@ body {
   0% {
     scale: 2;
     opacity: 0;
+  }
+  90% {
+    scale: 0.6;
   }
   100% {
     scale: 1;
@@ -260,7 +263,7 @@ body {
 
 /* Apply hover effect */
 .hovered {
-  opacity: 0.5 !important;
+  opacity: 0.8 !important;
   cursor: pointer;
 }
 
