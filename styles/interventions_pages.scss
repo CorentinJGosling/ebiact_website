@@ -45,11 +45,16 @@ body {
       color: #145062;
     }
   }
+  .header_tab {
+    font-size: 1.2rem;
+    color: #1088ad;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
 
   .desc_tab {
     color: #1088ad;
     font-weight: bold;
-    text-align: center;
     font-size: 1.8rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -59,6 +64,7 @@ body {
     color: #1088ad;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 2rem;
     // border: 2px solid red;
   }
   // .shalf {
@@ -70,13 +76,6 @@ body {
   //     grid-template-columns: auto;
   //   }
   // }
-  .header_tab {
-    font-size: 1.2rem;
-    color: #1088ad;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
-    text-align: center;
-  }
 
   .card_carac_container {
     display: grid;
@@ -84,6 +83,7 @@ body {
     font-size: 0.8rem;
     gap: 2rem;
     text-align: center;
+    margin-bottom: 5rem;
     @media (max-width: 900px) {
       grid-template-columns: auto;
     }
@@ -256,4 +256,67 @@ body {
   margin-right: auto;
   background-color: #1088ad; /* Set the color of the horizontal rule */
   border: none; /* Remove default border */
+}
+
+@mixin circle($size) {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - #{$size/2});
+  top: calc(50% - #{$size/2});
+  width: $size;
+  height: $size;
+}
+
+$size: 200px;
+.progress-pie-chart {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  position: relative;
+  &.gt-50 {
+    background-color: #81ce97;
+  }
+}
+.ppc-progress {
+  @include circle($size);
+  clip: rect(0, $size, $size, #{$size/2});
+  .ppc-progress-fill {
+    @include circle($size);
+    clip: rect(0, #{$size/2}, $size, 0);
+    background: #81ce97;
+    transform: rotate(60deg);
+  }
+  .gt-50 & {
+    clip: rect(0, #{$size/2}, $size, 0);
+    .ppc-progress-fill {
+      clip: rect(0, $size, $size, #{$size/2});
+      background: #e5e5e5;
+    }
+  }
+}
+.ppc-percents {
+  @include circle(#{$size/1.15});
+  background: #fff;
+  text-align: center;
+  display: table;
+  span {
+    display: block;
+    font-size: 2.6em;
+    font-weight: bold;
+    color: #81ce97;
+  }
+}
+.pcc-percents-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+body {
+  font-family: Arial;
+  background: #f7f7f7;
+}
+.progress-pie-chart {
+  margin: 50px auto 0;
 }

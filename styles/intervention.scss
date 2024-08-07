@@ -280,9 +280,8 @@ h2 {
 .ul_age li {
   padding-left: 30px; /* Example padding */
   position: relative; /* Position relative for absolute positioning of bullets */
-  line-height: 0.9; /* Adjust line height for proper spacing */
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   //  margin-bottom: 0.4rem;
 }
 
@@ -341,27 +340,27 @@ h2 {
   }
 
   /* Change the color of bullets based on class */
-  .A_CORE_SYMPT::before {
+  .CORE_ASD::before {
     color: rgb(3, 115, 20); /* Color for class1 */
   }
-  .B_ADAPT::before {
+  .FUNCTIONING::before {
     color: rgb(99, 168, 214); /* Color for class3 */
   }
-  .C_LANG::before {
+  .LANGUAGE::before {
     color: rgb(255, 194, 51); /* Color for class3 */
   }
 
-  .D_PROB::before {
+  .PROBLEMATIC::before {
     color: rgb(231, 62, 211); /* Color for class2 */
   }
 
-  .F_SAFETY::before {
+  .SAFETY::before {
     color: rgb(194, 61, 61); /* Color for class3 */
   }
-  .G_SLEEP::before {
+  .SLEEP::before {
     color: rgb(80, 186, 184); /* Color for class3 */
   }
-  .E_COMORB::before {
+  .COMORBIDITY::before {
     color: rgb(203, 121, 210); /* Color for class3 */
   }
 }

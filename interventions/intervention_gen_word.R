@@ -195,8 +195,8 @@ participant_card = paste0(
     card_carac_body,
       Age_text, 
       IQ_text,
-    d_civ,
-  d_civ
+    c_div,
+  c_div
 )
 
 ###################################################################################
@@ -275,8 +275,8 @@ length_card = paste0(
     card_carac_body,
       Duration_text,
       Dose_text,
-    d_civ,
-  d_civ
+    c_div,
+  c_div
 )
 
 
@@ -356,8 +356,8 @@ implement_card = paste0(
     c_div,
     card_carac_body,
       Implent_setting_text,
-    d_civ,
-  d_civ
+    c_div,
+  c_div
 )
 
 
@@ -392,28 +392,31 @@ button = paste0('<div class="btn_container"><a href="interventions.html" class="
                 interventions</a
                 ></div>')
 nrow = 1:nrow(dat)
+
 dat$text = with(dat, paste0(
-  paste0("<div class='desc_tab'>More information about<br>", 
-         Interventions, " (", Acronym, ")</div>"),
-  button,
+  paste0(
+    "<div class='desc_tab'>More information about<br>", Interventions, " (", Acronym, ")</div>"),
+    button,
   
-  "<div class='hero'>",
-  "<div class='hero_image'>",
-  paste0("<img src='", dat$img, "' />"),
-  "</div>",
-  "<div class='hero_left'>",
-  "<div class='hero_history'>",
-  ifelse(dat$History == "<p></p>", "", paste0("<div class='header_tab'>History of ", Acronym, "</div>")),
+    "<div class='hero'>",
+      "<div class='hero_image'>",
+        paste0("<img src='", dat$img, "' />"),
+      "</div>",
   
-  ifelse(dat$History == "<p></p>", "", paste0("<div class='history'>", 
-                                        History, 
-                                        "</div>")),
-  "</div>", # hero history
-  "<div class='hero_description'>",
-  "<div class='header_tab'>Description of ", Acronym, "</div>",
-  Description,
-  "</div>", # hero description
-  "</div>", # hero left
+      "<div class='hero_left'>",
+        "<div class='hero_history'>",
+          ifelse(dat$History == "<p></p>", "", 
+                 paste0("<div class='header_tab'>History of ", Acronym, "</div>")),
+          
+          ifelse(dat$History == "<p></p>", "", 
+                 paste0("<div class='history'>",History, "</div>")),
+        "</div>", 
+  
+        "<div class='hero_description'>",
+            "<div class='header_tab'>Description of ", Acronym, "</div>",
+             Description,
+        "</div>", # hero description
+      "</div>", # hero left
   "</div>", # hero 
   
   '<hr class="custom-hr">',
@@ -421,16 +424,19 @@ dat$text = with(dat, paste0(
   
   "<div class='shalf'>",
   "<div class='shalf_carac'>",
-  "<div class='header_tab'>Key characteristics of ", Acronym, "</div>",
+  # "<div class='header_tab'>Key characteristics of ", Acronym, "</div>",
   key,
   "</div>",
-  "<div class='shalf_literature'>",
-  "<div class='header_tab'>Scientific papers</div>",
-  database,
-  "</div>",
-  "</div>",
+  # "<div class='shalf_literature'>",
+  # "<div class='header_tab'>Scientific papers</div>",
+  # database,
+  # "</div>",
+  # "</div>",
+  
+  '<hr class="custom-hr">',
   
   "<div class='bottom_ressources'>",
+  "<div class='header_shalf'>Additional resources</div>",
   
   paste0("<div class='header_tab'>Links to identified meta-analyses for ", dat$Acronym, "</div>"),
   "<div class='ressources'>",
@@ -465,82 +471,53 @@ custom_order <- c("Overall ASD symptoms",
                   "Anxiety", "Mood related symptoms",
                   "Sleep quality", "Sleep quantity")
 
+core_asd = c("Overall ASD symptoms",
+             "Social-communication",
+             "Restricted/repetitive behaviors", "Sensory Profile")
+
+functioning = c("Global cognition \\(IQ\\)", 
+                "Specific cognition \\(nvIQ\\)", "Adaptive behaviors", "Quality of life")
+
+problematic = "Disruptive behaviors"
+
+language = "Language" 
+
+psy_comor = c("ADHD symptoms", "Anxiety", "Mood related symptoms")  
+
+sleep = c("Sleep quality", "Sleep quantity")
+
+safety = c("Acceptability", "Tolerability", "Adverse events")
+
+
 dat$Outcome = gsub("\\(Overall skills\\)", "", dat$Outcome)
 dat$Outcome = gsub("\\(Receptive skills\\)", "", dat$Outcome)
 dat$Outcome = gsub("\\(Expressive skills\\)", "", dat$Outcome)
 
+dat$Outcome_clean = gsub(paste(core_asd, collapse="|"), "core_asd", dat$Outcome)
+dat$Outcome_clean = gsub(paste(problematic, collapse="|"), "problematic", dat$Outcome_clean)
+dat$Outcome_clean = gsub(paste(functioning, collapse="|"), "functioning", dat$Outcome_clean)
+dat$Outcome_clean = gsub(paste(language, collapse="|"), "language", dat$Outcome_clean)
+dat$Outcome_clean = gsub(paste(psy_comor, collapse="|"), "comorbidity", dat$Outcome_clean)
+dat$Outcome_clean = gsub(paste(safety, collapse="|"), "safety", dat$Outcome_clean)
+dat$Outcome_clean = gsub(paste(sleep, collapse="|"), "sleep", dat$Outcome_clean)
+outcome_save_checks = dat$Outcome_clean 
+# dat$Outcome_clean = outcome_save_checks
+custom_order = c("core_asd", "safety", "functioning", "language", "sleep", 
+                 "comorbidity" , "problematic")
+names_order = c("Core ASD symptoms", "Safety", "Functioning", "Language",
+                "Sleep", "Psychiatric comorbidity", "Problematic behaviors")
 for (i in 1:nrow(dat)) {
-  words <- strsplit(dat$Outcome[i], "\\|")[[1]]
+  words <- strsplit(dat$Outcome_clean[i], "\\|")[[1]]
   words <- unique(trimws(words))
   ordered_vector <- factor(words, levels = custom_order)
-  sorted_words <- ordered_vector[order(ordered_vector)]
-  sorted_string <- paste(sorted_words, collapse = "</li><li>")
-  dat$Outcome[i] <- paste0("<ul class='ul_outcome'><li>", sorted_string, "</li></ul>")
+  sorted_words <- as.character(ordered_vector[order(ordered_vector)])
+  dat$Outcome_clean[i] <- paste0("<ul class='ul_outcome'>",
+          paste("<li class = '", toupper(sorted_words), "'>", sorted_words, "</li>", collapse=""),
+          "</ul>")
 }
-
-dat$Outcome = gsub("<li>Social\\-communication</li>", 
-                   "<li class='A_CORE_SYMPT'>Social\\-communication</li>", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Overall ASD symptoms</li>", 
-                   "<li class='A_CORE_SYMPT'>Overall ASD symptoms</li>", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Restricted/repetitive behaviors</li>", 
-                   "<li class='A_CORE_SYMPT'>Restricted/repetitive behaviors</li>", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Sensory Profile</li>", 
-                   "<li class='A_CORE_SYMPT'>Sensory Profile</li>", 
-                   dat$Outcome)
-
-dat$Outcome = gsub("<li>Disruptive behaviors</li>", 
-                   "<li class='D_PROB'>Disruptive behaviors</li>", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Language", 
-                   "<li class='C_LANG'>Language", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Quality of life</li>", 
-                   "<li class='B_ADAPT'>Quality of life</li>", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Adaptive behaviors</li>", 
-                   "<li class='B_ADAPT'>Adaptive behaviors</li>", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Global cognition (IQ)", 
-                   "<li class='B_ADAPT'>Global cognition", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Specific cognition (nvIQ)", 
-                   "<li class='B_ADAPT'>Specific cognition", 
-                   dat$Outcome)
-
-dat$Outcome = gsub("<li>ADHD symptoms", 
-                   "<li class='E_COMORB'>ADHD symptoms", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Anxiety", 
-                   "<li class='E_COMORB'>Anxiety", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Mood related symptoms", 
-                   "<li class='E_COMORB'>Mood-related symptoms", 
-                   dat$Outcome)
-
-dat$Outcome = gsub("<li>Acceptability", 
-                   "<li class='F_SAFETY'>Acceptability", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Tolerability", 
-                   "<li class='F_SAFETY'>Tolerability", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Adverse events", 
-                   "<li class='F_SAFETY'>Adverse events", 
-                   dat$Outcome)
-
-
-dat$Outcome = gsub("<li>Sleep quality", 
-                   "<li class='G_SLEEP'>Sleep quality", 
-                   dat$Outcome)
-dat$Outcome = gsub("<li>Sleep quantity", 
-                   "<li class='G_SLEEP'>Sleep quantity", 
-                   dat$Outcome)
-
-dat$Outcome = gsub("<li></li>", "",   dat$Outcome)
-
-
+for (i in 1:length(custom_order))
+dat$Outcome_clean = gsub(custom_order[i], names_order[i], dat$Outcome_clean)
+dat$Outcome_clean
 dat$Interventions = paste0('<a class="learnMORE" style="font-weight: 600" href="../html/', 
                            dat$Acronym, '.html" target="_blank"',
                            '>', dat$Interventions, '<br>[',
@@ -553,7 +530,7 @@ dat$Group = ifelse(dat$Group == "Psychosocial",
                    paste0('<div class="classCOMP">', dat$Group, '</div>'), NA)))
 
 # TABLE INTERVENTIONS =============================================
-html_tbl = dat[, c("Group", "Interventions", "Age_bounds_list", "Outcome",
+html_tbl = dat[, c("Group", "Interventions", "Age_bounds_list", "Outcome_clean",
                    "Number of clinical trials<br>[meta-analyses]"#,  "N<br>(CCT)", "N<br>(SR/MA)", 
                    # "More information"
 )] %>%
@@ -606,8 +583,35 @@ for (fact in dat$Acronym) {
     paste0(
       page,
       dat[dat$Acronym == fact, "text"],
-      "</body>
-        </html>"
+    # paste0('
+    #        <div class="progress-pie-chart" data-percent="25">
+    #             <div class="ppc-progress">
+    #               <div class="ppc-progress-fill"></div>
+    #             </div>
+    #             <div class="ppc-percents">
+    #               <div class="pcc-percents-wrapper">
+    #                 <span>%</span>
+    #               </div>
+    #             </div>
+    #           </div>
+    #        '),
+    #   
+    # paste0(
+    #   "<script>",
+    #   "$(function(){
+    #     var $ppc = $('.progress-pie-chart'),
+    #     percent = parseInt($ppc.data('percent')),
+    #     deg = 360*percent/100;
+    #     if (percent > 50) {
+    #       $ppc.addClass('gt-50');
+    #     }
+    #     $('.ppc-progress-fill').css('transform','rotate('+ deg +'deg)');
+    #     $('.ppc-percents span').html('", dat[dat$Acronym == fact, "Acronym"], "');
+    #   });",
+    #   "</script>"
+    # ),
+  "</body>
+  </html>"
     )),
     paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/",
            "Article 2 - Base de Donnees/ebiact/website/",
@@ -629,3 +633,70 @@ rio::export(
          "Article 2 - Base de Donnees/ebiact/website/",
          "js/world_cloud.txt")
 )
+
+
+# 
+# 
+# dat$Outcome = gsub("<li>Social\\-communication</li>", 
+#                    "<li class='A_CORE_SYMPT'>Social\\-communication</li>", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Overall ASD symptoms</li>", 
+#                    "<li class='A_CORE_SYMPT'>Overall ASD symptoms</li>", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Restricted/repetitive behaviors</li>", 
+#                    "<li class='A_CORE_SYMPT'>Restricted/repetitive behaviors</li>", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Sensory Profile</li>", 
+#                    "<li class='A_CORE_SYMPT'>Sensory Profile</li>", 
+#                    dat$Outcome)
+# 
+# dat$Outcome = gsub("<li>Disruptive behaviors</li>", 
+#                    "<li class='D_PROB'>Disruptive behaviors</li>", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Language", 
+#                    "<li class='C_LANG'>Language", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Quality of life</li>", 
+#                    "<li class='B_ADAPT'>Quality of life</li>", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Adaptive behaviors</li>", 
+#                    "<li class='B_ADAPT'>Adaptive behaviors</li>", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Global cognition (IQ)", 
+#                    "<li class='B_ADAPT'>Global cognition", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Specific cognition (nvIQ)", 
+#                    "<li class='B_ADAPT'>Specific cognition", 
+#                    dat$Outcome)
+# 
+# dat$Outcome = gsub("<li>ADHD symptoms", 
+#                    "<li class='E_COMORB'>ADHD symptoms", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Anxiety", 
+#                    "<li class='E_COMORB'>Anxiety", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Mood related symptoms", 
+#                    "<li class='E_COMORB'>Mood-related symptoms", 
+#                    dat$Outcome)
+# 
+# dat$Outcome = gsub("<li>Acceptability", 
+#                    "<li class='F_SAFETY'>Acceptability", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Tolerability", 
+#                    "<li class='F_SAFETY'>Tolerability", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Adverse events", 
+#                    "<li class='F_SAFETY'>Adverse events", 
+#                    dat$Outcome)
+# 
+# 
+# dat$Outcome = gsub("<li>Sleep quality", 
+#                    "<li class='G_SLEEP'>Sleep quality", 
+#                    dat$Outcome)
+# dat$Outcome = gsub("<li>Sleep quantity", 
+#                    "<li class='G_SLEEP'>Sleep quantity", 
+#                    dat$Outcome)
+# 
+# dat$Outcome = gsub("<li></li>", "",   dat$Outcome)
+
+

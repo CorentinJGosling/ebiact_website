@@ -47,10 +47,15 @@ body ul li {
 body ul li a {
   color: #145062;
 }
+body .header_tab {
+  font-size: 1.2rem;
+  color: #1088ad;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
 body .desc_tab {
   color: #1088ad;
   font-weight: bold;
-  text-align: center;
   font-size: 1.8rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -60,13 +65,7 @@ body .header_shalf {
   color: #1088ad;
   text-align: center;
   font-weight: bold;
-}
-body .header_tab {
-  font-size: 1.2rem;
-  color: #1088ad;
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem;
-  text-align: center;
+  margin-bottom: 2rem;
 }
 body .card_carac_container {
   display: grid;
@@ -74,6 +73,7 @@ body .card_carac_container {
   font-size: 0.8rem;
   gap: 2rem;
   text-align: center;
+  margin-bottom: 5rem;
 }
 @media (max-width: 900px) {
   body .card_carac_container {
@@ -240,4 +240,78 @@ body .bottom_ressources .ressources a {
   margin-right: auto;
   background-color: #1088ad; /* Set the color of the horizontal rule */
   border: none; /* Remove default border */
+}
+
+.progress-pie-chart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  position: relative;
+}
+.progress-pie-chart.gt-50 {
+  background-color: #81ce97;
+}
+
+.ppc-progress {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 200px, 200px, 100px);
+}
+.ppc-progress .ppc-progress-fill {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 100px, 200px, 0);
+  background: #81ce97;
+  transform: rotate(60deg);
+}
+.gt-50 .ppc-progress {
+  clip: rect(0, 100px, 200px, 0);
+}
+.gt-50 .ppc-progress .ppc-progress-fill {
+  clip: rect(0, 200px, 200px, 100px);
+  background: #e5e5e5;
+}
+
+.ppc-percents {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 173.9130434783px/2);
+  top: calc(50% - 173.9130434783px/2);
+  width: 173.9130434783px;
+  height: 173.9130434783px;
+  background: #fff;
+  text-align: center;
+  display: table;
+}
+.ppc-percents span {
+  display: block;
+  font-size: 2.6em;
+  font-weight: bold;
+  color: #81ce97;
+}
+
+.pcc-percents-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+body {
+  font-family: Arial;
+  background: #f7f7f7;
+}
+
+.progress-pie-chart {
+  margin: 50px auto 0;
 }/*# sourceMappingURL=interventions_pages.css.map */

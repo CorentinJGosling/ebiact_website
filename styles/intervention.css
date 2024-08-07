@@ -266,9 +266,8 @@ h2 {
 .ul_age li {
   padding-left: 30px; /* Example padding */
   position: relative; /* Position relative for absolute positioning of bullets */
-  line-height: 0.9; /* Adjust line height for proper spacing */
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 /* Style for colored bullets */
@@ -326,25 +325,25 @@ h2 {
   top: 50%; /* Center bullet vertically */
   transform: translateY(-50%); /* Adjust vertical alignment */
 }
-.ul_outcome .A_CORE_SYMPT::before {
+.ul_outcome .CORE_ASD::before {
   color: rgb(3, 115, 20); /* Color for class1 */
 }
-.ul_outcome .B_ADAPT::before {
+.ul_outcome .FUNCTIONING::before {
   color: rgb(99, 168, 214); /* Color for class3 */
 }
-.ul_outcome .C_LANG::before {
+.ul_outcome .LANGUAGE::before {
   color: rgb(255, 194, 51); /* Color for class3 */
 }
-.ul_outcome .D_PROB::before {
+.ul_outcome .PROBLEMATIC::before {
   color: rgb(231, 62, 211); /* Color for class2 */
 }
-.ul_outcome .F_SAFETY::before {
+.ul_outcome .SAFETY::before {
   color: rgb(194, 61, 61); /* Color for class3 */
 }
-.ul_outcome .G_SLEEP::before {
+.ul_outcome .SLEEP::before {
   color: rgb(80, 186, 184); /* Color for class3 */
 }
-.ul_outcome .E_COMORB::before {
+.ul_outcome .COMORBIDITY::before {
   color: rgb(203, 121, 210); /* Color for class3 */
 }
 

@@ -223,6 +223,7 @@
 #menu-toggle {
   display: none;
   @media (max-width: 900px) {
+    margin-top: 2rem;
     display: block;
   }
 }
@@ -247,7 +248,7 @@
   .logoZONE .logo3 {
     width: 90px;
   }
-  svg path {
+  nav svg path {
     stroke-width: 1.5px;
     stroke: #000;
   }
