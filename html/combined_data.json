@@ -1,0 +1,419 @@
+{
+  "background": [
+    {
+      "x": ">= 20 yo",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 3,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 1,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 3,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 1,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 3,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 1,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Tolerability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 3,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Acceptability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 3,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Acceptability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Acceptability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 1,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Tolerability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 1,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Quality of life",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Anxiety",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Mood related symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "ADHD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "ADHD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "ASD-related symptoms"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 17.5917,
+      "Outcome_group": "ASD-related symptoms"
+    }
+  ],
+  "main": [
+    {
+      "x": ">= 20 yo",
+      "y": "Restricted/repetitive behaviors",
+      "r": 11.3753,
+      "backgroundColor": "#A2CDAE",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Restricted/repetitive behaviors",
+      "r": 9.8283,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Social-communication",
+      "r": 11.3753,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Social-communication",
+      "r": 8.1589,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Overall ASD symptoms",
+      "r": 9.8283,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Social-communication",
+      "r": 9.8283,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Overall ASD symptoms",
+      "r": 9.8283,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Restricted/repetitive behaviors",
+      "r": 9.8283,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Tolerability",
+      "r": 11.3753,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Adverse events",
+      "r": 14.2383,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Adverse events",
+      "r": 8.1589,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Acceptability",
+      "r": 11.3753,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Acceptability",
+      "r": 15.5917,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Acceptability",
+      "r": 11.3753,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Tolerability",
+      "r": 11.3753,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Adverse events",
+      "r": 4.0794,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Quality of life",
+      "r": 4.0794,
+      "backgroundColor": "#DEADA7",
+      "borderWidth": 0,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Anxiety",
+      "r": 4.0794,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "13-19 yo",
+      "y": "Mood related symptoms",
+      "r": 8.1589,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "ADHD symptoms",
+      "r": 4.0794,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "ADHD symptoms",
+      "r": 4.0794,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Disruptive behaviors",
+      "r": 6.2958,
+      "backgroundColor": "#A2CDAE",
+      "borderWidth": 0,
+      "Outcome_group": "ASD-related symptoms"
+    },
+    {
+      "x": ">= 20 yo",
+      "y": "Disruptive behaviors",
+      "r": 6.2958,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "ASD-related symptoms"
+    }
+  ],
+  "star": [
+    {
+      "x": ">= 20 yo",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 16.3753,
+      "pointRadius": 11.3753,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "6-12 yo",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 11.2958,
+      "pointRadius": 6.2958,
+      "Outcome_group": "ASD-related symptoms"
+    }
+  ],
+  "xLabels": [">= 20 yo", "6-12 yo", "13-19 yo"],
+  "yLabels": ["Restricted/repetitive behaviors", "Social-communication", "Overall ASD symptoms", "", "Tolerability", "Adverse events", "Acceptability", "", "Quality of life", "", "Anxiety", "Mood related symptoms", "ADHD symptoms", "", "Disruptive behaviors", ""]
+}

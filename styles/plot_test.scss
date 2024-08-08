@@ -1,0 +1,13 @@
+.container_canvas {
+  width: 700px !important;
+  height: 600px !important; /* Adjust height if needed */
+}
+
+#myScatterPlot {
+  width: 100% !important; /* Make canvas width fit the container */
+  height: 400px; /* Set canvas height explicitly */
+  border: 2px solid #000;
+}
+.pointer-cursor {
+  cursor: pointer;
+}

@@ -1,0 +1,82 @@
+{
+  "background": [
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.1589,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Acceptability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.1589,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.1589,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Adaptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.1589,
+      "Outcome_group": "Functioning"
+    }
+  ],
+  "main": [
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Social-communication",
+      "r": 9.1589,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Acceptability",
+      "r": 8.2958,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Adverse events",
+      "r": 9.1589,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Adaptive behaviors",
+      "r": 9.1589,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Functioning"
+    }
+  ],
+  "star": [
+    {
+      "backgroundColor": "red",
+      "borderColor": "#red"
+    }
+  ],
+  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+}

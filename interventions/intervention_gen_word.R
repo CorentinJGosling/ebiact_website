@@ -67,6 +67,7 @@ dat$Ressources = dat$Description = dat$History = dat$img = dat$Acronym =
   dat$Group = NA
 
 for (i in 1:length(filter_tables)) {
+  print(i)
   tab = tables[[i]]
   hist = urls = urls_clickable = NA
   for (r in 5:6) {
@@ -406,21 +407,21 @@ dat$text = with(dat, paste0(
       "<div class='hero_left'>",
         "<div class='hero_history'>",
           ifelse(dat$History == "<p></p>", "", 
-                 paste0("<div class='header_tab'>History of ", Acronym, "</div>")),
+                 paste0("<div class='header_tab'>History of ", dat$Interventions, "</div>")),
           
           ifelse(dat$History == "<p></p>", "", 
                  paste0("<div class='history'>",History, "</div>")),
         "</div>", 
   
         "<div class='hero_description'>",
-            "<div class='header_tab'>Description of ", Acronym, "</div>",
+            "<div class='header_tab'>Description of ", dat$Interventions, "</div>",
              Description,
         "</div>", # hero description
       "</div>", # hero left
   "</div>", # hero 
   
   '<hr class="custom-hr">',
-  "<div class='header_shalf'>What we found in the scientific literature</div>",
+  "<div class='header_shalf'>Main features of ", dat$Interventions, "</div>",
   
   "<div class='shalf'>",
   "<div class='shalf_carac'>",
@@ -432,6 +433,10 @@ dat$text = with(dat, paste0(
   # database,
   # "</div>",
   # "</div>",
+  
+  '<hr class="custom-hr">',
+  "<div class='header_shalf'>Evidence about efficacy and safety of<br> ", dat$Interventions, "</div>",
+  '<div class="container_canvas"><canvas id="myScatterPlot"></canvas></div>',
   
   '<hr class="custom-hr">',
   
@@ -556,12 +561,14 @@ for (fact in dat$Acronym) {
     <!----======== CSS ======== -->
     <link rel="stylesheet" href="../styles/interventions_pages.css" />
     <link rel="stylesheet" href="../styles/nav.css" />
-    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!----======== JS ======== -->
+    <script src="../js/plot_overview.js"></script> 
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
-    <!----===== Boxicons CSS ===== -->
     <link rel="icon" href="../img/profile_icon_inter.svg" />
     <link
       rel="stylesheet"
@@ -570,13 +577,7 @@ for (fact in dat$Acronym) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-
-    <!--<title>Dashboard Sidebar Menu</title>-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>'  
   writeLines(as.character(
@@ -610,6 +611,8 @@ for (fact in dat$Acronym) {
     #   });",
     #   "</script>"
     # ),
+    # '<script type="text/javascript" src="../js/', "plot_overview", '.js"></script>',
+    "<script>createScatterPlot('../js/", fact, ".json');</script>",
   "</body>
   </html>"
     )),
@@ -618,7 +621,6 @@ for (fact in dat$Acronym) {
            "html/",
            fact,
            ".html"))
-  
 }
 word = NULL
 for (i in 1:nrow(dat)){
@@ -633,70 +635,4 @@ rio::export(
          "Article 2 - Base de Donnees/ebiact/website/",
          "js/world_cloud.txt")
 )
-
-
-# 
-# 
-# dat$Outcome = gsub("<li>Social\\-communication</li>", 
-#                    "<li class='A_CORE_SYMPT'>Social\\-communication</li>", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Overall ASD symptoms</li>", 
-#                    "<li class='A_CORE_SYMPT'>Overall ASD symptoms</li>", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Restricted/repetitive behaviors</li>", 
-#                    "<li class='A_CORE_SYMPT'>Restricted/repetitive behaviors</li>", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Sensory Profile</li>", 
-#                    "<li class='A_CORE_SYMPT'>Sensory Profile</li>", 
-#                    dat$Outcome)
-# 
-# dat$Outcome = gsub("<li>Disruptive behaviors</li>", 
-#                    "<li class='D_PROB'>Disruptive behaviors</li>", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Language", 
-#                    "<li class='C_LANG'>Language", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Quality of life</li>", 
-#                    "<li class='B_ADAPT'>Quality of life</li>", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Adaptive behaviors</li>", 
-#                    "<li class='B_ADAPT'>Adaptive behaviors</li>", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Global cognition (IQ)", 
-#                    "<li class='B_ADAPT'>Global cognition", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Specific cognition (nvIQ)", 
-#                    "<li class='B_ADAPT'>Specific cognition", 
-#                    dat$Outcome)
-# 
-# dat$Outcome = gsub("<li>ADHD symptoms", 
-#                    "<li class='E_COMORB'>ADHD symptoms", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Anxiety", 
-#                    "<li class='E_COMORB'>Anxiety", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Mood related symptoms", 
-#                    "<li class='E_COMORB'>Mood-related symptoms", 
-#                    dat$Outcome)
-# 
-# dat$Outcome = gsub("<li>Acceptability", 
-#                    "<li class='F_SAFETY'>Acceptability", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Tolerability", 
-#                    "<li class='F_SAFETY'>Tolerability", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Adverse events", 
-#                    "<li class='F_SAFETY'>Adverse events", 
-#                    dat$Outcome)
-# 
-# 
-# dat$Outcome = gsub("<li>Sleep quality", 
-#                    "<li class='G_SLEEP'>Sleep quality", 
-#                    dat$Outcome)
-# dat$Outcome = gsub("<li>Sleep quantity", 
-#                    "<li class='G_SLEEP'>Sleep quantity", 
-#                    dat$Outcome)
-# 
-# dat$Outcome = gsub("<li></li>", "",   dat$Outcome)
-
 

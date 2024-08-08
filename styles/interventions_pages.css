@@ -314,4 +314,18 @@ body {
 
 .progress-pie-chart {
   margin: 50px auto 0;
+}
+
+.container_canvas {
+  width: 100% !important;
+  height: 100% !important; /* Adjust height if needed */
+}
+
+#myScatterPlot {
+  width: 100% !important; /* Make canvas width fit the container */
+  height: 100% !important; /* Adjust height if needed */
+}
+
+.pointer-cursor {
+  cursor: pointer;
 }/*# sourceMappingURL=interventions_pages.css.map */

@@ -1,0 +1,147 @@
+{
+  "background": [
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Acceptability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.8283,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.8283,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Tolerability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.8283,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "ADHD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.8283,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sleep quality",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.8283,
+      "Outcome_group": "Sleep"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sleep quantity",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.8283,
+      "Outcome_group": "Sleep"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.8283,
+      "Outcome_group": "ASD-related symptoms"
+    }
+  ],
+  "main": [
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Acceptability",
+      "r": 9.1589,
+      "backgroundColor": "#A2CDAE",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Adverse events",
+      "r": 7.0794,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Tolerability",
+      "r": 9.1589,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "ADHD symptoms",
+      "r": 7.0794,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sleep quality",
+      "r": 9.8283,
+      "backgroundColor": "#30CC5C",
+      "borderWidth": 0,
+      "Outcome_group": "Sleep"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sleep quantity",
+      "r": 9.8283,
+      "backgroundColor": "#30CC5C",
+      "borderWidth": 0,
+      "Outcome_group": "Sleep"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Disruptive behaviors",
+      "r": 7.0794,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "ASD-related symptoms"
+    }
+  ],
+  "star": [
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sleep quality",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 14.8283,
+      "pointRadius": 9.8283,
+      "Outcome_group": "Sleep"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sleep quantity",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 14.8283,
+      "pointRadius": 9.8283,
+      "Outcome_group": "Sleep"
+    }
+  ],
+  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+}

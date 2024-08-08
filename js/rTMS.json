@@ -1,0 +1,114 @@
+{
+  "background": [
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.1589,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.1589,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "ADHD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.1589,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 11.1589,
+      "Outcome_group": "ASD-related symptoms"
+    }
+  ],
+  "main": [
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Restricted/repetitive behaviors",
+      "r": 9.1589,
+      "backgroundColor": "#68CD84",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Social-communication",
+      "r": 8.2958,
+      "backgroundColor": "#A2CDAE",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "ADHD symptoms",
+      "r": 8.2958,
+      "backgroundColor": "#68CD84",
+      "borderWidth": 0,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Disruptive behaviors",
+      "r": 8.2958,
+      "backgroundColor": "#30CC5C",
+      "borderWidth": 0,
+      "Outcome_group": "ASD-related symptoms"
+    }
+  ],
+  "star": [
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 14.1589,
+      "pointRadius": 9.1589,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Social-communication",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 13.2958,
+      "pointRadius": 8.2958,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "ADHD symptoms",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 13.2958,
+      "pointRadius": 8.2958,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 13.2958,
+      "pointRadius": 8.2958,
+      "Outcome_group": "ASD-related symptoms"
+    }
+  ],
+  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+}

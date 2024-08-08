@@ -1,0 +1,36 @@
+{
+  "background": [
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 12.3753,
+      "Outcome_group": "Core ASD symptoms"
+    }
+  ],
+  "main": [
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Overall ASD symptoms",
+      "r": 10.3753,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    }
+  ],
+  "star": [
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 15.3753,
+      "pointRadius": 10.3753,
+      "Outcome_group": "Core ASD symptoms"
+    }
+  ],
+  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+}

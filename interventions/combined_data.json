@@ -1,0 +1,62 @@
+{
+  "background": {
+    "data": [
+      {
+        "x": "A",
+        "y": "1"
+      },
+      {
+        "x": "B",
+        "y": "2"
+      },
+      {
+        "x": "C",
+        "y": "3"
+      },
+      {
+        "x": "D",
+        "y": "4"
+      }
+    ],
+    "backgroundColor": ["rgba(100, 100, 255, 0.1)"],
+    "borderColor": ["rgba(255, 255, 255, 0.0)"],
+    "borderWidth": [0],
+    "pointRadius": [20]
+  },
+  "main": [
+    {
+      "x": "A",
+      "y": "1",
+      "r": 5,
+      "backgroundColor": "rgba(255, 99, 132, 0.2)",
+      "borderColor": "rgba(255, 99, 132, 1)",
+      "borderWidth": 1
+    },
+    {
+      "x": "B",
+      "y": "2",
+      "r": 10,
+      "backgroundColor": "rgba(54, 162, 235, 0.2)",
+      "borderColor": "rgba(54, 162, 235, 1)",
+      "borderWidth": 2
+    },
+    {
+      "x": "C",
+      "y": "3",
+      "r": 15,
+      "backgroundColor": "rgba(75, 192, 192, 0.2)",
+      "borderColor": "rgba(75, 192, 192, 1)",
+      "borderWidth": 3
+    },
+    {
+      "x": "D",
+      "y": "4",
+      "r": 20,
+      "backgroundColor": "rgba(255, 206, 86, 0.2)",
+      "borderColor": "rgba(255, 206, 86, 1)",
+      "borderWidth": 4
+    }
+  ],
+  "xLabels": ["A", "B", "C", "D"],
+  "yLabels": ["1", "2", "3", "4"]
+}

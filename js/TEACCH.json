@@ -1,0 +1,121 @@
+{
+  "background": [
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 12.3753,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Adaptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 12.3753,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Global cognition (IQ)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 12.3753,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Language (Expressive skills)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 12.3753,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Language (Overall skills)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 12.3753,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Language (Receptive skills)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#000",
+      "borderWidth": 0,
+      "pointRadius": 12.3753,
+      "Outcome_group": "Functioning"
+    }
+  ],
+  "main": [
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Social-communication",
+      "r": 10.3753,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Adaptive behaviors",
+      "r": 9.1589,
+      "backgroundColor": "#A2CDAE",
+      "borderWidth": 0,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Global cognition (IQ)",
+      "r": 10.3753,
+      "backgroundColor": "#A2CDAE",
+      "borderWidth": 0,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Language (Expressive skills)",
+      "r": 8.2958,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Language (Overall skills)",
+      "r": 10.3753,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Functioning"
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Language (Receptive skills)",
+      "r": 8.2958,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Functioning"
+    }
+  ],
+  "star": [
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Global cognition (IQ)",
+      "backgroundColor": "red",
+      "borderColor": "#red",
+      "r": 15.3753,
+      "pointRadius": 10.3753,
+      "Outcome_group": "Functioning"
+    }
+  ],
+  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+}
