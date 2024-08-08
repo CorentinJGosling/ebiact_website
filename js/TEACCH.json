@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.3753,
+      "pointRadius": 16,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -15,7 +15,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.3753,
+      "pointRadius": 16,
       "Outcome_group": "Functioning"
     },
     {
@@ -24,7 +24,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.3753,
+      "pointRadius": 16,
       "Outcome_group": "Functioning"
     },
     {
@@ -33,7 +33,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.3753,
+      "pointRadius": 16,
       "Outcome_group": "Functioning"
     },
     {
@@ -42,7 +42,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.3753,
+      "pointRadius": 16,
       "Outcome_group": "Functioning"
     },
     {
@@ -51,7 +51,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.3753,
+      "pointRadius": 16,
       "Outcome_group": "Functioning"
     }
   ],
@@ -59,7 +59,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Social-communication",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -67,7 +67,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Adaptive behaviors",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -75,7 +75,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Global cognition (IQ)",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -83,7 +83,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Expressive skills)",
-      "r": 8.2958,
+      "r": 9.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -91,7 +91,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Language (Overall skills)",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -99,7 +99,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Receptive skills)",
-      "r": 8.2958,
+      "r": 9.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -111,8 +111,8 @@
       "y": "Global cognition (IQ)",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 15.3753,
-      "pointRadius": 10.3753,
+      "r": 19,
+      "pointRadius": 14,
       "Outcome_group": "Functioning"
     }
   ],

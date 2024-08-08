@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -15,7 +15,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -24,7 +24,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 1,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -33,7 +33,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -42,7 +42,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -51,7 +51,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -60,7 +60,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -69,7 +69,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -78,7 +78,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Psych. comorbidity"
     }
   ],
@@ -86,7 +86,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -94,7 +94,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Sensory Profile",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -102,7 +102,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -110,7 +110,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Adaptive behaviors",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -118,7 +118,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Global cognition (IQ)",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -126,7 +126,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Language (Expressive skills)",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -134,7 +134,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Language (Overall skills)",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -142,7 +142,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Language (Receptive skills)",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -150,7 +150,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Mood related symptoms",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Psych. comorbidity"
@@ -162,8 +162,8 @@
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 14.8283,
-      "pointRadius": 9.8283,
+      "r": 17.5,
+      "pointRadius": 12.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -171,8 +171,8 @@
       "y": "Adaptive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 14.8283,
-      "pointRadius": 9.8283,
+      "r": 17.5,
+      "pointRadius": 12.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -180,8 +180,8 @@
       "y": "Global cognition (IQ)",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 14.8283,
-      "pointRadius": 9.8283,
+      "r": 17.5,
+      "pointRadius": 12.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -189,8 +189,8 @@
       "y": "Language (Overall skills)",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 14.8283,
-      "pointRadius": 9.8283,
+      "r": 17.5,
+      "pointRadius": 12.5,
       "Outcome_group": "Functioning"
     }
   ],

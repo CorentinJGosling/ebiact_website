@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 14.4547,
+      "pointRadius": 25,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -15,7 +15,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 14.4547,
+      "pointRadius": 25,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -24,7 +24,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 14.4547,
+      "pointRadius": 25,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -33,7 +33,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 14.4547,
+      "pointRadius": 25,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -42,7 +42,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 14.4547,
+      "pointRadius": 25,
       "Outcome_group": "Functioning"
     },
     {
@@ -51,7 +51,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 14.4547,
+      "pointRadius": 25,
       "Outcome_group": "Functioning"
     },
     {
@@ -60,7 +60,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 14.4547,
+      "pointRadius": 25,
       "Outcome_group": "Functioning"
     }
   ],
@@ -68,7 +68,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Overall ASD symptoms",
-      "r": 12.4547,
+      "r": 23,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -76,7 +76,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
-      "r": 8.2958,
+      "r": 9.5,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -84,7 +84,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Sensory Profile",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#30CC5C",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -92,7 +92,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Social-communication",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -100,7 +100,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Adaptive behaviors",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#30CC5C",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -108,7 +108,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Global cognition (IQ)",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -116,7 +116,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Overall skills)",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -128,8 +128,8 @@
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 17.4547,
-      "pointRadius": 12.4547,
+      "r": 28,
+      "pointRadius": 23,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -137,8 +137,8 @@
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 13.2958,
-      "pointRadius": 8.2958,
+      "r": 14.5,
+      "pointRadius": 9.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -146,8 +146,8 @@
       "y": "Social-communication",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 12.0794,
-      "pointRadius": 7.0794,
+      "r": 13,
+      "pointRadius": 8,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -155,8 +155,8 @@
       "y": "Global cognition (IQ)",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 12.0794,
-      "pointRadius": 7.0794,
+      "r": 13,
+      "pointRadius": 8,
       "Outcome_group": "Functioning"
     }
   ],

@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.1589,
+      "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -15,7 +15,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.1589,
+      "pointRadius": 13,
       "Outcome_group": "Safety"
     },
     {
@@ -24,7 +24,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.1589,
+      "pointRadius": 13,
       "Outcome_group": "Safety"
     },
     {
@@ -33,7 +33,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.1589,
+      "pointRadius": 13,
       "Outcome_group": "Functioning"
     }
   ],
@@ -41,7 +41,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Social-communication",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -49,7 +49,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Acceptability",
-      "r": 8.2958,
+      "r": 9.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -57,7 +57,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Adverse events",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -65,7 +65,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Adaptive behaviors",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Functioning"

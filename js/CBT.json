@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 11.8283,
+      "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms"
     }
   ],
@@ -14,7 +14,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -26,8 +26,8 @@
       "y": "Social-communication",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 14.8283,
-      "pointRadius": 9.8283,
+      "r": 17.5,
+      "pointRadius": 12.5,
       "Outcome_group": "Core ASD symptoms"
     }
   ],

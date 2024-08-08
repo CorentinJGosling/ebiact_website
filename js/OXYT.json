@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 3,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -15,7 +15,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 3,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -24,7 +24,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 3,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -33,7 +33,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -42,7 +42,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 1,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -51,7 +51,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -60,7 +60,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 1,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -69,7 +69,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 1,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -78,7 +78,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 3,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Safety"
     },
     {
@@ -87,7 +87,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Safety"
     },
     {
@@ -96,7 +96,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 1,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Safety"
     },
     {
@@ -105,7 +105,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Safety"
     },
     {
@@ -114,7 +114,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Safety"
     },
     {
@@ -123,7 +123,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Safety"
     },
     {
@@ -132,7 +132,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 3,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Safety"
     },
     {
@@ -141,7 +141,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 1,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Safety"
     },
     {
@@ -150,7 +150,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -159,7 +159,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Psych. comorbidity"
     },
     {
@@ -168,7 +168,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Psych. comorbidity"
     },
     {
@@ -177,7 +177,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Psych. comorbidity"
     },
     {
@@ -186,7 +186,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "Psych. comorbidity"
     },
     {
@@ -195,7 +195,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "ASD-related symptoms"
     },
     {
@@ -204,7 +204,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.5917,
+      "pointRadius": 20.5,
       "Outcome_group": "ASD-related symptoms"
     }
   ],
@@ -212,7 +212,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Overall ASD symptoms",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -220,7 +220,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -228,7 +228,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Restricted/repetitive behaviors",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -236,7 +236,7 @@
     {
       "x": "Adolescents (13-19yo)",
       "y": "Restricted/repetitive behaviors",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -244,7 +244,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Restricted/repetitive behaviors",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -252,7 +252,7 @@
     {
       "x": "Adolescents (13-19yo)",
       "y": "Social-communication",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -260,7 +260,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Social-communication",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -268,7 +268,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -276,7 +276,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Acceptability",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -284,7 +284,7 @@
     {
       "x": "Adolescents (13-19yo)",
       "y": "Acceptability",
-      "r": 11.5917,
+      "r": 18.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -292,7 +292,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Acceptability",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -300,7 +300,7 @@
     {
       "x": "Adolescents (13-19yo)",
       "y": "Adverse events",
-      "r": 11.2383,
+      "r": 17,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -308,7 +308,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Adverse events",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -316,7 +316,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Adverse events",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -324,7 +324,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Tolerability",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -332,7 +332,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Tolerability",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Safety"
@@ -340,7 +340,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Quality of life",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#DEADA7",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -348,7 +348,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "ADHD symptoms",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Psych. comorbidity"
@@ -356,7 +356,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "ADHD symptoms",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Psych. comorbidity"
@@ -364,7 +364,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Anxiety",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Psych. comorbidity"
@@ -372,7 +372,7 @@
     {
       "x": "Adolescents (13-19yo)",
       "y": "Mood related symptoms",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Psych. comorbidity"
@@ -380,7 +380,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Disruptive behaviors",
-      "r": 8.2958,
+      "r": 9.5,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "ASD-related symptoms"
@@ -388,7 +388,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Disruptive behaviors",
-      "r": 8.2958,
+      "r": 9.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "ASD-related symptoms"
@@ -400,8 +400,8 @@
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 15.3753,
-      "pointRadius": 10.3753,
+      "r": 19,
+      "pointRadius": 14,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -409,8 +409,8 @@
       "y": "Disruptive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 13.2958,
-      "pointRadius": 8.2958,
+      "r": 14.5,
+      "pointRadius": 9.5,
       "Outcome_group": "ASD-related symptoms"
     }
   ],

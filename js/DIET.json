@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.8377,
+      "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -15,7 +15,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.8377,
+      "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -24,7 +24,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.8377,
+      "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -33,7 +33,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.8377,
+      "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -42,7 +42,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.8377,
+      "pointRadius": 17.5,
       "Outcome_group": "Functioning"
     }
   ],
@@ -50,7 +50,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Overall ASD symptoms",
-      "r": 10.8377,
+      "r": 15.5,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -58,7 +58,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -66,7 +66,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Restricted/repetitive behaviors",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -74,7 +74,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Social-communication",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -82,7 +82,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Global cognition (IQ)",
-      "r": 8.2958,
+      "r": 9.5,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -94,8 +94,8 @@
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 15.8377,
-      "pointRadius": 10.8377,
+      "r": 20.5,
+      "pointRadius": 15.5,
       "Outcome_group": "Core ASD symptoms"
     }
   ],

@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 15.8333,
+      "pointRadius": 35.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -15,7 +15,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 15.8333,
+      "pointRadius": 35.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -24,7 +24,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 15.8333,
+      "pointRadius": 35.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -33,7 +33,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 15.8333,
+      "pointRadius": 35.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -42,7 +42,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 15.8333,
+      "pointRadius": 35.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -51,7 +51,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 15.8333,
+      "pointRadius": 35.5,
       "Outcome_group": "Functioning"
     },
     {
@@ -60,7 +60,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 15.8333,
+      "pointRadius": 35.5,
       "Outcome_group": "ASD-related symptoms"
     }
   ],
@@ -68,7 +68,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Overall ASD symptoms",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -76,7 +76,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Social-communication",
-      "r": 13.8333,
+      "r": 33.5,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -84,7 +84,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Adaptive behaviors",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -92,7 +92,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Global cognition (IQ)",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -100,7 +100,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Expressive skills)",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -108,7 +108,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Receptive skills)",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Functioning"
@@ -116,7 +116,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Disruptive behaviors",
-      "r": 9.8283,
+      "r": 12.5,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
       "Outcome_group": "ASD-related symptoms"
@@ -128,8 +128,8 @@
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 15.3753,
-      "pointRadius": 10.3753,
+      "r": 19,
+      "pointRadius": 14,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -137,8 +137,8 @@
       "y": "Social-communication",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 18.8333,
-      "pointRadius": 13.8333,
+      "r": 38.5,
+      "pointRadius": 33.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -146,8 +146,8 @@
       "y": "Global cognition (IQ)",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 15.3753,
-      "pointRadius": 10.3753,
+      "r": 19,
+      "pointRadius": 14,
       "Outcome_group": "Functioning"
     },
     {
@@ -155,8 +155,8 @@
       "y": "Disruptive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 14.8283,
-      "pointRadius": 9.8283,
+      "r": 17.5,
+      "pointRadius": 12.5,
       "Outcome_group": "ASD-related symptoms"
     }
   ],

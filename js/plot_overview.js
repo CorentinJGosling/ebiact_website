@@ -11,7 +11,6 @@ function createScatterPlot(dataFileName) {
       const maxRadius = Math.max(...data.main.map((item) => item.r));
 
       // Determine the spacing needed between each tick
-      const stepSize = maxRadius * 2;
 
       // Create the scatter plot
       var ctx = document.getElementById("myScatterPlot").getContext("2d");
@@ -95,8 +94,7 @@ function createScatterPlot(dataFileName) {
           ],
         },
         options: {
-          responsive: true,
-          maintainAspectRatio: false,
+          aspectRatio: 1.4,
 
           scales: {
             x: {
@@ -119,7 +117,6 @@ function createScatterPlot(dataFileName) {
               position: "left",
               ticks: {
                 padding: 10, // Increase padding between ticks based on maxRadius
-                stepSize: 100, // Set the step size based on the largest dot radius
               },
             },
           },

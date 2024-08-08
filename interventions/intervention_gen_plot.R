@@ -27,7 +27,7 @@ dat_ur_raw = readxl::read_excel(paste0(chemin, "UR_TOTAL_analysis.xlsx")) %>%
       GRADE != "Very low" ~ "#000"
     ),
     # size = log(n_studies) * 10 + 5
-    size = log(n_studies)*3 + 5
+    size = n_studies * 2 + 5
   )
 
 dat_ur_raw$Outcome_group = factor(dat_ur_raw$Outcome_group, levels = c(

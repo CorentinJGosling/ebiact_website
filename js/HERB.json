@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 12.3753,
+      "pointRadius": 16,
       "Outcome_group": "Core ASD symptoms"
     }
   ],
@@ -14,7 +14,7 @@
     {
       "x": "Pre-school (<6yo)",
       "y": "Overall ASD symptoms",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -26,8 +26,8 @@
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 15.3753,
-      "pointRadius": 10.3753,
+      "r": 19,
+      "pointRadius": 14,
       "Outcome_group": "Core ASD symptoms"
     }
   ],

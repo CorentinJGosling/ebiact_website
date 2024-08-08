@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 9.0794,
+      "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms"
     }
   ],
@@ -14,7 +14,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
-      "r": 7.0794,
+      "r": 8,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"

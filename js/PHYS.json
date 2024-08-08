@@ -6,7 +6,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.9078,
+      "pointRadius": 22,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -15,7 +15,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.9078,
+      "pointRadius": 22,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -24,7 +24,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.9078,
+      "pointRadius": 22,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -33,7 +33,7 @@
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#000",
       "borderWidth": 0,
-      "pointRadius": 13.9078,
+      "pointRadius": 22,
       "Outcome_group": "Core ASD symptoms"
     }
   ],
@@ -41,7 +41,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
-      "r": 8.2958,
+      "r": 9.5,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -49,7 +49,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Restricted/repetitive behaviors",
-      "r": 10.3753,
+      "r": 14,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -57,7 +57,7 @@
     {
       "x": "Adults (>=20yo)",
       "y": "Social-communication",
-      "r": 9.1589,
+      "r": 11,
       "backgroundColor": "#30CC5C",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -65,7 +65,7 @@
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
-      "r": 11.9078,
+      "r": 20,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
       "Outcome_group": "Core ASD symptoms"
@@ -77,8 +77,8 @@
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 13.2958,
-      "pointRadius": 8.2958,
+      "r": 14.5,
+      "pointRadius": 9.5,
       "Outcome_group": "Core ASD symptoms"
     },
     {
@@ -86,8 +86,8 @@
       "y": "Social-communication",
       "backgroundColor": "red",
       "borderColor": "#red",
-      "r": 14.1589,
-      "pointRadius": 9.1589,
+      "r": 16,
+      "pointRadius": 11,
       "Outcome_group": "Core ASD symptoms"
     }
   ],
