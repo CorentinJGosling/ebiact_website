@@ -1,40 +1,86 @@
 {
-  "background": [
+  "background_dashed": [
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 10,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  tDCS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Sensory Profile",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 10,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of tDCS on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 10,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of tDCS on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Functioning",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between tDCS and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
+  "background": [
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 10,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  tDCS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sensory Profile",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of tDCS on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of tDCS on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Language (Overall skills)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Functioning",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between tDCS and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

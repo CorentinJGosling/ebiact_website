@@ -257,79 +257,238 @@ body {
   background-color: #1088ad; /* Set the color of the horizontal rule */
   border: none; /* Remove default border */
 }
+/* Reset margins and paddings for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-@mixin circle($size) {
+/* Common styles for all canvases */
+.header_tab_plot {
+  font-size: 1rem;
+  color: #1088ad;
+}
+
+.canva_description {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 24px;
+  padding: 2rem;
+
+  display: grid;
+  isolation: isolate;
+}
+
+.canva_description::after {
+  border-radius: inherit;
+  z-index: -1;
   content: "";
   position: absolute;
-  border-radius: 50%;
-  left: calc(50% - #{$size/2});
-  top: calc(50% - #{$size/2});
-  width: $size;
-  height: $size;
+  inset: 0;
+  opacity: 0.3;
+  transition: all 0.35s;
+}
+.canva_description::after {
+  opacity: 1;
+  border: 1px solid #2d2d2d;
+  box-shadow: 14px 14px 14px rgb(0 0 0 / 0.1) inset,
+    -20px -20px 20px rgb(0 0 0 / 0.1) inset;
 }
 
-$size: 200px;
-.progress-pie-chart {
-  width: $size;
-  height: $size;
-  border-radius: 50%;
-  background-color: #e5e5e5;
+#canva_description_efficacy,
+#canva_description_size,
+#canva_description_grade {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  &.gt-50 {
-    background-color: #81ce97;
-  }
 }
-.ppc-progress {
-  @include circle($size);
-  clip: rect(0, $size, $size, #{$size/2});
-  .ppc-progress-fill {
-    @include circle($size);
-    clip: rect(0, #{$size/2}, $size, 0);
-    background: #81ce97;
-    transform: rotate(60deg);
-  }
-  .gt-50 & {
-    clip: rect(0, #{$size/2}, $size, 0);
-    .ppc-progress-fill {
-      clip: rect(0, $size, $size, #{$size/2});
-      background: #e5e5e5;
-    }
-  }
-}
-.ppc-percents {
-  @include circle(#{$size/1.15});
-  background: #fff;
-  text-align: center;
-  display: table;
-  span {
-    display: block;
-    font-size: 2.6em;
-    font-weight: bold;
-    color: #81ce97;
-  }
-}
-.pcc-percents-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-body {
-  font-family: Arial;
-  background: #f7f7f7;
-}
-.progress-pie-chart {
-  margin: 50px auto 0;
-}
-
-.container_canvas {
-  width: 100% !important;
-  height: 100% !important; /* Adjust height if needed */
-}
-
-#myScatterPlot {
-  width: 100% !important; /* Make canvas width fit the container */
-  height: 100% !important; /* Adjust height if needed */
-}
-.pointer-cursor {
+.circle {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1rem;
   cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transitions */
 }
+
+/* Specific styles for Efficacy circles */
+#canva_description_efficacy .circle:nth-child(1) {
+  background-color: #dc5746;
+}
+#canva_description_efficacy .circle:nth-child(2) {
+  background-color: #dd8378;
+}
+#canva_description_efficacy .circle:nth-child(3) {
+  background-color: #deada7;
+}
+#canva_description_efficacy .circle:nth-child(4) {
+  background-color: #d4d4d4;
+}
+#canva_description_efficacy .circle:nth-child(5) {
+  background-color: #a2cdae;
+}
+#canva_description_efficacy .circle:nth-child(6) {
+  background-color: #68cd84;
+}
+#canva_description_efficacy .circle:nth-child(7) {
+  background-color: #30cc5c;
+}
+
+/* Specific styles for Size circles */
+#canva_description_size .circle.size {
+  background-color: transparent; /* Just a sample color */
+  border: 2px solid #000;
+}
+
+/* Specific styles for Grade circles */
+#canva_description_grade .circle.grade {
+  background-color: transparent; /* Same color for all */
+}
+
+#contain_helper {
+  display: none;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  padding: 2rem;
+}
+#img_helper {
+  background-image: url("../img/boy-1454054_640.png");
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+}
+
+#labelCard {
+  text-align: center;
+  display: none;
+}
+/* Hover text styling */
+#hoverText_efficacy,
+#hoverText_size,
+#hoverText_grade {
+  position: absolute;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  opacity: 0;
+  font-weight: bold;
+  transition: opacity 0.5s ease-in-out;
+}
+#chartjs-tooltip {
+  opacity: 1;
+  position: absolute;
+  background-color: #fff;
+  border: 3px solid #2d2d2d;
+
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+  pointer-events: none;
+  font-weight: 200;
+}
+
+#chartjs-tooltip table {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: normal !important;
+}
+#chartjs-tooltip table th {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: normal !important;
+}
+
+.tooltip-label {
+  color: #ff5722; /* Custom color for the label */
+}
+
+// @mixin circle($size) {
+//   content: "";
+//   position: absolute;
+//   border-radius: 50%;
+//   left: calc(50% - #{$size/2});
+//   top: calc(50% - #{$size/2});
+//   width: $size;
+//   height: $size;
+// }
+
+// $size: 200px;
+// .progress-pie-chart {
+//   width: $size;
+//   height: $size;
+//   border-radius: 50%;
+//   background-color: #e5e5e5;
+//   position: relative;
+//   &.gt-50 {
+//     background-color: #81ce97;
+//   }
+// }
+// .ppc-progress {
+//   @include circle($size);
+//   clip: rect(0, $size, $size, #{$size/2});
+//   .ppc-progress-fill {
+//     @include circle($size);
+//     clip: rect(0, #{$size/2}, $size, 0);
+//     background: #81ce97;
+//     transform: rotate(60deg);
+//   }
+//   .gt-50 & {
+//     clip: rect(0, #{$size/2}, $size, 0);
+//     .ppc-progress-fill {
+//       clip: rect(0, $size, $size, #{$size/2});
+//       background: #e5e5e5;
+//     }
+//   }
+// }
+// .ppc-percents {
+//   @include circle(#{$size/1.15});
+//   background: #fff;
+//   text-align: center;
+//   display: table;
+//   span {
+//     display: block;
+//     font-size: 2.6em;
+//     font-weight: bold;
+//     color: #81ce97;
+//   }
+// }
+// .pcc-percents-wrapper {
+//   display: table-cell;
+//   vertical-align: middle;
+// }
+
+// body {
+//   font-family: Arial;
+//   background: #f7f7f7;
+// }
+// .progress-pie-chart {
+//   margin: 50px auto 0;
+// }
+
+// .container_canvas {
+//   width: 100% !important;
+//   height: 100% !important; /* Adjust height if needed */
+// }
+
+// #myScatterPlot {
+//   width: 100% !important; /* Make canvas width fit the container */
+//   height: 100% !important; /* Adjust height if needed */
+// }
+// .pointer-cursor {
+//   cursor: pointer;
+// }

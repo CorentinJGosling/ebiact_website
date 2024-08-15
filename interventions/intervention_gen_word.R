@@ -5,7 +5,7 @@ library(tableHTML)
 library(docxtractr)
 collapsunique <- function(x) paste(unique(sort(x)), collapse = " | ")
 
-chemin = paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche",
+chemin = paste0("D:/drive_gmail/Recherche",
 "/Article 2 - Base de Donnees/7 - Data analysis/data/")
 
 modify_between_ul_p <- function(text) {
@@ -56,7 +56,7 @@ filter_dfs <- function(df_list) {
   filtered_list <- Filter(Negate(is.null), filtered_list)
   return(filtered_list)
 }
-doc_path <- "C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Donnees/ebiact/website/interventions/list_interventions.docx"
+doc_path <- "D:/drive_gmail/Recherche/Article 2 - Base de Donnees/ebiact/website/interventions/list_interventions.docx"
 doc <- docxtractr::read_docx(doc_path)
 tables <- docx_extract_all_tbls(doc, guess_header=FALSE)
 
@@ -425,17 +425,50 @@ dat$text = with(dat, paste0(
   
   "<div class='shalf'>",
   "<div class='shalf_carac'>",
-  # "<div class='header_tab'>Key characteristics of ", Acronym, "</div>",
   key,
   "</div>",
-  # "<div class='shalf_literature'>",
-  # "<div class='header_tab'>Scientific papers</div>",
-  # database,
-  # "</div>",
-  # "</div>",
   
   '<hr class="custom-hr">',
+  
   "<div class='header_shalf'>Evidence about efficacy and safety of<br> ", dat$Interventions, "</div>",
+  
+  "<div class='canva_description'>",
+  
+    "<div class='header_tab_plot'>Presentation of the efficacy</div>",
+    "<div id='canva_description_efficacy'>",
+      '<div class="circle" data-hover-text="Very strong effect in favor of controls"></div>',
+      '<div class="circle" data-hover-text="Moderate-to-strong effect in favor of controls"></div>',
+      '<div class="circle" data-hover-text="Small-to-moderate effect in favor of controls"></div>',
+      '<div class="circle" data-hover-text="No difference between ', dat$Interventions, ' and controls"></div>',
+      '<div class="circle" data-hover-text="Small-to-moderate effect in favor of ', dat$Interventions, '"></div>',
+      '<div class="circle" data-hover-text="Moderate-to-strong effect in favor of ', dat$Interventions, '"></div>',
+      '<div class="circle" data-hover-text="Very strong effect in favor of ', dat$Interventions, '"></div>',
+      '<div id="hoverText_efficacy">', "</div>",
+    "</div>",
+  
+    "<div class='header_tab_plot'>Presentation of the number of studies</div>",
+    "<div id='canva_description_size'>",
+      '<div class="circle size" data-hover-text="n-studies = minimum"></div>',
+      '<div class="circle size" data-hover-text="n-studies = maximum"></div>',
+      '<div id="hoverText_size"></div>',
+    "</div>",
+  
+    "<div class='header_tab_plot'>Presentation of the confidence (GRADE) rating</div>",
+    "<div id='canva_description_grade'>",
+    '<div class="circle size" data-hover-text="GRADE = Very low"></div>',
+    '<div class="circle size" data-hover-text="GRADE = Low"></div>',
+    '<div class="circle size" data-hover-text="GRADE = Moderate"></div>',
+      '<div class="circle size" data-hover-text="GRADE = High"></div>',
+  '<div id="hoverText_grade"></div>',
+    "</div>",
+  "</div>",
+  
+  '<div id = "contain_helper">',
+    '<div id = "img_helper"></div>',
+    '<div id="labelCard"></div>',
+  '</div>',
+    
+  
   '<div class="container_canvas"><canvas id="myScatterPlot"></canvas></div>',
   
   '<hr class="custom-hr">',
@@ -545,7 +578,7 @@ html_tbl = dat[, c("Group", "Interventions", "Age_bounds_list", "Outcome_clean",
             rownames = FALSE)
 
 writeLines(as.character(html_tbl),
-           paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/Article 2 - Base de Donnees/ebiact/",
+           paste0("D:/drive_gmail/Recherche/Article 2 - Base de Donnees/ebiact/",
                   "website/interventions/interventions_list",
                   ".html"))
 # INDIVIDUAL PAGES =============================================
@@ -584,39 +617,71 @@ for (fact in dat$Acronym) {
     paste0(
       page,
       dat[dat$Acronym == fact, "text"],
-    # paste0('
-    #        <div class="progress-pie-chart" data-percent="25">
-    #             <div class="ppc-progress">
-    #               <div class="ppc-progress-fill"></div>
-    #             </div>
-    #             <div class="ppc-percents">
-    #               <div class="pcc-percents-wrapper">
-    #                 <span>%</span>
-    #               </div>
-    #             </div>
-    #           </div>
-    #        '),
-    #   
-    # paste0(
-    #   "<script>",
-    #   "$(function(){
-    #     var $ppc = $('.progress-pie-chart'),
-    #     percent = parseInt($ppc.data('percent')),
-    #     deg = 360*percent/100;
-    #     if (percent > 50) {
-    #       $ppc.addClass('gt-50');
-    #     }
-    #     $('.ppc-progress-fill').css('transform','rotate('+ deg +'deg)');
-    #     $('.ppc-percents span').html('", dat[dat$Acronym == fact, "Acronym"], "');
-    #   });",
-    #   "</script>"
-    # ),
-    # '<script type="text/javascript" src="../js/', "plot_overview", '.js"></script>',
     "<script>createScatterPlot('../js/", fact, ".json');</script>",
+    "<script>",
+    paste0(
+      "
+      const circlesEfficacy = document.querySelectorAll('#canva_description_efficacy .circle');
+      const hoverTextEfficacy = document.getElementById('hoverText_efficacy');
+      
+      circlesEfficacy.forEach(circle => {
+        circle.addEventListener('mouseover', () => {
+          hoverTextEfficacy.textContent = circle.getAttribute('data-hover-text');
+          hoverTextEfficacy.style.opacity = '1';
+        });
+        
+        circle.addEventListener('mouseout', () => {
+          hoverTextEfficacy.textContent = '';
+          hoverTextEfficacy.style.opacity = '1';
+        });
+      });
+      
+      // Hover text for Size
+      const circlesSize = document.querySelectorAll('#canva_description_size .circle');
+      const hoverTextSize = document.getElementById('hoverText_size');
+      
+      circlesSize.forEach((circle, index) => {
+        circle.style.width = `${10 + index * 30}px`;
+        circle.style.height = `${10 + index * 30}px`;
+        circle.addEventListener('mouseover', () => {
+          hoverTextSize.textContent = circle.getAttribute('data-hover-text');
+          hoverTextSize.style.opacity = '1';
+        });
+        
+        circle.addEventListener('mouseout', () => {
+          hoverTextSize.style.opacity = '0';
+        });
+      });
+      
+      // Hover text for Grade
+      const circlesGrade = document.querySelectorAll('#canva_description_grade .circle');
+      const hoverTextGrade = document.getElementById('hoverText_grade');
+      
+      circlesGrade.forEach((circle, index) => {
+        if (index === 0) {
+          circle.style.border = '2px dashed #ff8b1a';
+        } else if (index === 1) {
+          circle.style.border = '2px solid #de5c3a';
+        } else if (index === 2)  {
+          circle.style.border = `5px solid #ad2b5b`;
+        } else if (index === 3)  {
+          circle.style.border = `8px solid #3d0173`;
+        }
+        circle.addEventListener('mouseover', () => {
+          hoverTextGrade.textContent = circle.getAttribute('data-hover-text');
+          hoverTextGrade.style.opacity = '1';
+        });
+        
+        circle.addEventListener('mouseout', () => {
+          hoverTextGrade.style.opacity = '0';
+        });
+      });"
+    ),
+    "</script>",
   "</body>
   </html>"
     )),
-    paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/",
+    paste0("D:/drive_gmail/Recherche/",
            "Article 2 - Base de Donnees/ebiact/website/",
            "html/",
            fact,
@@ -631,7 +696,7 @@ for (i in 1:nrow(dat)){
 
 rio::export(
   data.frame(word),
-  paste0("C:/Users/Corentin Gosling/drive_gmail/Recherche/",
+  paste0("D:/drive_gmail/Recherche/",
          "Article 2 - Base de Donnees/ebiact/website/",
          "js/world_cloud.txt")
 )

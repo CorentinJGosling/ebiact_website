@@ -1,166 +1,326 @@
 {
-  "background": [
-    {
-      "x": "Adults (>=20yo)",
-      "y": "Overall ASD symptoms",
-      "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 1,
-      "pointRadius": 20.5,
-      "Outcome_group": "Core ASD symptoms"
-    },
+  "background_dashed": [
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between PUFA and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PUFA and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Core ASD symptoms"
-    },
-    {
-      "x": "Adults (>=20yo)",
-      "y": "Restricted/repetitive behaviors",
-      "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 1,
-      "pointRadius": 20.5,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PUFA on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PUFA on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adults (>=20yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between PUFA and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Safety"
-    },
-    {
-      "x": "School-age (6-12yo)",
-      "y": "Adverse events",
-      "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 1,
-      "pointRadius": 20.5,
-      "Outcome_group": "Safety"
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between PUFA and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 9 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Tolerability",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Safety"
+      "Outcome_group": "Safety",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PUFA and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Tolerability",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Safety"
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between PUFA and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 9 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PUFA and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Psych. comorbidity"
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PUFA on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adults (>=20yo)",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Psych. comorbidity"
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between PUFA and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Mood related symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 20.5,
-      "Outcome_group": "Psych. comorbidity"
-    },
-    {
-      "x": "Adults (>=20yo)",
-      "y": "Disruptive behaviors",
-      "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 1,
-      "pointRadius": 20.5,
-      "Outcome_group": "ASD-related symptoms"
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PUFA and controls on Mood related symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 20.5,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between PUFA and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
+  "background": [
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#de5c3a",
+      "borderWidth": 1,
+      "pointRadius": 20.5,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between PUFA and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 20.5,
-      "Outcome_group": "ASD-related symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between PUFA and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PUFA and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PUFA on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#de5c3a",
+      "borderWidth": 1,
+      "pointRadius": 20.5,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between PUFA and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PUFA on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between PUFA and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Acceptability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between PUFA and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 9 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#de5c3a",
+      "borderWidth": 1,
+      "pointRadius": 20.5,
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Tolerability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Safety",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PUFA and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Tolerability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between PUFA and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 9 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Adaptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Language (Overall skills)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PUFA and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "ADHD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PUFA on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "ADHD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between PUFA and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Mood related symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PUFA and controls on Mood related symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#de5c3a",
+      "borderWidth": 1,
+      "pointRadius": 20.5,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between PUFA and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 20.5,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between PUFA and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

@@ -1,13 +1,26 @@
 {
+  "background_dashed": [
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 16,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between HERB and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
   "background": [
     {
       "x": "Pre-school (<6yo)",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 16,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between HERB and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

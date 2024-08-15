@@ -1,40 +1,86 @@
 {
-  "background": [
+  "background_dashed": [
     {
       "x": "Adolescents (13-19yo)",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 13,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adolescents (13-19 years old),  there is a moderate-to-strong effect in favor of rTMS on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adolescents (13-19yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 13,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adolescents (13-19 years old),  there is a small-to-moderate effect in favor of rTMS on Social-communication. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adolescents (13-19yo)",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 13,
-      "Outcome_group": "Psych. comorbidity"
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In Adolescents (13-19 years old),  there is a moderate-to-strong effect in favor of rTMS on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adolescents (13-19yo)",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 13,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In Adolescents (13-19 years old),  there is a very strong effect in favor of  rTMS on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
+  "background": [
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 13,
-      "Outcome_group": "ASD-related symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adolescents (13-19 years old),  there is a moderate-to-strong effect in favor of rTMS on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 13,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adolescents (13-19 years old),  there is a small-to-moderate effect in favor of rTMS on Social-communication. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "ADHD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 13,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In Adolescents (13-19 years old),  there is a moderate-to-strong effect in favor of rTMS on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adolescents (13-19yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 13,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In Adolescents (13-19 years old),  there is a very strong effect in favor of  rTMS on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

@@ -1,67 +1,146 @@
 {
-  "background": [
+  "background_dashed": [
     {
       "x": "School-age (6-12yo)",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 14.5,
-      "Outcome_group": "Safety"
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of MELAT on Acceptability. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 14.5,
-      "Outcome_group": "Safety"
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MELAT and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Tolerability",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 14.5,
-      "Outcome_group": "Safety"
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MELAT and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 14.5,
-      "Outcome_group": "Psych. comorbidity"
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MELAT and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Sleep quality",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 14.5,
-      "Outcome_group": "Sleep"
+      "Outcome_group": "Sleep",
+      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  MELAT on Sleep quality. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Sleep quantity",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 14.5,
-      "Outcome_group": "Sleep"
+      "Outcome_group": "Sleep",
+      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  MELAT on Sleep quantity. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 14.5,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MELAT and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
+  "background": [
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Acceptability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 14.5,
-      "Outcome_group": "ASD-related symptoms"
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of MELAT on Acceptability. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 14.5,
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MELAT and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Tolerability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 14.5,
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MELAT and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "ADHD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 14.5,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MELAT and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sleep quality",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 14.5,
+      "Outcome_group": "Sleep",
+      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  MELAT on Sleep quality. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Sleep quantity",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 14.5,
+      "Outcome_group": "Sleep",
+      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  MELAT on Sleep quantity. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 14.5,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MELAT and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

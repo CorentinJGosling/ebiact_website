@@ -1,40 +1,86 @@
 {
-  "background": [
+  "background_dashed": [
     {
       "x": "Adults (>=20yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 13,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between V1a-RA and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adults (>=20yo)",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 13,
-      "Outcome_group": "Safety"
+      "Outcome_group": "Safety",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between V1a-RA and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adults (>=20yo)",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 13,
-      "Outcome_group": "Safety"
+      "Outcome_group": "Safety",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between V1a-RA and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adults (>=20yo)",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 13,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between V1a-RA and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
+  "background": [
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 13,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between V1a-RA and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Acceptability",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 13,
+      "Outcome_group": "Safety",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between V1a-RA and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 13,
+      "Outcome_group": "Safety",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between V1a-RA and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Adaptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 13,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Adults (>=20 years old),  there is no difference between V1a-RA and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

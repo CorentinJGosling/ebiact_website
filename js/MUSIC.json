@@ -1,85 +1,176 @@
 {
-  "background": [
+  "background_dashed": [
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 28,
-      "Outcome_group": "Core ASD symptoms"
-    },
-    {
-      "x": "Pre-school (<6yo)",
-      "y": "Overall ASD symptoms",
-      "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 1,
-      "pointRadius": 28,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  MUSIC on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 9 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 28,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between MUSIC and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 28,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of MUSIC on Social-communication. Based on the analysis of the quality of the evidence produced by the 14 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 28,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between MUSIC and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 28,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between MUSIC and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 28,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a moderate-to-strong effect in favor of MUSIC on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Quality of life",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 28,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of MUSIC on Quality of life. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 28,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MUSIC and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
+  "background": [
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 28,
-      "Outcome_group": "ASD-related symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  MUSIC on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 9 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#de5c3a",
+      "borderWidth": 1,
+      "pointRadius": 28,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of MUSIC on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 28,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between MUSIC and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 28,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of MUSIC on Social-communication. Based on the analysis of the quality of the evidence produced by the 14 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 28,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between MUSIC and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Adaptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 28,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between MUSIC and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Language (Overall skills)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 28,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a moderate-to-strong effect in favor of MUSIC on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Quality of life",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 28,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of MUSIC on Quality of life. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 28,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is no difference between MUSIC and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

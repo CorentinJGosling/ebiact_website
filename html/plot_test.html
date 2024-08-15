@@ -13,142 +13,448 @@
     </div>
     <script>
       // Fetch the dataset from the JSON file
-      fetch("../js/PMI.json")
-        .then((response) => response.json())
-        .then((data) => {
-          // Create the scatter plot
-          var ctx = document.getElementById("myScatterPlot").getContext("2d");
-          var scatterPlot = new Chart(ctx, {
-            type: "scatter",
-            data: {
-              datasets: [
-                // Background dataset to create space between dots and borders
-                {
-                  label: "Background Dots",
-                  data: data.background.map((item) => ({
-                    x: item.x,
-                    y: item.y,
-                  })),
-                  backgroundColor: data.background.map(
-                    (item) => item.backgroundColor
-                  ),
-                  borderColor: data.background.map((item) => item.borderColor),
-                  borderWidth: data.background.map((item) => item.borderWidth),
-                  pointRadius: data.background.map((item) => item.pointRadius),
-                  hoverRadius: data.background.map((item) => item.pointRadius),
-                  hoverBackgroundColor: data.background.map(
-                    (item) => item.backgroundColor
-                  ),
-                  hoverBorderColor: data.background.map(
-                    (item) => item.borderColor
-                  ),
-                  hoverBorderWidth: data.background.map(
-                    (item) => item.borderWidth
-                  ),
-                },
-                // Main dataset with different colors, sizes, and borders
+      const data = {
+        background: [
+          {
+            x: "School-age (6-12yo)",
+            y: "Overall ASD symptoms",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Restricted/repetitive behaviors",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Restricted/repetitive behaviors",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Sensory Profile",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Social-communication",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Social-communication",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Adaptive behaviors",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Global cognition (IQ)",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Language (Expressive skills)",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Language (Overall skills)",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Language (Overall skills)",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "ADHD symptoms",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "Psych. comorbidity",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Disruptive behaviors",
+            backgroundColor: "rgba(255,255, 255, 0)",
+            borderColor: "#000",
+            borderWidth: 0,
+            pointRadius: 19,
+            Outcome_group: "ASD-related symptoms",
+          },
+        ],
+        main: [
+          {
+            x: "School-age (6-12yo)",
+            y: "Overall ASD symptoms",
+            r: 8,
+            backgroundColor: "#30CC5C",
+            borderWidth: 0,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Restricted/repetitive behaviors",
+            r: 8,
+            backgroundColor: "#68CD84",
+            borderWidth: 0,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Restricted/repetitive behaviors",
+            r: 9.5,
+            backgroundColor: "#D4D4D4",
+            borderWidth: 0,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Sensory Profile",
+            r: 8,
+            backgroundColor: "#68CD84",
+            borderWidth: 0,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Social-communication",
+            r: 17,
+            backgroundColor: "#A2CDAE",
+            borderWidth: 0,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Social-communication",
+            r: 12.5,
+            backgroundColor: "#A2CDAE",
+            borderWidth: 0,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Adaptive behaviors",
+            r: 11,
+            backgroundColor: "#D4D4D4",
+            borderWidth: 0,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Global cognition (IQ)",
+            r: 8,
+            backgroundColor: "#DEADA7",
+            borderWidth: 0,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Language (Expressive skills)",
+            r: 8,
+            backgroundColor: "#68CD84",
+            borderWidth: 0,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Language (Overall skills)",
+            r: 8,
+            backgroundColor: "#A2CDAE",
+            borderWidth: 0,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Language (Overall skills)",
+            r: 9.5,
+            backgroundColor: "#A2CDAE",
+            borderWidth: 0,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "ADHD symptoms",
+            r: 11,
+            backgroundColor: "#68CD84",
+            borderWidth: 0,
+            Outcome_group: "Psych. comorbidity",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Disruptive behaviors",
+            r: 11,
+            backgroundColor: "#A2CDAE",
+            borderWidth: 0,
+            Outcome_group: "ASD-related symptoms",
+          },
+        ],
+        star: [
+          {
+            x: "School-age (6-12yo)",
+            y: "Overall ASD symptoms",
+            backgroundColor: "red",
+            borderColor: "#red",
+            r: 13,
+            pointRadius: 8,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Restricted/repetitive behaviors",
+            backgroundColor: "red",
+            borderColor: "#red",
+            r: 13,
+            pointRadius: 8,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Sensory Profile",
+            backgroundColor: "red",
+            borderColor: "#red",
+            r: 13,
+            pointRadius: 8,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "Pre-school (<6yo)",
+            y: "Social-communication",
+            backgroundColor: "red",
+            borderColor: "#red",
+            r: 22,
+            pointRadius: 17,
+            Outcome_group: "Core ASD symptoms",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Language (Expressive skills)",
+            backgroundColor: "red",
+            borderColor: "#red",
+            r: 13,
+            pointRadius: 8,
+            Outcome_group: "Functioning",
+          },
+          {
+            x: "School-age (6-12yo)",
+            y: "Disruptive behaviors",
+            backgroundColor: "red",
+            borderColor: "#red",
+            r: 16,
+            pointRadius: 11,
+            Outcome_group: "ASD-related symptoms",
+          },
+        ],
+        xLabels: [
+          "Pre-school (<6yo)",
+          "School-age (6-12yo)",
+          "Adolescents (13-19yo)",
+          "Adults (>=20yo)",
+        ],
+        yLabels: [
+          "Overall ASD symptoms",
+          "Social-communication",
+          "Restricted/repetitive behaviors",
+          "Sensory Profile",
+          "",
+          "Acceptability",
+          "Tolerability",
+          "Adverse events",
+          "",
+          "Global cognition (IQ)",
+          "Adaptive behaviors",
+          "Quality of life",
+          "Language (Overall skills)",
+          "Language (Expressive skills)",
+          "Language (Receptive skills)",
+          "",
+          "ADHD symptoms",
+          "Anxiety",
+          "Mood related symptoms",
+          "",
+          "Disruptive behaviors",
+          "Sleep quality",
+          "Sleep quantity",
+        ],
+      };
 
-                // Star dataset, rendered last to be on top
-                {
-                  label: "Star Dataset",
-                  data: data.star.map((item) => ({
-                    x: item.x,
-                    y: item.y,
-                  })),
-                  pointRadius: data.star.map((item) => item.pointRadius),
-                  pointStyle: "star", // Star-shaped points
-                  backgroundColor: "rgba(255, 99, 132, 1)", // Fixed color for star points
-                  borderColor: "rgba(255, 99, 132, 1)", // Fixed border color for star points
-                  hoverBackgroundColor: "rgba(255, 99, 132, 1)", // Maintain background color on hover
-                  hoverBorderColor: "rgba(255, 99, 132, 1)", // Maintain border color on hover
-                  hoverBorderWidth: 3,
-                },
-                {
-                  label: "Main Dataset",
-                  data: data.main.map((item) => ({
-                    x: item.x,
-                    y: item.y,
-                    r: item.r,
-                    backgroundColor: item.backgroundColor,
-                    borderColor: item.borderColor,
-                    borderWidth: item.borderWidth,
-                  })),
-                  pointRadius: function (context) {
-                    return context.raw.r; // Use the radius from data
-                  },
-                  backgroundColor: function (context) {
-                    return context.raw.backgroundColor; // Use the background color from data
-                  },
-                  borderColor: function (context) {
-                    return context.raw.borderColor; // Use the border color from data
-                  },
-                  borderWidth: function (context) {
-                    return context.raw.borderWidth; // Use the border width from data
-                  },
-                  hoverRadius: function (context) {
-                    return context.raw.r; // Maintain radius on hover
-                  },
-                  hoverBackgroundColor: function (context) {
-                    return context.raw.backgroundColor; // Maintain background color on hover
-                  },
-                  hoverBorderColor: function (context) {
-                    return context.raw.borderColor; // Maintain border color on hover
-                  },
-                  hoverBorderWidth: function (context) {
-                    return context.raw.borderWidth; // Maintain border width on hover
-                  },
-                },
-              ],
+      // Create the scatter plot
+      var ctx = document.getElementById("myScatterPlot").getContext("2d");
+      var scatterPlot = new Chart(ctx, {
+        type: "scatter",
+        data: {
+          datasets: [
+            // Background dataset to create space between dots and borders
+            {
+              label: "Background Dots",
+              data: data.background.map((item) => ({
+                x: item.x,
+                y: item.y,
+              })),
+              backgroundColor: data.background.map(
+                (item) => item.backgroundColor
+              ),
+              borderColor: data.background.map((item) => item.borderColor),
+              borderWidth: data.background.map((item) => item.borderWidth),
+              pointRadius: data.background.map((item) => item.pointRadius),
+              hoverRadius: data.background.map((item) => item.pointRadius),
+              hoverBackgroundColor: data.background.map(
+                (item) => item.backgroundColor
+              ),
+              hoverBorderColor: data.background.map((item) => item.borderColor),
+              hoverBorderWidth: data.background.map((item) => item.borderWidth),
             },
-            options: {
-              scales: {
-                x: {
-                  offset: true,
-                  type: "category", // Use category type for character-based axis
-                  labels: data.xLabels, // Custom labels for x-axis from JSON
-                  position: "top",
-                  ticks: {
-                    padding: 20, // Add padding to create space
-                    font: {
-                      weight: "bold", // Make x-axis ticks bold
-                    },
-                  },
-                },
-                y: {
-                  type: "category", // Use category type for character-based axis
-                  labels: data.yLabels, // Custom labels for y-axis from JSON
-                  position: "left",
-                  ticks: {
-                    padding: 10, // Add padding to create space
-                  },
-                },
+            // Main dataset with different colors, sizes, and borders
+
+            // Star dataset, rendered last to be on top
+            {
+              label: "Star Dataset",
+              data: data.star.map((item) => ({
+                x: item.x,
+                y: item.y,
+              })),
+              pointRadius: data.star.map((item) => item.pointRadius),
+              pointStyle: "star", // Star-shaped points
+              backgroundColor: "rgba(255, 99, 132, 1)", // Fixed color for star points
+              borderColor: "rgba(255, 99, 132, 1)", // Fixed border color for star points
+              hoverBackgroundColor: "rgba(255, 99, 132, 1)", // Maintain background color on hover
+              hoverBorderColor: "rgba(255, 99, 132, 1)", // Maintain border color on hover
+              hoverBorderWidth: 3,
+            },
+            {
+              label: "Main Dataset",
+              data: data.main.map((item) => ({
+                x: item.x,
+                y: item.y,
+                r: item.r,
+                backgroundColor: item.backgroundColor,
+                borderColor: item.borderColor,
+                borderWidth: item.borderWidth,
+              })),
+              pointRadius: function (context) {
+                return context.raw.r; // Use the radius from data
               },
-              plugins: {
-                legend: {
-                  display: false, // Disable the legend
-                },
-                tooltip: {
-                  enabled: true,
-                  displayColors: false, // Disable color box in tooltip
-                  callbacks: {
-                    label: function (tooltipItem) {
-                      // Check if the dataset is the main dataset (index 1) or star dataset (index 2)
-                      if (
-                        tooltipItem.datasetIndex === 1 ||
-                        tooltipItem.datasetIndex === 2
-                      ) {
-                        return ""; // Return empty string to hide tooltip for main and star datasets
-                      } else {
-                        return `x: ${tooltipItem.raw.x}<br>y: ${tooltipItem.raw.y}`;
-                      }
-                    },
-                  },
+              backgroundColor: function (context) {
+                return context.raw.backgroundColor; // Use the background color from data
+              },
+              borderColor: function (context) {
+                return context.raw.borderColor; // Use the border color from data
+              },
+              borderWidth: function (context) {
+                return context.raw.borderWidth; // Use the border width from data
+              },
+              hoverRadius: function (context) {
+                return context.raw.r; // Maintain radius on hover
+              },
+              hoverBackgroundColor: function (context) {
+                return context.raw.backgroundColor; // Maintain background color on hover
+              },
+              hoverBorderColor: function (context) {
+                return context.raw.borderColor; // Maintain border color on hover
+              },
+              hoverBorderWidth: function (context) {
+                return context.raw.borderWidth; // Maintain border width on hover
+              },
+            },
+          ],
+        },
+        options: {
+          scales: {
+            x: {
+              offset: true,
+              type: "category", // Use category type for character-based axis
+              labels: data.xLabels, // Custom labels for x-axis from JSON
+              position: "top",
+              ticks: {
+                padding: 20, // Add padding to create space
+                font: {
+                  weight: "bold", // Make x-axis ticks bold
                 },
               },
             },
-          });
-        })
-        .catch((error) => console.error("Error fetching the dataset:", error));
+            y: {
+              type: "category", // Use category type for character-based axis
+              labels: data.yLabels, // Custom labels for y-axis from JSON
+              position: "left",
+              ticks: {
+                padding: 10, // Add padding to create space
+              },
+            },
+          },
+          plugins: {
+            legend: {
+              display: false, // Disable the legend
+            },
+            tooltip: {
+              enabled: true,
+              displayColors: false, // Disable color box in tooltip
+              callbacks: {
+                label: function (tooltipItem) {
+                  // Check if the dataset is the main dataset (index 1) or star dataset (index 2)
+                  if (
+                    tooltipItem.datasetIndex === 1 ||
+                    tooltipItem.datasetIndex === 2
+                  ) {
+                    return ""; // Return empty string to hide tooltip for main and star datasets
+                  } else {
+                    return `x: ${tooltipItem.raw.x}<br>y: ${tooltipItem.raw.y}`;
+                  }
+                },
+              },
+            },
+          },
+        },
+      });
     </script>
   </body>
 </html>

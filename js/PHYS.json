@@ -1,40 +1,86 @@
 {
-  "background": [
+  "background_dashed": [
     {
       "x": "School-age (6-12yo)",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 22,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of PHYS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 22,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PHYS on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Adults (>=20yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 22,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is a very strong effect in favor of  PHYS on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 22,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PHYS on Social-communication. Based on the analysis of the quality of the evidence produced by the 10 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
+  "background": [
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 22,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of PHYS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Restricted/repetitive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 22,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PHYS on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Adults (>=20yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 22,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Adults (>=20 years old),  there is a very strong effect in favor of  PHYS on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 22,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of PHYS on Social-communication. Based on the analysis of the quality of the evidence produced by the 10 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

@@ -1,67 +1,146 @@
 {
-  "background": [
+  "background_dashed": [
     {
       "x": "Pre-school (<6yo)",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 35.5,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 35.5,
-      "Outcome_group": "Core ASD symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Social-communication. Based on the analysis of the quality of the evidence produced by the 19 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 35.5,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Global cognition (IQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 35.5,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 35.5,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
       "y": "Language (Receptive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
-      "borderWidth": 0,
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
       "pointRadius": 35.5,
-      "Outcome_group": "Functioning"
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PMI and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
-      "borderColor": "#000",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 35.5,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of PMI on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    }
+  ],
+  "background": [
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
       "borderWidth": 0,
       "pointRadius": 35.5,
-      "Outcome_group": "ASD-related symptoms"
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 35.5,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Social-communication. Based on the analysis of the quality of the evidence produced by the 19 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Adaptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 35.5,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Global cognition (IQ)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 35.5,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Language (Expressive skills)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 35.5,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of PMI on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "Pre-school (<6yo)",
+      "y": "Language (Receptive skills)",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 35.5,
+      "Outcome_group": "Functioning",
+      "customLabel": "In Pre-school (<6 years old),  there is no difference between PMI and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+    },
+    {
+      "x": "School-age (6-12yo)",
+      "y": "Disruptive behaviors",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 35.5,
+      "Outcome_group": "ASD-related symptoms",
+      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of PMI on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [
