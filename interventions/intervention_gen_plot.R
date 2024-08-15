@@ -41,7 +41,7 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   dat_grade_v_low = dat_plot %>% filter(GRADE == "Very low")
   
   background_dashed <- data.frame(
-    x = dat_grade_v_low$age_short,
+    x = dat_grade_v_low$age_vshort,
     y = dat_grade_v_low$Outcome,
     backgroundColor = "rgba(255,255, 255, 0)",
     borderColor = dat_grade_v_low$col_grade,
@@ -52,7 +52,7 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   )
   
   background <- data.frame(
-    x = dat_plot$age_short,
+    x = dat_plot$age_vshort,
     y = dat_plot$Outcome,
     backgroundColor = "rgba(255,255, 255, 0)",
     borderColor = dat_plot$col_grade,
@@ -66,7 +66,7 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   
   if (nrow(dat_sig) != 0) {
     star <- data.frame(
-      x = dat_sig$age_short,
+      x = dat_sig$age_vshort,
       y = dat_sig$Outcome,
       backgroundColor = "red",
       borderColor = "#red",
@@ -92,7 +92,7 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   }
   
   main <- data.frame(
-    x = dat_plot$age_short,
+    x = dat_plot$age_vshort,
     y = dat_plot$Outcome,
     r = dat_plot$size,
     backgroundColor = dat_plot$col_sig,
@@ -110,10 +110,10 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   background = background %>% arrange(Outcome_group)
   star = star %>% arrange(Outcome_group)
 
-  x_labels <- c("Pre-school (<6yo)", 
-                "School-age (6-12yo)",
-                "Adolescents (13-19yo)",
-                "Adults (>=20yo)")
+  x_labels <- c("Pre-school", 
+                "School-age",
+                "Adolescents",
+                "Adults")
   
   df_with_gaps <- main %>%
     group_by(Outcome_group) %>%

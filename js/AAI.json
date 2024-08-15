@@ -1,7 +1,7 @@
 {
   "background_dashed": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -11,7 +11,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  AAI on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -21,7 +21,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of AAI on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -31,7 +31,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between AAI and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Sensory Profile",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -41,7 +41,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of AAI on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -51,7 +51,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of AAI on Social-communication. Based on the analysis of the quality of the evidence produced by the 8 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -61,7 +61,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of AAI on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -71,7 +71,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between AAI and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Global cognition (IQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -81,7 +81,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of controls on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -91,7 +91,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of AAI on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -101,7 +101,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of AAI on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -111,7 +111,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of AAI on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -121,7 +121,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of AAI on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -133,7 +133,7 @@
   ],
   "background": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -143,7 +143,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  AAI on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -153,7 +153,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of AAI on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -163,7 +163,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between AAI and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Sensory Profile",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -173,7 +173,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of AAI on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -183,7 +183,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of AAI on Social-communication. Based on the analysis of the quality of the evidence produced by the 8 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -193,7 +193,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of AAI on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -203,7 +203,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between AAI and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Global cognition (IQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -213,7 +213,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of controls on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -223,7 +223,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of AAI on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -233,7 +233,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of AAI on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -243,7 +243,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of AAI on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -253,7 +253,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of AAI on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -265,7 +265,7 @@
   ],
   "main": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "r": 8,
       "backgroundColor": "#30CC5C",
@@ -273,7 +273,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Restricted/repetitive behaviors",
       "r": 8,
       "backgroundColor": "#68CD84",
@@ -281,7 +281,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Restricted/repetitive behaviors",
       "r": 9.5,
       "backgroundColor": "#D4D4D4",
@@ -289,7 +289,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Sensory Profile",
       "r": 8,
       "backgroundColor": "#68CD84",
@@ -297,7 +297,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "r": 17,
       "backgroundColor": "#A2CDAE",
@@ -305,7 +305,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "r": 12.5,
       "backgroundColor": "#A2CDAE",
@@ -313,7 +313,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adaptive behaviors",
       "r": 11,
       "backgroundColor": "#D4D4D4",
@@ -321,7 +321,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Global cognition (IQ)",
       "r": 8,
       "backgroundColor": "#DEADA7",
@@ -329,7 +329,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Expressive skills)",
       "r": 8,
       "backgroundColor": "#68CD84",
@@ -337,7 +337,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Overall skills)",
       "r": 8,
       "backgroundColor": "#A2CDAE",
@@ -345,7 +345,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Overall skills)",
       "r": 9.5,
       "backgroundColor": "#A2CDAE",
@@ -353,7 +353,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "r": 11,
       "backgroundColor": "#68CD84",
@@ -361,7 +361,7 @@
       "Outcome_group": "Psych. comorbidity"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "r": 11,
       "backgroundColor": "#A2CDAE",
@@ -371,7 +371,7 @@
   ],
   "star": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -380,7 +380,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -389,7 +389,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Sensory Profile",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -398,7 +398,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -407,7 +407,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Expressive skills)",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -416,7 +416,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -425,6 +425,6 @@
       "Outcome_group": "ASD-related symptoms"
     }
   ],
-  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
   "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }

@@ -1,7 +1,7 @@
 {
   "background_dashed": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -11,7 +11,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of PROB on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -21,7 +21,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between PROB and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -31,7 +31,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of PROB on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -41,7 +41,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between PROB and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -51,7 +51,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a very strong effect in favor of  PROB on Adverse events. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -61,7 +61,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between PROB and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -73,7 +73,7 @@
   ],
   "background": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -83,7 +83,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of PROB on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -93,7 +93,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between PROB and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -103,7 +103,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of PROB on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -113,7 +113,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between PROB and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -123,7 +123,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a very strong effect in favor of  PROB on Adverse events. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -133,7 +133,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between PROB and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -145,7 +145,7 @@
   ],
   "main": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "r": 11,
       "backgroundColor": "#A2CDAE",
@@ -153,7 +153,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Restricted/repetitive behaviors",
       "r": 11,
       "backgroundColor": "#D4D4D4",
@@ -161,7 +161,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "r": 12.5,
       "backgroundColor": "#A2CDAE",
@@ -169,7 +169,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Acceptability",
       "r": 12.5,
       "backgroundColor": "#D4D4D4",
@@ -177,7 +177,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adverse events",
       "r": 8,
       "backgroundColor": "#30CC5C",
@@ -185,7 +185,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "r": 9.5,
       "backgroundColor": "#D4D4D4",
@@ -193,7 +193,7 @@
       "Outcome_group": "Psych. comorbidity"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "r": 9.5,
       "backgroundColor": "#D4D4D4",
@@ -207,6 +207,6 @@
       "borderColor": "#red"
     }
   ],
-  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
   "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }

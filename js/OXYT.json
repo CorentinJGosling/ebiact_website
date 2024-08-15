@@ -1,7 +1,7 @@
 {
   "background_dashed": [
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -11,7 +11,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -21,7 +21,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -31,7 +31,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 9 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -41,7 +41,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 8 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -51,7 +51,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -61,7 +61,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Quality of life",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -71,7 +71,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is a small-to-moderate effect in favor of controls on Quality of life. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -81,7 +81,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -91,7 +91,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Anxiety",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -101,7 +101,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on Anxiety. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Mood related symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -111,7 +111,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Mood related symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -121,7 +121,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of OXYT on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -133,7 +133,7 @@
   ],
   "background": [
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ad2b5b",
@@ -143,7 +143,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a moderate confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ad2b5b",
@@ -153,7 +153,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a moderate confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ad2b5b",
@@ -163,7 +163,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is a small-to-moderate effect in favor of OXYT on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a moderate confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -173,7 +173,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#de5c3a",
@@ -183,7 +183,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -193,7 +193,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#de5c3a",
@@ -203,7 +203,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#de5c3a",
@@ -213,7 +213,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ad2b5b",
@@ -223,7 +223,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a moderate confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -233,7 +233,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 9 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Acceptability",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#de5c3a",
@@ -243,7 +243,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -253,7 +253,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 8 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -263,7 +263,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Adverse events",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -273,7 +273,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Tolerability",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ad2b5b",
@@ -283,7 +283,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a moderate confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Tolerability",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#de5c3a",
@@ -293,7 +293,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Quality of life",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -303,7 +303,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is a small-to-moderate effect in favor of controls on Quality of life. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -313,7 +313,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -323,7 +323,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between OXYT and controls on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Anxiety",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -333,7 +333,7 @@
       "customLabel": "In Adults (>=20 years old),  participants, there is no difference between OXYT and controls on Anxiety. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Mood related symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -343,7 +343,7 @@
       "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between OXYT and controls on Mood related symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -353,7 +353,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of OXYT on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -365,7 +365,7 @@
   ],
   "main": [
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Overall ASD symptoms",
       "r": 12.5,
       "backgroundColor": "#D4D4D4",
@@ -373,7 +373,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "r": 12.5,
       "backgroundColor": "#D4D4D4",
@@ -381,7 +381,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Restricted/repetitive behaviors",
       "r": 14,
       "backgroundColor": "#A2CDAE",
@@ -389,7 +389,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Restricted/repetitive behaviors",
       "r": 12.5,
       "backgroundColor": "#D4D4D4",
@@ -397,7 +397,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Restricted/repetitive behaviors",
       "r": 12.5,
       "backgroundColor": "#D4D4D4",
@@ -405,7 +405,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Social-communication",
       "r": 14,
       "backgroundColor": "#D4D4D4",
@@ -413,7 +413,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Social-communication",
       "r": 11,
       "backgroundColor": "#D4D4D4",
@@ -421,7 +421,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "r": 12.5,
       "backgroundColor": "#D4D4D4",
@@ -429,7 +429,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Acceptability",
       "r": 14,
       "backgroundColor": "#D4D4D4",
@@ -437,7 +437,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Acceptability",
       "r": 18.5,
       "backgroundColor": "#D4D4D4",
@@ -445,7 +445,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Acceptability",
       "r": 14,
       "backgroundColor": "#D4D4D4",
@@ -453,7 +453,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Adverse events",
       "r": 17,
       "backgroundColor": "#D4D4D4",
@@ -461,7 +461,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Adverse events",
       "r": 11,
       "backgroundColor": "#D4D4D4",
@@ -469,7 +469,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Adverse events",
       "r": 8,
       "backgroundColor": "#D4D4D4",
@@ -477,7 +477,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Tolerability",
       "r": 14,
       "backgroundColor": "#D4D4D4",
@@ -485,7 +485,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Tolerability",
       "r": 14,
       "backgroundColor": "#D4D4D4",
@@ -493,7 +493,7 @@
       "Outcome_group": "Safety"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Quality of life",
       "r": 8,
       "backgroundColor": "#DEADA7",
@@ -501,7 +501,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "ADHD symptoms",
       "r": 8,
       "backgroundColor": "#D4D4D4",
@@ -509,7 +509,7 @@
       "Outcome_group": "Psych. comorbidity"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "ADHD symptoms",
       "r": 8,
       "backgroundColor": "#D4D4D4",
@@ -517,7 +517,7 @@
       "Outcome_group": "Psych. comorbidity"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Anxiety",
       "r": 8,
       "backgroundColor": "#D4D4D4",
@@ -525,7 +525,7 @@
       "Outcome_group": "Psych. comorbidity"
     },
     {
-      "x": "Adolescents (13-19yo)",
+      "x": "Adolescents",
       "y": "Mood related symptoms",
       "r": 11,
       "backgroundColor": "#D4D4D4",
@@ -533,7 +533,7 @@
       "Outcome_group": "Psych. comorbidity"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "r": 9.5,
       "backgroundColor": "#A2CDAE",
@@ -541,7 +541,7 @@
       "Outcome_group": "ASD-related symptoms"
     },
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Disruptive behaviors",
       "r": 9.5,
       "backgroundColor": "#D4D4D4",
@@ -551,7 +551,7 @@
   ],
   "star": [
     {
-      "x": "Adults (>=20yo)",
+      "x": "Adults",
       "y": "Restricted/repetitive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -560,7 +560,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Disruptive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -569,6 +569,6 @@
       "Outcome_group": "ASD-related symptoms"
     }
   ],
-  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
   "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }

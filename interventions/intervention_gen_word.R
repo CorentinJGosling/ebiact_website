@@ -638,6 +638,7 @@ for (fact in dat$Acronym) {
         circle.addEventListener('mouseout', () => {
           hoverTextEfficacy.textContent = '';
           hoverTextEfficacy.style.opacity = '1';
+          hoverTextEfficacy.style.display = 'none';
         });
       });
       
@@ -646,16 +647,18 @@ for (fact in dat$Acronym) {
       const hoverTextSize = document.getElementById('hoverText_size');
       
       circlesSize.forEach((circle, index) => {
-        circle.style.width = `${10 + index * 30}px`;
-        circle.style.height = `${10 + index * 30}px`;
+        circle.style.width = `${20 + index * 20}px`;
+        circle.style.height = `${20 + index * 20}px`;
         circle.addEventListener('mouseover', () => {
           hoverTextSize.textContent = circle.getAttribute('data-hover-text');
           hoverTextSize.style.opacity = '1';
+          hoverTextSize.style.display = 'block';
         });
         
         circle.addEventListener('mouseout', () => {
           hoverTextSize.style.opacity = '0';
-        });
+          hoverTextSize.style.display = 'none';
+     });
       });
       
       // Hover text for Grade
@@ -675,11 +678,13 @@ for (fact in dat$Acronym) {
         circle.addEventListener('mouseover', () => {
           hoverTextGrade.textContent = circle.getAttribute('data-hover-text');
           hoverTextGrade.style.opacity = '1';
+          hoverTextGrade.style.display = 'block';
         });
         
         circle.addEventListener('mouseout', () => {
           hoverTextGrade.style.opacity = '0';
-        });
+          hoverTextGrade.style.display = 'none';
+       });
       });"
     ),
     "</script>",

@@ -1,7 +1,7 @@
 {
   "background_dashed": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -11,7 +11,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Sensory Profile",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -21,7 +21,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -31,7 +31,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of ACUP on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Global cognition (IQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -41,7 +41,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of ACUP on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -51,7 +51,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -61,7 +61,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Receptive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -71,7 +71,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Mood related symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -83,7 +83,7 @@
   ],
   "background": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -93,7 +93,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Sensory Profile",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -103,7 +103,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#de5c3a",
@@ -113,7 +113,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -123,7 +123,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of ACUP on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Global cognition (IQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -133,7 +133,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of ACUP on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -143,7 +143,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -153,7 +153,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Receptive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -163,7 +163,7 @@
       "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Mood related symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -175,7 +175,7 @@
   ],
   "main": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "r": 12.5,
       "backgroundColor": "#A2CDAE",
@@ -183,7 +183,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Sensory Profile",
       "r": 11,
       "backgroundColor": "#D4D4D4",
@@ -191,7 +191,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Social-communication",
       "r": 12.5,
       "backgroundColor": "#D4D4D4",
@@ -199,7 +199,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Adaptive behaviors",
       "r": 12.5,
       "backgroundColor": "#68CD84",
@@ -207,7 +207,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Global cognition (IQ)",
       "r": 12.5,
       "backgroundColor": "#68CD84",
@@ -215,7 +215,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Expressive skills)",
       "r": 8,
       "backgroundColor": "#D4D4D4",
@@ -223,7 +223,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Overall skills)",
       "r": 12.5,
       "backgroundColor": "#A2CDAE",
@@ -231,7 +231,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Receptive skills)",
       "r": 8,
       "backgroundColor": "#A2CDAE",
@@ -239,7 +239,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Mood related symptoms",
       "r": 11,
       "backgroundColor": "#A2CDAE",
@@ -249,7 +249,7 @@
   ],
   "star": [
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -258,7 +258,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Adaptive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -267,7 +267,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Global cognition (IQ)",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -276,7 +276,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "School-age (6-12yo)",
+      "x": "School-age",
       "y": "Language (Overall skills)",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -285,6 +285,6 @@
       "Outcome_group": "Functioning"
     }
   ],
-  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
   "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }

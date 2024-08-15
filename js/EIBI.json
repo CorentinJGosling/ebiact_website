@@ -1,7 +1,7 @@
 {
   "background_dashed": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -11,7 +11,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of EIBI on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -21,7 +21,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of EIBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -31,7 +31,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 10 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Global cognition (IQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -41,7 +41,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -51,7 +51,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -61,7 +61,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a very strong effect in favor of  EIBI on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Receptive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -71,7 +71,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Specific cognition (nvIQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -81,7 +81,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Specific cognition (nvIQ). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -93,7 +93,7 @@
   ],
   "background": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -103,7 +103,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of EIBI on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -113,7 +113,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of EIBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adaptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -123,7 +123,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 10 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Global cognition (IQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -133,7 +133,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -143,7 +143,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Overall skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -153,7 +153,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a very strong effect in favor of  EIBI on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Receptive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -163,7 +163,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Specific cognition (nvIQ)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -173,7 +173,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a moderate-to-strong effect in favor of EIBI on Specific cognition (nvIQ). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Disruptive behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -185,7 +185,7 @@
   ],
   "main": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "r": 8,
       "backgroundColor": "#A2CDAE",
@@ -193,7 +193,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "r": 12.5,
       "backgroundColor": "#A2CDAE",
@@ -201,7 +201,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adaptive behaviors",
       "r": 20,
       "backgroundColor": "#68CD84",
@@ -209,7 +209,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Global cognition (IQ)",
       "r": 15.5,
       "backgroundColor": "#68CD84",
@@ -217,7 +217,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Expressive skills)",
       "r": 11,
       "backgroundColor": "#68CD84",
@@ -225,7 +225,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Overall skills)",
       "r": 9.5,
       "backgroundColor": "#30CC5C",
@@ -233,7 +233,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Receptive skills)",
       "r": 11,
       "backgroundColor": "#68CD84",
@@ -241,7 +241,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Specific cognition (nvIQ)",
       "r": 12.5,
       "backgroundColor": "#68CD84",
@@ -249,7 +249,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Disruptive behaviors",
       "r": 8,
       "backgroundColor": "#68CD84",
@@ -259,7 +259,7 @@
   ],
   "star": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -268,7 +268,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Adaptive behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -277,7 +277,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Global cognition (IQ)",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -286,7 +286,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Expressive skills)",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -295,7 +295,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Overall skills)",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -304,7 +304,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Receptive skills)",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -313,6 +313,6 @@
       "Outcome_group": "Functioning"
     }
   ],
-  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
   "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }

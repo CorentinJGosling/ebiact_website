@@ -277,6 +277,10 @@ body {
 .helper_boxes {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+
   gap: 0.5rem;
 }
 /* Common styles for all canvases */
@@ -287,16 +291,16 @@ body {
 
 .canva_description {
   position: relative;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  // border-radius: 24px;
-  padding: 2rem;
-
   display: grid;
   isolation: isolate;
   border: 1px solid #ccc;
   border-radius: 5px;
 
   padding: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 0.5rem;
+  }
 }
 
 // .canva_description::after {
@@ -323,6 +327,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  @media (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
 }
 .circle {
   display: flex;
@@ -333,6 +340,10 @@ body {
   margin-right: 0.5rem;
   cursor: pointer;
   transition: all 0.3s ease; /* Smooth transitions */
+  @media (max-width: 768px) {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 
 /* Specific styles for Efficacy circles */
@@ -379,6 +390,9 @@ body {
   border-radius: 5px;
   padding: 2rem;
   width: 100%;
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 }
 #img_helper {
   background-image: url("../img/boy-1454054_640.png");
@@ -388,6 +402,10 @@ body {
   height: 150px;
   margin-left: auto;
   margin-right: auto;
+  @media (max-width: 768px) {
+    width: 100px;
+    height: 100px;
+  }
 }
 #labelDefault {
   text-align: center;
@@ -441,6 +459,10 @@ body {
 
 .tooltip-label {
   color: #ff5722; /* Custom color for the label */
+}
+
+.container_canvas {
+  height: 1000px !important; /* Adjust height if needed */
 }
 
 // @mixin circle($size) {
@@ -504,11 +526,6 @@ body {
 // }
 // .progress-pie-chart {
 //   margin: 50px auto 0;
-// }
-
-// .container_canvas {
-//   width: 100% !important;
-//   height: 100% !important; /* Adjust height if needed */
 // }
 
 // #myScatterPlot {

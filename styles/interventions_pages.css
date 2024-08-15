@@ -265,6 +265,11 @@ body .bottom_ressources .ressources a {
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
 }
+@media (max-width: 768px) {
+  .helper_boxes {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* Common styles for all canvases */
 .header_tab_plot {
@@ -274,13 +279,16 @@ body .bottom_ressources .ressources a {
 
 .canva_description {
   position: relative;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 2rem;
   display: grid;
   isolation: isolate;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 2rem;
+}
+@media (max-width: 768px) {
+  .canva_description {
+    padding: 0.5rem;
+  }
 }
 
 #canva_description_efficacy,
@@ -292,6 +300,13 @@ body .bottom_ressources .ressources a {
   margin-right: auto;
   position: relative;
 }
+@media (max-width: 768px) {
+  #canva_description_efficacy,
+  #canva_description_size,
+  #canva_description_grade {
+    margin-bottom: 1rem;
+  }
+}
 
 .circle {
   display: flex;
@@ -302,6 +317,12 @@ body .bottom_ressources .ressources a {
   margin-right: 0.5rem;
   cursor: pointer;
   transition: all 0.3s ease; /* Smooth transitions */
+}
+@media (max-width: 768px) {
+  .circle {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 
 /* Specific styles for Efficacy circles */
@@ -355,6 +376,11 @@ body .bottom_ressources .ressources a {
   padding: 2rem;
   width: 100%;
 }
+@media (max-width: 768px) {
+  #contain_helper {
+    padding: 1rem;
+  }
+}
 
 #img_helper {
   background-image: url("../img/boy-1454054_640.png");
@@ -364,6 +390,12 @@ body .bottom_ressources .ressources a {
   height: 150px;
   margin-left: auto;
   margin-right: auto;
+}
+@media (max-width: 768px) {
+  #img_helper {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 #labelDefault {
@@ -421,4 +453,8 @@ body .bottom_ressources .ressources a {
 
 .tooltip-label {
   color: #ff5722; /* Custom color for the label */
+}
+
+.container_canvas {
+  height: 1000px !important; /* Adjust height if needed */
 }/*# sourceMappingURL=interventions_pages.css.map */

@@ -1,7 +1,7 @@
 {
   "background_dashed": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -13,7 +13,7 @@
   ],
   "background": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -25,7 +25,7 @@
   ],
   "main": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "r": 14,
       "backgroundColor": "#D4D4D4",
@@ -35,7 +35,7 @@
   ],
   "star": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -44,6 +44,6 @@
       "Outcome_group": "Core ASD symptoms"
     }
   ],
-  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
   "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }

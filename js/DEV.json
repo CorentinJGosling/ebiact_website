@@ -1,7 +1,7 @@
 {
   "background_dashed": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -11,7 +11,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a very strong effect in favor of  DEV on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -21,7 +21,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of DEV on Social-communication. Based on the analysis of the quality of the evidence produced by the 14 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -31,7 +31,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between DEV and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 8 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Receptive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -43,7 +43,7 @@
   ],
   "background": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -53,7 +53,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a very strong effect in favor of  DEV on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -63,7 +63,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of DEV on Social-communication. Based on the analysis of the quality of the evidence produced by the 14 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Expressive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -73,7 +73,7 @@
       "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between DEV and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 8 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Receptive skills)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
@@ -85,7 +85,7 @@
   ],
   "main": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "r": 8,
       "backgroundColor": "#30CC5C",
@@ -93,7 +93,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "r": 26,
       "backgroundColor": "#A2CDAE",
@@ -101,7 +101,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Expressive skills)",
       "r": 17,
       "backgroundColor": "#D4D4D4",
@@ -109,7 +109,7 @@
       "Outcome_group": "Functioning"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Language (Receptive skills)",
       "r": 15.5,
       "backgroundColor": "#D4D4D4",
@@ -119,7 +119,7 @@
   ],
   "star": [
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Overall ASD symptoms",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -128,7 +128,7 @@
       "Outcome_group": "Core ASD symptoms"
     },
     {
-      "x": "Pre-school (<6yo)",
+      "x": "Pre-school",
       "y": "Social-communication",
       "backgroundColor": "red",
       "borderColor": "#red",
@@ -137,6 +137,6 @@
       "Outcome_group": "Core ASD symptoms"
     }
   ],
-  "xLabels": ["Pre-school (<6yo)", "School-age (6-12yo)", "Adolescents (13-19yo)", "Adults (>=20yo)"],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
   "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }

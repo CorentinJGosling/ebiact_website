@@ -36,8 +36,8 @@ function createScatterPlot(dataFileName) {
                 (item) => item.pointRadius
               ),
               hoverRadius: data.background_dashed.map(
-                (item) => item.pointRadius
-              ),
+                (item) => item.pointRadius + 5
+              ), // Adjust hover radius for smooth effect
               hoverBackgroundColor: data.background_dashed.map(
                 (item) => item.hoverBackgroundColor
               ),
@@ -61,7 +61,7 @@ function createScatterPlot(dataFileName) {
                 customCtx.arc(radius, radius, radius - 1, 0, Math.PI * 2);
                 customCtx.setLineDash([dashLength, dashGap]);
                 customCtx.lineWidth = 2;
-                customCtx.strokeStyle = "rgba(255, 99, 132, 1)";
+                customCtx.strokeStyle = ctx.dataset.borderColor[ctx.dataIndex];
                 customCtx.stroke();
 
                 return canvas;
@@ -80,7 +80,7 @@ function createScatterPlot(dataFileName) {
               borderColor: data.background.map((item) => item.borderColor),
               borderWidth: data.background.map((item) => item.borderWidth),
               pointRadius: data.background.map((item) => item.pointRadius),
-              hoverRadius: data.background.map((item) => item.pointRadius),
+              hoverRadius: data.background.map((item) => item.pointRadius + 2),
               hoverBackgroundColor: data.background.map(
                 (item) => item.backgroundColor
               ),
@@ -138,7 +138,12 @@ function createScatterPlot(dataFileName) {
           ],
         },
         options: {
-          aspectRatio: 1.4,
+          maintainAspectRatio: false,
+          responsive: true,
+          animation: {
+            duration: 1000, // Duration in milliseconds
+            easing: "easeInOutCubic", // Easing function for smooth transitions
+          },
           onClick: function (event, chartElement) {
             if (chartElement.length) {
               const datasetIndex = chartElement[0].datasetIndex;
@@ -256,6 +261,32 @@ function createScatterPlot(dataFileName) {
           },
         },
       });
+      function updateChartOptions() {
+        if (window.innerWidth < 768) {
+          scatterPlot.options.scales.x.offset = false; // Disable offset for small screens
+          scatterPlot.options.scales.x.ticks.maxRotation = 60; // Rotate labels by 90 degrees
+          scatterPlot.options.scales.x.ticks.minRotation = 60; // Ensure consistent rotation
+          scatterPlot.options.scales.x.ticks.font.size = 14; // Ensure consistent rotation
+
+          scatterPlot.data.datasets.forEach((dataset) => {
+            dataset.pointRadius = dataset.pointRadius.map(
+              (radius) => radius * 0.5 // Scale down by 50%
+            );
+          });
+        } else {
+          scatterPlot.options.scales.x.offset = true; // Enable offset for larger screens
+          scatterPlot.options.scales.x.ticks.maxRotation = 0; // No rotation
+          scatterPlot.options.scales.x.ticks.minRotation = 0; // No rotation
+          scatterPlot.options.scales.x.ticks.font.size = 20; // Ensure consistent rotation
+        }
+        scatterPlot.update(); // Apply the changes
+      }
+
+      // Initial call to update options based on the current window size
+      updateChartOptions();
+
+      // Add an event listener to update the chart options on window resize
+      window.addEventListener("resize", updateChartOptions);
     })
     .catch((error) => console.error("Error fetching the dataset:", error));
 }
