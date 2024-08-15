@@ -8,7 +8,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -18,7 +18,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -28,7 +28,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of NDBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 26 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of NDBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 26 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -38,7 +38,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  NDBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  NDBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -48,7 +48,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -58,7 +58,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of NDBI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 10 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of NDBI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 10 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -68,7 +68,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 20 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 20 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -78,7 +78,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -88,7 +88,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 13 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 13 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -98,7 +98,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of NDBI on Specific cognition (nvIQ). Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of NDBI on Specific cognition (nvIQ). Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -108,7 +108,7 @@
       "borderWidth": 2,
       "pointRadius": 46,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "background": [
@@ -120,7 +120,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -130,7 +130,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -140,7 +140,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of NDBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 26 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of NDBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 26 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -150,7 +150,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  NDBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  NDBI on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -160,7 +160,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -170,7 +170,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of NDBI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 10 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of NDBI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 10 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -180,7 +180,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 20 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 20 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -190,7 +190,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 6 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -200,7 +200,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 13 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 13 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -210,7 +210,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of NDBI on Specific cognition (nvIQ). Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of NDBI on Specific cognition (nvIQ). Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -220,7 +220,7 @@
       "borderWidth": 0,
       "pointRadius": 46,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between NDBI and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between NDBI and controls on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

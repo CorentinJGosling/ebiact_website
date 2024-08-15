@@ -8,7 +8,7 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  tDCS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  tDCS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -18,7 +18,7 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of tDCS on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of tDCS on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -28,7 +28,7 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of tDCS on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of tDCS on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -38,7 +38,7 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between tDCS and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between tDCS and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "background": [
@@ -50,7 +50,7 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a very strong effect in favor of  tDCS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  tDCS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -60,7 +60,7 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of tDCS on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of tDCS on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -70,7 +70,7 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of tDCS on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of tDCS on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -80,7 +80,7 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between tDCS and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between tDCS and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

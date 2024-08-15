@@ -249,6 +249,23 @@ body .bottom_ressources .ressources a {
   box-sizing: border-box;
 }
 
+.intro_helper {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  color: #1088ad;
+  margin-bottom: 0.5rem;
+}
+
+.helper_boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
 /* Common styles for all canvases */
 .header_tab_plot {
   font-size: 1rem;
@@ -258,26 +275,12 @@ body .bottom_ressources .ressources a {
 .canva_description {
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 24px;
   padding: 2rem;
   display: grid;
   isolation: isolate;
-}
-
-.canva_description::after {
-  border-radius: inherit;
-  z-index: -1;
-  content: "";
-  position: absolute;
-  inset: 0;
-  opacity: 0.3;
-  transition: all 0.35s;
-}
-
-.canva_description::after {
-  opacity: 1;
-  border: 1px solid #2d2d2d;
-  box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.1) inset, -20px -20px 20px rgba(0, 0, 0, 0.1) inset;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2rem;
 }
 
 #canva_description_efficacy,
@@ -292,11 +295,11 @@ body .bottom_ressources .ressources a {
 
 .circle {
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   cursor: pointer;
   transition: all 0.3s ease; /* Smooth transitions */
 }
@@ -342,18 +345,15 @@ body .bottom_ressources .ressources a {
 }
 
 #contain_helper {
-  display: none;
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 2rem;
+  width: 100%;
 }
 
 #img_helper {
@@ -362,6 +362,15 @@ body .bottom_ressources .ressources a {
   background-position: center;
   width: 150px;
   height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#labelDefault {
+  text-align: center;
+  padding-top: 1rem;
+  font-style: italic;
+  color: grey;
 }
 
 #labelCard {
@@ -373,13 +382,17 @@ body .bottom_ressources .ressources a {
 #hoverText_efficacy,
 #hoverText_size,
 #hoverText_grade {
+  display: none;
   position: absolute;
-  width: 100%;
   font-size: 16px;
-  color: #333;
+  color: #fff;
   opacity: 0;
   font-weight: bold;
+  background-color: #1088ad;
   transition: opacity 0.5s ease-in-out;
+  padding: 1rem;
+  border-radius: 5px;
+  z-index: 10;
 }
 
 #chartjs-tooltip {

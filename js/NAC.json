@@ -8,7 +8,7 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Safety",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between NAC and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between NAC and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -18,7 +18,7 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Safety",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -28,7 +28,7 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Safety",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between NAC and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between NAC and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -38,7 +38,7 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between NAC and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between NAC and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -48,7 +48,7 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Psych. comorbidity",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of NAC on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of NAC on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -58,7 +58,7 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of NAC on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of NAC on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "background": [
@@ -70,7 +70,7 @@
       "borderWidth": 1,
       "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between NAC and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between NAC and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -80,7 +80,7 @@
       "borderWidth": 1,
       "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between NAC and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between NAC and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -90,7 +90,7 @@
       "borderWidth": 1,
       "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -100,7 +100,7 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Safety",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between NAC and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between NAC and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -110,7 +110,7 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Safety",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -120,7 +120,7 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Safety",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between NAC and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between NAC and controls on Tolerability. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -130,7 +130,7 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  there is no difference between NAC and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between NAC and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -140,7 +140,7 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Psych. comorbidity",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of NAC on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of NAC on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -150,7 +150,7 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a moderate-to-strong effect in favor of NAC on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of NAC on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

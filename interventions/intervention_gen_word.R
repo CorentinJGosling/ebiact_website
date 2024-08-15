@@ -432,41 +432,45 @@ dat$text = with(dat, paste0(
   
   "<div class='header_shalf'>Evidence about efficacy and safety of<br> ", dat$Interventions, "</div>",
   
-  "<div class='canva_description'>",
+  "<div class='intro_helper'>Features to assist interpretation of the figure</div>",
+    "<div class='helper_boxes'>",
+      "<div class='canva_description'>",
+      
+        "<div class='header_tab_plot'>Presentation of the efficacy</div>",
+        "<div id='canva_description_efficacy'>",
+          '<div class="circle" data-hover-text="Very strong effect in favor of controls"></div>',
+          '<div class="circle" data-hover-text="Moderate-to-strong effect in favor of controls"></div>',
+          '<div class="circle" data-hover-text="Small-to-moderate effect in favor of controls"></div>',
+          '<div class="circle" data-hover-text="No difference between ', dat$Interventions, ' and controls"></div>',
+          '<div class="circle" data-hover-text="Small-to-moderate effect in favor of ', dat$Interventions, '"></div>',
+          '<div class="circle" data-hover-text="Moderate-to-strong effect in favor of ', dat$Interventions, '"></div>',
+          '<div class="circle" data-hover-text="Very strong effect in favor of ', dat$Interventions, '"></div>',
+          '<div id="hoverText_efficacy">', "</div>",
+        "</div>",
+      
+        "<div class='header_tab_plot'>Presentation of the number of studies</div>",
+        "<div id='canva_description_size'>",
+          '<div class="circle size" data-hover-text="n-studies = minimum"></div>',
+          '<div class="circle size" data-hover-text="n-studies = maximum"></div>',
+          '<div id="hoverText_size"></div>',
+        "</div>",
+      
+        "<div class='header_tab_plot'>Presentation of the confidence (GRADE) rating</div>",
+        "<div id='canva_description_grade'>",
+          '<div class="circle size" data-hover-text="GRADE = Very low"></div>',
+          '<div class="circle size" data-hover-text="GRADE = Low"></div>',
+          '<div class="circle size" data-hover-text="GRADE = Moderate"></div>',
+          '<div class="circle size" data-hover-text="GRADE = High"></div>',
+          '<div id="hoverText_grade"></div>',
+        "</div>",
+      "</div>",
   
-    "<div class='header_tab_plot'>Presentation of the efficacy</div>",
-    "<div id='canva_description_efficacy'>",
-      '<div class="circle" data-hover-text="Very strong effect in favor of controls"></div>',
-      '<div class="circle" data-hover-text="Moderate-to-strong effect in favor of controls"></div>',
-      '<div class="circle" data-hover-text="Small-to-moderate effect in favor of controls"></div>',
-      '<div class="circle" data-hover-text="No difference between ', dat$Interventions, ' and controls"></div>',
-      '<div class="circle" data-hover-text="Small-to-moderate effect in favor of ', dat$Interventions, '"></div>',
-      '<div class="circle" data-hover-text="Moderate-to-strong effect in favor of ', dat$Interventions, '"></div>',
-      '<div class="circle" data-hover-text="Very strong effect in favor of ', dat$Interventions, '"></div>',
-      '<div id="hoverText_efficacy">', "</div>",
-    "</div>",
-  
-    "<div class='header_tab_plot'>Presentation of the number of studies</div>",
-    "<div id='canva_description_size'>",
-      '<div class="circle size" data-hover-text="n-studies = minimum"></div>',
-      '<div class="circle size" data-hover-text="n-studies = maximum"></div>',
-      '<div id="hoverText_size"></div>',
-    "</div>",
-  
-    "<div class='header_tab_plot'>Presentation of the confidence (GRADE) rating</div>",
-    "<div id='canva_description_grade'>",
-    '<div class="circle size" data-hover-text="GRADE = Very low"></div>',
-    '<div class="circle size" data-hover-text="GRADE = Low"></div>',
-    '<div class="circle size" data-hover-text="GRADE = Moderate"></div>',
-      '<div class="circle size" data-hover-text="GRADE = High"></div>',
-  '<div id="hoverText_grade"></div>',
-    "</div>",
-  "</div>",
-  
-  '<div id = "contain_helper">',
-    '<div id = "img_helper"></div>',
-    '<div id="labelCard"></div>',
+      '<div id = "contain_helper">',
+        '<div id = "img_helper"></div>',
+        '<div id="labelDefault">Click on a dot to benefit from a narrative description of the results</div>',
+        '<div id="labelCard"></div>',
   '</div>',
+    '</div>',
     
   
   '<div class="container_canvas"><canvas id="myScatterPlot"></canvas></div>',
@@ -628,6 +632,7 @@ for (fact in dat$Acronym) {
         circle.addEventListener('mouseover', () => {
           hoverTextEfficacy.textContent = circle.getAttribute('data-hover-text');
           hoverTextEfficacy.style.opacity = '1';
+          hoverTextEfficacy.style.display = 'block';
         });
         
         circle.addEventListener('mouseout', () => {

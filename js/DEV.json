@@ -8,7 +8,7 @@
       "borderWidth": 2,
       "pointRadius": 28,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is a very strong effect in favor of  DEV on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a very strong effect in favor of  DEV on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -18,7 +18,7 @@
       "borderWidth": 2,
       "pointRadius": 28,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of DEV on Social-communication. Based on the analysis of the quality of the evidence produced by the 14 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of DEV on Social-communication. Based on the analysis of the quality of the evidence produced by the 14 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -28,7 +28,7 @@
       "borderWidth": 2,
       "pointRadius": 28,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between DEV and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 8 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between DEV and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 8 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -38,7 +38,7 @@
       "borderWidth": 2,
       "pointRadius": 28,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between DEV and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between DEV and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "background": [
@@ -50,7 +50,7 @@
       "borderWidth": 0,
       "pointRadius": 28,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is a very strong effect in favor of  DEV on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a very strong effect in favor of  DEV on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -60,7 +60,7 @@
       "borderWidth": 0,
       "pointRadius": 28,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of DEV on Social-communication. Based on the analysis of the quality of the evidence produced by the 14 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of DEV on Social-communication. Based on the analysis of the quality of the evidence produced by the 14 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -70,7 +70,7 @@
       "borderWidth": 0,
       "pointRadius": 28,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between DEV and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 8 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between DEV and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 8 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -80,7 +80,7 @@
       "borderWidth": 0,
       "pointRadius": 28,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between DEV and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between DEV and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

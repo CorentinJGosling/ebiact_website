@@ -12,11 +12,11 @@ dat_ur_raw = readxl::read_excel(paste0(chemin, "UR_TOTAL_analysis.xlsx")) %>%
 
 
 dat_ur_raw$customLabel = paste0("In ", dat_ur_raw$age_pre, ", ",
-       " there is ", 
+       " participants, there is ", 
        dat_ur_raw$effect_text, " on ", 
        dat_ur_raw$outcome_general, 
        ". Based on the analysis of the quality of the evidence produced by the ", 
-       dat_ur_raw$n_studies, " studies exploring this effect, we have a ",
+       dat_ur_raw$n_studies, " clinical trials exploring this effect, we have a ",
        tolower(dat_ur_raw$GRADE), " confidence in the estimation of this effect.")
 
 

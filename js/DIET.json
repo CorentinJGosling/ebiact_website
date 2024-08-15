@@ -8,7 +8,7 @@
       "borderWidth": 2,
       "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of DIET on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of DIET on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -18,7 +18,7 @@
       "borderWidth": 2,
       "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of DIET on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of DIET on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -28,7 +28,7 @@
       "borderWidth": 2,
       "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of DIET on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of DIET on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -38,7 +38,7 @@
       "borderWidth": 2,
       "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between DIET and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between DIET and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -48,7 +48,7 @@
       "borderWidth": 2,
       "pointRadius": 17.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of DIET on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of DIET on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "background": [
@@ -60,7 +60,7 @@
       "borderWidth": 0,
       "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of DIET on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of DIET on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -70,7 +70,7 @@
       "borderWidth": 0,
       "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of DIET on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 4 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of DIET on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "School-age (6-12yo)",
@@ -80,7 +80,7 @@
       "borderWidth": 0,
       "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  there is a small-to-moderate effect in favor of DIET on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of DIET on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -90,7 +90,7 @@
       "borderWidth": 0,
       "pointRadius": 17.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  there is no difference between DIET and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between DIET and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     },
     {
       "x": "Pre-school (<6yo)",
@@ -100,7 +100,7 @@
       "borderWidth": 0,
       "pointRadius": 17.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  there is a small-to-moderate effect in favor of DIET on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 3 studies exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of DIET on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
     }
   ],
   "main": [

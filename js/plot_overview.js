@@ -147,14 +147,12 @@ function createScatterPlot(dataFileName) {
               const customLabel =
                 this.data.datasets[datasetIndex].data[dataIndex].customLabel;
 
-              // Display the custom label in the card
-              const contain_helper = document.getElementById("contain_helper");
-              contain_helper.style.display = "flex";
-
-              // Display the custom label in the card
               const labelCard = document.getElementById("labelCard");
               labelCard.innerHTML = customLabel;
               labelCard.style.display = "block";
+
+              const labelDefault = document.getElementById("labelDefault");
+              labelDefault.style.display = "none";
             }
           },
           onHover: function (event, chartElement) {
