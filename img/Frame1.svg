@@ -1,0 +1,15 @@
+<svg width="1920" height="1188" viewBox="0 0 1920 1188" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame1" clip-path="url(#clip0_1_2)">
+<rect width="1920" height="1188" fill="white"/>
+<path id="Rectangle 2" d="M0 30C0 13.4315 13.4315 0 30 0H1890C1906.57 0 1920 13.4315 1920 30V108H0V30Z" fill="#585EBA"/>
+<rect id="screen" x="0.5" y="108.5" width="1919" height="1079" stroke="black"/>
+<circle id="Ellipse 1" cx="1582" cy="40" r="25" fill="#40C821"/>
+<circle id="Ellipse 2" cx="1696" cy="40" r="25" fill="#EFBC5D"/>
+<circle id="Ellipse 3" cx="1810" cy="40" r="25" fill="#EF6668"/>
+</g>
+<defs>
+<clipPath id="clip0_1_2">
+<rect width="1920" height="1188" fill="white"/>
+</clipPath>
+</defs>
+</svg>

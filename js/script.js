@@ -125,3 +125,108 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch((error) => console.error("Error loading SVG:", error));
 });
+const svgPath2 = "../img/Frame1.svg"; // Path to your SVG file
+const svgContainer2 = document.getElementById("svgContainer2"); // Container to load SVG
+
+// Fetch the SVG file
+fetch(svgPath2)
+  .then((response) => response.text())
+  .then((svgText) => {
+    // Insert the SVG into the container
+    svgContainer2.innerHTML = svgText;
+
+    // Find the element with the ID 'Frame1'
+    const frameElement = svgContainer2.querySelector("#Frame1");
+
+    if (frameElement) {
+      console.log("Frame 1 element found:", frameElement);
+
+      // Find the 'screen' element within 'Frame1'
+      const screenElement = frameElement.querySelector("#screen");
+
+      if (screenElement) {
+        console.log("Screen element found:", screenElement);
+
+        // Get the dimensions and position of the 'screen' element
+        const { x, y, width, height } = screenElement.getBBox();
+        console.log(
+          `Screen element dimensions: x=${x}, y=${y}, width=${width}, height=${height}`
+        );
+
+        // Create a foreignObject element
+        const foreignObject = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "foreignObject"
+        );
+        foreignObject.setAttribute("x", x);
+        foreignObject.setAttribute("y", y);
+        foreignObject.setAttribute("width", width);
+        foreignObject.setAttribute("height", height);
+
+        // Create a div inside foreignObject to hold the video and play button
+        const contentDiv = document.createElement("div");
+        contentDiv.style.position = "relative";
+        contentDiv.style.width = "100%";
+        contentDiv.style.height = "100%";
+        contentDiv.style.display = "flex";
+        contentDiv.style.alignItems = "center";
+        contentDiv.style.justifyContent = "center";
+        contentDiv.style.overflow = "hidden";
+
+        // Create a video element
+        const video = document.createElement("video");
+        video.src = "../img/W4SQUS692FCWXGBX.mp4"; // Replace with your video URL
+        video.controls = true; // Show default video controls
+        video.style.width = "100%";
+        video.style.height = "100%";
+        video.style.objectFit = "contain"; // Ensure the video scales within the div
+
+        // Create a play button element
+        const playButton = document.createElement("div");
+        playButton.className = "play-button"; // Class for styling
+        playButton.style.position = "absolute";
+        playButton.style.width = "60px"; // Size of the play button
+        playButton.style.height = "60px";
+        playButton.style.background = "rgba(0, 0, 0, 0.7)"; // Semi-transparent background
+        playButton.style.borderRadius = "50%";
+        playButton.style.display = "flex";
+        playButton.style.alignItems = "center";
+        playButton.style.justifyContent = "center";
+        playButton.style.cursor = "pointer";
+        playButton.style.color = "#fff";
+        playButton.style.fontSize = "24px";
+        playButton.style.fontFamily = "Arial, sans-serif";
+        playButton.innerHTML = "▶"; // Play icon (could be replaced with an SVG or image)
+
+        // Add event listener to the play button
+        playButton.addEventListener("click", () => {
+          video.play();
+          playButton.style.display = "none"; // Hide play button after play
+        });
+
+        // Append the video and play button to the div
+        contentDiv.appendChild(video);
+        contentDiv.appendChild(playButton);
+
+        // Append the div to the foreignObject
+        foreignObject.appendChild(contentDiv);
+
+        // Clear the 'screen' element and replace it with foreignObject
+        screenElement.innerHTML = "";
+        screenElement.parentNode.replaceChild(foreignObject, screenElement);
+
+        console.log(
+          "Video and custom play button embedded into the screen element."
+        );
+      } else {
+        console.error(
+          'No element with the ID "screen" found within "Frame 1".'
+        );
+      }
+    } else {
+      console.error('No element with the ID "Frame 1" found in the SVG.');
+    }
+  })
+  .catch((error) => {
+    console.error("Error loading the SVG file:", error);
+  });

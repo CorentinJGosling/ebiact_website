@@ -303,14 +303,14 @@ text {
   justify-content: center;
   /* border: 2px solid red; */
 }
-.heroTXT {
+h1 {
+  color: #767676;
+  font-size: 1rem;
   animation: slide-left ease-in-out calc(var(--anim-dur) / 2) forwards;
   animation-delay: var(--delay-anim);
-  /* transform: translateY(-50%); */
   transform: translateX(50%);
   opacity: 0;
 }
-
 @keyframes slide-right {
   0% {
     transform: translateX(-50%);
@@ -372,6 +372,15 @@ button {
   }
 }
 
+h3 {
+  padding-top: var(--space-hero);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sectionVIDEO h3 {
+  color: #1088ad;
+}
 /* ========================================= */
 .sectionMTD {
   background: radial-gradient(ellipse at center, #56c7ea, #1088ad);
@@ -394,10 +403,6 @@ button {
 
 .sectionMTD h3 {
   color: #fff; /* 56c7ea */
-  padding-top: var(--space-hero);
-  font-size: 2rem;
-  text-align: center;
-  border-top: 1px solid #b4b4b4;
 }
 
 .heroDESC {
@@ -743,4 +748,51 @@ button:hover i::after {
   100% {
     box-shadow: #27272c;
   }
+}
+
+.sectionVIDEO {
+  // border: 2px solid red;
+}
+
+#svgContainer2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  max-height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  // border: 2px solid green;
+
+  @media screen and (max-width: 1400px) {
+    width: 900px;
+    max-height: 600px;
+  }
+  @media screen and (max-width: 900px) {
+    width: 90vw;
+    max-height: 70vw;
+  }
+}
+.play-button {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  border-radius: 50%; /* Circular button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 350px !important;
+  height: 350px !important;
+  font-size: 124px !important; /* Adjust size as needed */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: opacity 0.3s ease;
+
+  @media screen and (max-width: 1200px) {
+    width: 250px !important;
+    height: 250px !important;
+    font-size: 80px !important; /* Adjust size as needed */
+  }
+}
+
+.play-button:hover {
+  opacity: 0.8; /* Slight fade on hover */
 }
