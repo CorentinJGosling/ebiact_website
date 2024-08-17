@@ -33,7 +33,7 @@ dat_ur_raw$Outcome_group = factor(dat_ur_raw$Outcome_group, levels = c(
 )
 
 dat_ur_raw = dat_ur_raw %>%
-  arrange(Outcome_group, Outcome)
+  arrange(Outcome_group, outcome_short)
 
 for (INTR in unique(dat_ur_raw$intervention_general)) {
   print(INTR)
@@ -45,7 +45,7 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   
   background_dashed <- data.frame(
     x = dat_grade_v_low$age_vshort,
-    y = dat_grade_v_low$Outcome,
+    y = dat_grade_v_low$outcome_short,
     backgroundColor = "rgba(255,255, 255, 0)",
     borderColor = dat_grade_v_low$col_grade,
     borderWidth = 2,
@@ -58,7 +58,7 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   
   background <- data.frame(
     x = dat_plot$age_vshort,
-    y = dat_plot$Outcome,
+    y = dat_plot$outcome_short,
     backgroundColor = "rgba(255,255, 255, 0)",
     borderColor = dat_plot$col_grade,
     borderWidth = dat_plot$GRADE_rank,
@@ -73,7 +73,7 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   if (nrow(dat_sig) != 0) {
     star <- data.frame(
       x = dat_sig$age_vshort,
-      y = dat_sig$Outcome,
+      y = dat_sig$outcome_short,
       backgroundColor = "red",
       borderColor = "#red",
       r = dat_sig$size + 5,
@@ -99,7 +99,7 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   
   main <- data.frame(
     x = dat_plot$age_vshort,
-    y = dat_plot$Outcome,
+    y = dat_plot$outcome_short,
     r = dat_plot$size,
     backgroundColor = dat_plot$col_sig,
     # borderColor = c("rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)", "rgba(75, 192, 192, 1)", "rgba(255, 206, 86, 1)"),

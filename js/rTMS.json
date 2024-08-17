@@ -2,7 +2,7 @@
   "background_dashed": [
     {
       "x": "Adolescents",
-      "y": "Restricted/repetitive behaviors",
+      "y": "Rest./repet. behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 2,
@@ -48,7 +48,7 @@
   "background": [
     {
       "x": "Adolescents",
-      "y": "Restricted/repetitive behaviors",
+      "y": "Rest./repet. behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 0,
@@ -94,7 +94,7 @@
   "main": [
     {
       "x": "Adolescents",
-      "y": "Restricted/repetitive behaviors",
+      "y": "Rest./repet. behaviors",
       "r": 11,
       "backgroundColor": "#68CD84",
       "borderWidth": 0,
@@ -128,7 +128,7 @@
   "star": [
     {
       "x": "Adolescents",
-      "y": "Restricted/repetitive behaviors",
+      "y": "Rest./repet. behaviors",
       "backgroundColor": "red",
       "borderColor": "#red",
       "r": 16,
@@ -164,5 +164,5 @@
     }
   ],
   "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
-  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Rest./repet. behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall)", "Language (Expressive)", "Language (Receptive)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }

@@ -13,7 +13,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Restricted/repetitive behaviors",
+      "y": "Rest./repet. behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 2,
@@ -68,7 +68,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Expressive skills)",
+      "y": "Language (Expressive)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 2,
@@ -79,7 +79,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Overall skills)",
+      "y": "Language (Overall)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 2,
@@ -90,7 +90,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Receptive skills)",
+      "y": "Language (Receptive)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 2,
@@ -101,7 +101,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Specific cognition (nvIQ)",
+      "y": "Specific cognition",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 2,
@@ -136,7 +136,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Restricted/repetitive behaviors",
+      "y": "Rest./repet. behaviors",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 0,
@@ -191,7 +191,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Expressive skills)",
+      "y": "Language (Expressive)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 0,
@@ -202,7 +202,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Overall skills)",
+      "y": "Language (Overall)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 0,
@@ -213,7 +213,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Receptive skills)",
+      "y": "Language (Receptive)",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 0,
@@ -224,7 +224,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Specific cognition (nvIQ)",
+      "y": "Specific cognition",
       "backgroundColor": "rgba(255,255, 255, 0)",
       "borderColor": "#ff8b1a",
       "borderWidth": 0,
@@ -256,7 +256,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Restricted/repetitive behaviors",
+      "y": "Rest./repet. behaviors",
       "r": 15.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
@@ -296,7 +296,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Expressive skills)",
+      "y": "Language (Expressive)",
       "r": 35,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
@@ -304,7 +304,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Overall skills)",
+      "y": "Language (Overall)",
       "r": 14,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
@@ -312,7 +312,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Receptive skills)",
+      "y": "Language (Receptive)",
       "r": 24.5,
       "backgroundColor": "#D4D4D4",
       "borderWidth": 0,
@@ -320,7 +320,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Specific cognition (nvIQ)",
+      "y": "Specific cognition",
       "r": 15.5,
       "backgroundColor": "#A2CDAE",
       "borderWidth": 0,
@@ -356,7 +356,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Language (Expressive skills)",
+      "y": "Language (Expressive)",
       "backgroundColor": "red",
       "borderColor": "#red",
       "r": 40,
@@ -365,7 +365,7 @@
     },
     {
       "x": "Pre-school",
-      "y": "Specific cognition (nvIQ)",
+      "y": "Specific cognition",
       "backgroundColor": "red",
       "borderColor": "#red",
       "r": 20.5,
@@ -374,5 +374,5 @@
     }
   ],
   "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
-  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Rest./repet. behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall)", "Language (Expressive)", "Language (Receptive)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
 }
