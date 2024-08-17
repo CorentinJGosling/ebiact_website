@@ -8,7 +8,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  tDCS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a very strong effect in favor of  tDCS<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -18,7 +19,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of tDCS on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of tDCS<\/b> on <u>Sensory Profile<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -28,7 +30,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of tDCS on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of tDCS<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -38,7 +41,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between tDCS and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between tDCS and controls<\/b> on <u>Language (Overall skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     }
   ],
   "background": [
@@ -50,7 +54,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  tDCS on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a very strong effect in favor of  tDCS<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -60,7 +65,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of tDCS on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of tDCS<\/b> on <u>Sensory Profile<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -70,7 +76,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of tDCS on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of tDCS<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -80,7 +87,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between tDCS and controls on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between tDCS and controls<\/b> on <u>Language (Overall skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     }
   ],
   "main": [

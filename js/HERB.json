@@ -8,7 +8,8 @@
       "borderWidth": 2,
       "pointRadius": 16,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between HERB and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>no difference between HERB and controls<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     }
   ],
   "background": [
@@ -20,7 +21,8 @@
       "borderWidth": 0,
       "pointRadius": 16,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between HERB and controls on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>no difference between HERB and controls<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     }
   ],
   "main": [

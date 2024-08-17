@@ -8,7 +8,8 @@
       "borderWidth": 2,
       "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of L-CARNO on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of L-CARNO<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     },
     {
       "x": "School-age",
@@ -18,7 +19,8 @@
       "borderWidth": 2,
       "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between L-CARNO and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between L-CARNO and controls<\/b> on <u>Restricted/repetitive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -28,7 +30,8 @@
       "borderWidth": 2,
       "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between L-CARNO and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between L-CARNO and controls<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -38,7 +41,8 @@
       "borderWidth": 2,
       "pointRadius": 13,
       "Outcome_group": "Safety",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between L-CARNO and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between L-CARNO and controls<\/b> on <u>Acceptability<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     }
   ],
   "background": [
@@ -50,7 +54,8 @@
       "borderWidth": 0,
       "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of L-CARNO on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of L-CARNO<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     },
     {
       "x": "School-age",
@@ -60,7 +65,8 @@
       "borderWidth": 0,
       "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between L-CARNO and controls on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between L-CARNO and controls<\/b> on <u>Restricted/repetitive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -70,7 +76,8 @@
       "borderWidth": 0,
       "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between L-CARNO and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between L-CARNO and controls<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -80,7 +87,8 @@
       "borderWidth": 0,
       "pointRadius": 13,
       "Outcome_group": "Safety",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between L-CARNO and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between L-CARNO and controls<\/b> on <u>Acceptability<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     }
   ],
   "main": [

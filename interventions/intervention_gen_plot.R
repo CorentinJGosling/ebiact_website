@@ -8,16 +8,19 @@ dat_ur_raw = readxl::read_excel(paste0(chemin, "UR_TOTAL_analysis.xlsx")) %>%
   mutate(
     # size = log(n_studies) * 10 + 5
     size = n_studies * 1.5 + 5
-  )
+  ) %>%
+  group_by(intervention_general) %>%
+  mutate(min_studies = min(n_studies),
+         max_studies = max(n_studies))
 
 
-dat_ur_raw$customLabel = paste0("In ", dat_ur_raw$age_pre, ", ",
-       " participants, there is ", 
-       dat_ur_raw$effect_text, " on ", 
+dat_ur_raw$customLabel = paste0("In ", dat_ur_raw$age_pre, " ",
+       " participants, there is <b>", 
+       dat_ur_raw$effect_text, "</b> on <u>", 
        dat_ur_raw$outcome_general, 
-       ". Based on the analysis of the quality of the evidence produced by the ", 
-       dat_ur_raw$n_studies, " clinical trials exploring this effect, we have a ",
-       tolower(dat_ur_raw$GRADE), " confidence in the estimation of this effect.")
+       "</u>. Based on the analysis of the quality of the evidence produced by the ", 
+       dat_ur_raw$n_studies, " clinical trials exploring this effect, we have a <b>",
+       tolower(dat_ur_raw$GRADE), " confidence</b> in the estimation of this effect.")
 
 
 dat_ur_raw$Outcome_group = factor(dat_ur_raw$Outcome_group, levels = c(
@@ -48,7 +51,9 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
     borderWidth = 2,
     pointRadius = max(dat_plot$size) + 2,
     Outcome_group = dat_grade_v_low$Outcome_group,
-    customLabel = dat_grade_v_low$customLabel
+    customLabel = dat_grade_v_low$customLabel,
+    n_studies = dat_grade_v_low$n_studies
+    
   )
   
   background <- data.frame(
@@ -59,7 +64,8 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
     borderWidth = dat_plot$GRADE_rank,
     pointRadius = max(dat_plot$size) + 2,
     Outcome_group = dat_plot$Outcome_group,
-    customLabel = dat_plot$customLabel
+    customLabel = dat_plot$customLabel,
+    n_studies = dat_plot$n_studies
   )
   
   dat_sig = dat_plot %>% filter(as.numeric(p_value) < 0.05)

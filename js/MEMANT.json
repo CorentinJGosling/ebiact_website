@@ -1,0 +1,211 @@
+{
+  "background_dashed": [
+    {
+      "x": "School-age",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of MEMANT<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
+    },
+    {
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In NA  participants, there is <b>no difference between MEMANT and controls<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    },
+    {
+      "x": "School-age",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of MEMANT<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
+    },
+    {
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Safety",
+      "customLabel": "In NA  participants, there is <b>no difference between MEMANT and controls<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    },
+    {
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Safety",
+      "customLabel": "In NA  participants, there is <b>a small-to-moderate effect in favor of controls<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    },
+    {
+      "y": "Anxiety",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In NA  participants, there is <b>a very strong effect in favor of  MEMANT<\/b> on <u>Anxiety<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    },
+    {
+      "y": "Anxiety",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In NA  participants, there is <b>no difference between MEMANT and controls<\/b> on <u>Anxiety<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    }
+  ],
+  "background": [
+    {
+      "x": "School-age",
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of MEMANT<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
+    },
+    {
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In NA  participants, there is <b>no difference between MEMANT and controls<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    },
+    {
+      "x": "School-age",
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Safety",
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of MEMANT<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
+    },
+    {
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Safety",
+      "customLabel": "In NA  participants, there is <b>no difference between MEMANT and controls<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    },
+    {
+      "y": "Adverse events",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Safety",
+      "customLabel": "In NA  participants, there is <b>a small-to-moderate effect in favor of controls<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    },
+    {
+      "y": "Anxiety",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In NA  participants, there is <b>a very strong effect in favor of  MEMANT<\/b> on <u>Anxiety<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    },
+    {
+      "y": "Anxiety",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Psych. comorbidity",
+      "customLabel": "In NA  participants, there is <b>no difference between MEMANT and controls<\/b> on <u>Anxiety<\/u>. Based on the analysis of the quality of the evidence produced by the 1 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 1
+    }
+  ],
+  "main": [
+    {
+      "x": "School-age",
+      "y": "Overall ASD symptoms",
+      "r": 8,
+      "backgroundColor": "#68CD84",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "y": "Overall ASD symptoms",
+      "r": 6.5,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "x": "School-age",
+      "y": "Adverse events",
+      "r": 8,
+      "backgroundColor": "#A2CDAE",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "y": "Adverse events",
+      "r": 6.5,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "y": "Adverse events",
+      "r": 6.5,
+      "backgroundColor": "#DEADA7",
+      "borderWidth": 0,
+      "Outcome_group": "Safety"
+    },
+    {
+      "y": "Anxiety",
+      "r": 6.5,
+      "backgroundColor": "#30CC5C",
+      "borderWidth": 0,
+      "Outcome_group": "Psych. comorbidity"
+    },
+    {
+      "y": "Anxiety",
+      "r": 6.5,
+      "backgroundColor": "#D4D4D4",
+      "borderWidth": 0,
+      "Outcome_group": "Psych. comorbidity"
+    }
+  ],
+  "star": [
+    {
+      "backgroundColor": "red",
+      "borderColor": "#red"
+    }
+  ],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+}

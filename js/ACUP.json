@@ -8,7 +8,8 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of ACUP<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -18,7 +19,8 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between ACUP and controls<\/b> on <u>Sensory Profile<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     },
     {
       "x": "School-age",
@@ -28,7 +30,8 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of ACUP on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of ACUP<\/b> on <u>Adaptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -38,7 +41,8 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of ACUP on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of ACUP<\/b> on <u>Global cognition (IQ)<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -48,7 +52,8 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between ACUP and controls<\/b> on <u>Language (Expressive skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -58,7 +63,8 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of ACUP<\/b> on <u>Language (Overall skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -68,7 +74,8 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of ACUP<\/b> on <u>Language (Receptive skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -78,7 +85,8 @@
       "borderWidth": 2,
       "pointRadius": 14.5,
       "Outcome_group": "Psych. comorbidity",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Mood related symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of ACUP<\/b> on <u>Mood related symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     }
   ],
   "background": [
@@ -90,7 +98,8 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of ACUP<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -100,7 +109,8 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Sensory Profile. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between ACUP and controls<\/b> on <u>Sensory Profile<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     },
     {
       "x": "School-age",
@@ -110,7 +120,8 @@
       "borderWidth": 1,
       "pointRadius": 14.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between ACUP and controls<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -120,7 +131,8 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of ACUP on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of ACUP<\/b> on <u>Adaptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -130,7 +142,8 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of ACUP on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of ACUP<\/b> on <u>Global cognition (IQ)<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -140,7 +153,8 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is no difference between ACUP and controls on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>no difference between ACUP and controls<\/b> on <u>Language (Expressive skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -150,7 +164,8 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Language (Overall skills). Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of ACUP<\/b> on <u>Language (Overall skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "School-age",
@@ -160,7 +175,8 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of ACUP<\/b> on <u>Language (Receptive skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "School-age",
@@ -170,7 +186,8 @@
       "borderWidth": 0,
       "pointRadius": 14.5,
       "Outcome_group": "Psych. comorbidity",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a small-to-moderate effect in favor of ACUP on Mood related symptoms. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a small-to-moderate effect in favor of ACUP<\/b> on <u>Mood related symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     }
   ],
   "main": [

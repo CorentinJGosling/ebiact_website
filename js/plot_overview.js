@@ -22,6 +22,7 @@ function createScatterPlot(dataFileName) {
                 x: item.x,
                 y: item.y,
                 customLabel: item.customLabel,
+                n_studies: item.n_studies,
               })),
               backgroundColor: data.background_dashed.map(
                 (item) => item.backgroundColor
@@ -73,6 +74,7 @@ function createScatterPlot(dataFileName) {
                 x: item.x,
                 y: item.y,
                 customLabel: item.customLabel,
+                n_studies: item.n_studies,
               })),
               backgroundColor: data.background.map(
                 (item) => item.backgroundColor
@@ -110,7 +112,7 @@ function createScatterPlot(dataFileName) {
                 r: item.r,
                 backgroundColor: item.backgroundColor,
                 borderColor: item.borderColor,
-                customLabel: item.customLabel, // Ensure this is included
+                customLabel: item.customLabel,
                 borderWidth: item.borderWidth,
               })),
               pointRadius: function (context) {
@@ -152,14 +154,45 @@ function createScatterPlot(dataFileName) {
               const customLabel =
                 this.data.datasets[datasetIndex].data[dataIndex].customLabel;
 
-              const labelCard = document.getElementById("labelCard");
-              labelCard.innerHTML = customLabel;
-              labelCard.style.display = "block";
+              // Set the content of the modal
+              const modalBody = document.getElementById("modalBody");
+              modalBody.innerHTML = customLabel;
 
-              const labelDefault = document.getElementById("labelDefault");
-              labelDefault.style.display = "none";
+              // Get the modal and show it
+              const modal = document.getElementById("customLabelModal");
+              modal.style.display = "block";
+
+              // Close the modal when the user clicks on <span> (x)
+              const closeButton = document.querySelector(".close-button");
+              closeButton.onclick = function () {
+                modal.style.display = "none";
+              };
+
+              // Close the modal when the user clicks anywhere outside of the modal
+              window.onclick = function (event) {
+                if (event.target === modal) {
+                  modal.style.display = "none";
+                }
+              };
             }
           },
+
+          // onClick: function (event, chartElement) {
+          //   if (chartElement.length) {
+          //     const datasetIndex = chartElement[0].datasetIndex;
+          //     const dataIndex = chartElement[0].index;
+
+          //     const customLabel =
+          //       this.data.datasets[datasetIndex].data[dataIndex].customLabel;
+
+          //     const labelCard = document.getElementById("labelCard");
+          //     labelCard.innerHTML = customLabel;
+          //     labelCard.style.display = "block";
+
+          //     const labelDefault = document.getElementById("labelDefault");
+          //     labelDefault.style.display = "none";
+          //   }
+          // },
           onHover: function (event, chartElement) {
             if (chartElement.length) {
               event.native.target.style.cursor = "pointer";
@@ -196,6 +229,8 @@ function createScatterPlot(dataFileName) {
             },
             tooltip: {
               enabled: false,
+              label: "click me",
+
               external: function (context) {
                 var tooltipModel = context.tooltip;
                 var tooltipEl = document.getElementById("chartjs-tooltip");
@@ -225,12 +260,14 @@ function createScatterPlot(dataFileName) {
                 }
 
                 if (tooltipModel.body) {
-                  var customLabel =
-                    tooltipModel.dataPoints[0].raw.customLabel ||
+                  var n_studies =
+                    tooltipModel.dataPoints[0].raw.n_studies ||
                     "No label provided";
 
                   var innerHtml =
-                    "<thead><tr><th>" + customLabel + "</th></tr></thead>";
+                    "<thead><tr><th>Number of studies: <b>" +
+                    n_studies +
+                    "</b></th></tr></thead>";
 
                   var tableRoot = tooltipEl.querySelector("table");
                   tableRoot.innerHTML = innerHtml;

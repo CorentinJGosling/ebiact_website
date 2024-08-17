@@ -8,7 +8,8 @@
       "borderWidth": 2,
       "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adults (>=20 years old),  participants, there is no difference between V1a-RA and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>no difference between V1a-RA and controls<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     },
     {
       "x": "Adults",
@@ -18,7 +19,8 @@
       "borderWidth": 2,
       "pointRadius": 13,
       "Outcome_group": "Safety",
-      "customLabel": "In Adults (>=20 years old),  participants, there is no difference between V1a-RA and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>no difference between V1a-RA and controls<\/b> on <u>Acceptability<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     },
     {
       "x": "Adults",
@@ -28,7 +30,8 @@
       "borderWidth": 2,
       "pointRadius": 13,
       "Outcome_group": "Safety",
-      "customLabel": "In Adults (>=20 years old),  participants, there is no difference between V1a-RA and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>no difference between V1a-RA and controls<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     },
     {
       "x": "Adults",
@@ -38,7 +41,8 @@
       "borderWidth": 2,
       "pointRadius": 13,
       "Outcome_group": "Functioning",
-      "customLabel": "In Adults (>=20 years old),  participants, there is no difference between V1a-RA and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>no difference between V1a-RA and controls<\/b> on <u>Adaptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     }
   ],
   "background": [
@@ -50,7 +54,8 @@
       "borderWidth": 0,
       "pointRadius": 13,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adults (>=20 years old),  participants, there is no difference between V1a-RA and controls on Social-communication. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>no difference between V1a-RA and controls<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     },
     {
       "x": "Adults",
@@ -60,7 +65,8 @@
       "borderWidth": 0,
       "pointRadius": 13,
       "Outcome_group": "Safety",
-      "customLabel": "In Adults (>=20 years old),  participants, there is no difference between V1a-RA and controls on Acceptability. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>no difference between V1a-RA and controls<\/b> on <u>Acceptability<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     },
     {
       "x": "Adults",
@@ -70,7 +76,8 @@
       "borderWidth": 0,
       "pointRadius": 13,
       "Outcome_group": "Safety",
-      "customLabel": "In Adults (>=20 years old),  participants, there is no difference between V1a-RA and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>no difference between V1a-RA and controls<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     },
     {
       "x": "Adults",
@@ -80,7 +87,8 @@
       "borderWidth": 0,
       "pointRadius": 13,
       "Outcome_group": "Functioning",
-      "customLabel": "In Adults (>=20 years old),  participants, there is no difference between V1a-RA and controls on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>no difference between V1a-RA and controls<\/b> on <u>Adaptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     }
   ],
   "main": [

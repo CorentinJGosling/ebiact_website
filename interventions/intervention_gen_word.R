@@ -99,7 +99,11 @@ for (i in 1:length(filter_tables)) {
 #############################
 ##### START #################
 #############################
-dat_ur_raw = readxl::read_excel(paste0(chemin, "UR_TOTAL_analysis.xlsx"))
+dat_ur_raw = readxl::read_excel(paste0(chemin, "UR_TOTAL_analysis.xlsx")) %>%
+  filter(IN_meta == 1) %>%
+  group_by(intervention_general) %>%
+  mutate(min_studies = min(n_studies),
+         max_studies = max(n_studies))
 info_meta = readxl::read_excel(paste0(chemin, "intervention_features_level.xlsx"))
 
 dat_ur_raw$Acronym = dat_ur_raw$intervention_general
@@ -115,7 +119,7 @@ dat_1 = dplyr::left_join(dat, dat_ur[,
                                     c("Acronym", "n_cct_intervention", "n_outcome_intervention",
                                       "n_meta_intervention", "meta_intervention",
                                       "URL_meta", "outcome_intervention",
-                                      "Age", "IQ",
+                                      "Age", "IQ", "min_studies", "max_studies",
                                       "min_age_intervention", "max_age_intervention",
                                       "min_IQ_intervention", "max_IQ_intervention",
                                       "outcome_test", "outcome_report", "outcome_observation",
@@ -450,8 +454,8 @@ dat$text = with(dat, paste0(
       
         "<div class='header_tab_plot'>Presentation of the number of studies</div>",
         "<div id='canva_description_size'>",
-          '<div class="circle size" data-hover-text="n-studies = minimum"></div>',
-          '<div class="circle size" data-hover-text="n-studies = maximum"></div>',
+          '<div class="circle size" data-hover-text="n-studies = ', dat$min_studies, '"></div>',
+          '<div class="circle size" data-hover-text="n-studies = ', dat$max_studies, '"></div>',
           '<div id="hoverText_size"></div>',
         "</div>",
       
@@ -467,7 +471,7 @@ dat$text = with(dat, paste0(
   
       '<div id = "contain_helper">',
         '<div id = "img_helper"></div>',
-        '<div id="labelDefault">Click on a dot to benefit from a narrative description of the results</div>',
+        '<div id="labelDefault">Click on a dot to benefit from a narrative description of the results!</div>',
         '<div id="labelCard"></div>',
   '</div>',
     '</div>',
@@ -489,7 +493,18 @@ dat$text = with(dat, paste0(
   "<div class='ressources'><ul>", 
   gsub("</a>", "</li></a>", gsub("<a", "<li><a", Ressources)), 
   "<ul></div>",
-  "</div>"
+  "</div>",
+  
+  
+  '<div id="customLabelModal" class="modal">
+    <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <div id="modalBody">
+    <!-- Custom label content will be inserted here -->
+    </div>
+    </div>
+    </div>'
+    
   
 ))
 
@@ -685,7 +700,8 @@ for (fact in dat$Acronym) {
           hoverTextGrade.style.opacity = '0';
           hoverTextGrade.style.display = 'none';
        });
-      });"
+      });
+      "
     ),
     "</script>",
   "</body>

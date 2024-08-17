@@ -1,0 +1,70 @@
+{
+  "background_dashed": [
+    {
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In NA  participants, there is <b>a small-to-moderate effect in favor of FOLI<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
+    },
+    {
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 2,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In NA  participants, there is <b>a moderate-to-strong effect in favor of FOLI<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
+    }
+  ],
+  "background": [
+    {
+      "y": "Overall ASD symptoms",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In NA  participants, there is <b>a small-to-moderate effect in favor of FOLI<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
+    },
+    {
+      "y": "Social-communication",
+      "backgroundColor": "rgba(255,255, 255, 0)",
+      "borderColor": "#ff8b1a",
+      "borderWidth": 0,
+      "pointRadius": 10,
+      "Outcome_group": "Core ASD symptoms",
+      "customLabel": "In NA  participants, there is <b>a moderate-to-strong effect in favor of FOLI<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
+    }
+  ],
+  "main": [
+    {
+      "y": "Overall ASD symptoms",
+      "r": 8,
+      "backgroundColor": "#A2CDAE",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    },
+    {
+      "y": "Social-communication",
+      "r": 8,
+      "backgroundColor": "#68CD84",
+      "borderWidth": 0,
+      "Outcome_group": "Core ASD symptoms"
+    }
+  ],
+  "star": [
+    {
+      "backgroundColor": "red",
+      "borderColor": "#red"
+    }
+  ],
+  "xLabels": ["Pre-school", "School-age", "Adolescents", "Adults"],
+  "yLabels": ["Overall ASD symptoms", "Social-communication", "Restricted/repetitive behaviors", "Sensory Profile", "", "Acceptability", "Tolerability", "Adverse events", "", "Global cognition (IQ)", "Adaptive behaviors", "Quality of life", "Language (Overall skills)", "Language (Expressive skills)", "Language (Receptive skills)", "", "ADHD symptoms", "Anxiety", "Mood related symptoms", "", "Disruptive behaviors", "Sleep quality", "Sleep quantity"]
+}

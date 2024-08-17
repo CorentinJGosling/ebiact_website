@@ -8,7 +8,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  SSG on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 7
     },
     {
       "x": "School-age",
@@ -18,7 +19,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  SSG on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 7
     },
     {
       "x": "Adolescents",
@@ -28,7 +30,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a moderate-to-strong effect in favor of SSG on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a moderate-to-strong effect in favor of SSG<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "Adults",
@@ -38,7 +41,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adults (>=20 years old),  participants, there is a very strong effect in favor of  SSG on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     },
     {
       "x": "School-age",
@@ -48,7 +52,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  SSG on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Restricted/repetitive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     },
     {
       "x": "Adolescents",
@@ -58,7 +63,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a very strong effect in favor of  SSG on Social-communication. Based on the analysis of the quality of the evidence produced by the 9 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 9 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 9
     },
     {
       "x": "School-age",
@@ -68,7 +74,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of SSG on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of SSG<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "Adults",
@@ -78,7 +85,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adults (>=20 years old),  participants, there is a moderate-to-strong effect in favor of SSG on Social-communication. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>a moderate-to-strong effect in favor of SSG<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     },
     {
       "x": "Adolescents",
@@ -88,7 +96,8 @@
       "borderWidth": 2,
       "pointRadius": 20.5,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a moderate-to-strong effect in favor of SSG on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a moderate-to-strong effect in favor of SSG<\/b> on <u>Disruptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     }
   ],
   "background": [
@@ -100,7 +109,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  SSG on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 7
     },
     {
       "x": "School-age",
@@ -110,7 +120,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  SSG on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 7 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 7
     },
     {
       "x": "Adolescents",
@@ -120,7 +131,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a moderate-to-strong effect in favor of SSG on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a moderate-to-strong effect in favor of SSG<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "Adults",
@@ -130,7 +142,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adults (>=20 years old),  participants, there is a very strong effect in favor of  SSG on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     },
     {
       "x": "School-age",
@@ -140,7 +153,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a very strong effect in favor of  SSG on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Restricted/repetitive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     },
     {
       "x": "Adolescents",
@@ -150,7 +164,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a very strong effect in favor of  SSG on Social-communication. Based on the analysis of the quality of the evidence produced by the 9 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a very strong effect in favor of  SSG<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 9 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 9
     },
     {
       "x": "School-age",
@@ -160,7 +175,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of SSG on Social-communication. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of SSG<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     },
     {
       "x": "Adults",
@@ -170,7 +186,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adults (>=20 years old),  participants, there is a moderate-to-strong effect in favor of SSG on Social-communication. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adults (>=20 years old)  participants, there is <b>a moderate-to-strong effect in favor of SSG<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     },
     {
       "x": "Adolescents",
@@ -180,7 +197,8 @@
       "borderWidth": 0,
       "pointRadius": 20.5,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a moderate-to-strong effect in favor of SSG on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a moderate-to-strong effect in favor of SSG<\/b> on <u>Disruptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 3 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 3
     }
   ],
   "main": [

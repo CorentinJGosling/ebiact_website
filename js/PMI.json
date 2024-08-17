@@ -8,7 +8,8 @@
       "borderWidth": 2,
       "pointRadius": 35.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     },
     {
       "x": "Pre-school",
@@ -18,7 +19,8 @@
       "borderWidth": 2,
       "pointRadius": 35.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Social-communication. Based on the analysis of the quality of the evidence produced by the 19 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 19 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 19
     },
     {
       "x": "Pre-school",
@@ -28,7 +30,8 @@
       "borderWidth": 2,
       "pointRadius": 35.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Adaptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Pre-school",
@@ -38,7 +41,8 @@
       "borderWidth": 2,
       "pointRadius": 35.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Global cognition (IQ)<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     },
     {
       "x": "Pre-school",
@@ -48,7 +52,8 @@
       "borderWidth": 2,
       "pointRadius": 35.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Language (Expressive skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     },
     {
       "x": "Pre-school",
@@ -58,7 +63,8 @@
       "borderWidth": 2,
       "pointRadius": 35.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between PMI and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>no difference between PMI and controls<\/b> on <u>Language (Receptive skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     },
     {
       "x": "School-age",
@@ -68,7 +74,8 @@
       "borderWidth": 2,
       "pointRadius": 35.5,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of PMI on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of PMI<\/b> on <u>Disruptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     }
   ],
   "background": [
@@ -80,7 +87,8 @@
       "borderWidth": 0,
       "pointRadius": 35.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     },
     {
       "x": "Pre-school",
@@ -90,7 +98,8 @@
       "borderWidth": 0,
       "pointRadius": 35.5,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Social-communication. Based on the analysis of the quality of the evidence produced by the 19 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 19 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 19
     },
     {
       "x": "Pre-school",
@@ -100,7 +109,8 @@
       "borderWidth": 0,
       "pointRadius": 35.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Adaptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Adaptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Pre-school",
@@ -110,7 +120,8 @@
       "borderWidth": 0,
       "pointRadius": 35.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Global cognition (IQ). Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Global cognition (IQ)<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     },
     {
       "x": "Pre-school",
@@ -120,7 +131,8 @@
       "borderWidth": 0,
       "pointRadius": 35.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is a small-to-moderate effect in favor of PMI on Language (Expressive skills). Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>a small-to-moderate effect in favor of PMI<\/b> on <u>Language (Expressive skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 6 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 6
     },
     {
       "x": "Pre-school",
@@ -130,7 +142,8 @@
       "borderWidth": 0,
       "pointRadius": 35.5,
       "Outcome_group": "Functioning",
-      "customLabel": "In Pre-school (<6 years old),  participants, there is no difference between PMI and controls on Language (Receptive skills). Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Pre-school (<6 years old)  participants, there is <b>no difference between PMI and controls<\/b> on <u>Language (Receptive skills)<\/u>. Based on the analysis of the quality of the evidence produced by the 4 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 4
     },
     {
       "x": "School-age",
@@ -140,7 +153,8 @@
       "borderWidth": 0,
       "pointRadius": 35.5,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In School-age (6-12 years old),  participants, there is a moderate-to-strong effect in favor of PMI on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In School-age (6-12 years old)  participants, there is <b>a moderate-to-strong effect in favor of PMI<\/b> on <u>Disruptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 5 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 5
     }
   ],
   "main": [

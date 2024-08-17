@@ -8,7 +8,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -18,7 +19,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>Restricted/repetitive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -28,7 +30,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -38,7 +41,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Safety",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between SULFO and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>no difference between SULFO and controls<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -48,7 +52,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "Psych. comorbidity",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>ADHD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -58,7 +63,8 @@
       "borderWidth": 2,
       "pointRadius": 10,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>Disruptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     }
   ],
   "background": [
@@ -70,7 +76,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on Overall ASD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>Overall ASD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -80,7 +87,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on Restricted/repetitive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>Restricted/repetitive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -90,7 +98,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Core ASD symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on Social-communication. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>Social-communication<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -100,7 +109,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Safety",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is no difference between SULFO and controls on Adverse events. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>no difference between SULFO and controls<\/b> on <u>Adverse events<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -110,7 +120,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "Psych. comorbidity",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on ADHD symptoms. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>ADHD symptoms<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     },
     {
       "x": "Adolescents",
@@ -120,7 +131,8 @@
       "borderWidth": 0,
       "pointRadius": 10,
       "Outcome_group": "ASD-related symptoms",
-      "customLabel": "In Adolescents (13-19 years old),  participants, there is a small-to-moderate effect in favor of SULFO on Disruptive behaviors. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a very low confidence in the estimation of this effect."
+      "customLabel": "In Adolescents (13-19 years old)  participants, there is <b>a small-to-moderate effect in favor of SULFO<\/b> on <u>Disruptive behaviors<\/u>. Based on the analysis of the quality of the evidence produced by the 2 clinical trials exploring this effect, we have a <b>very low confidence<\/b> in the estimation of this effect.",
+      "n_studies": 2
     }
   ],
   "main": [
