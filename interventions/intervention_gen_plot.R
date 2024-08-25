@@ -141,14 +141,14 @@ for (INTR in unique(dat_ur_raw$intervention_general)) {
   
   
   y_labels = c("Overall ASD symptoms" , "Social-communication", 
-               "Restricted/repetitive behaviors", "Sensory Profile", 
+               "Rest./repet. behaviors", "Sensory Profile", 
                "",
                "Acceptability", "Tolerability", "Adverse events",
                "",
                "Global cognition (IQ)", "Adaptive behaviors", 
-               "Quality of life", "Language (Overall skills)", 
-               "Language (Expressive skills)", 
-               "Language (Receptive skills)", 
+               "Quality of life", "Language (Overall)", 
+               "Language (Expressive)", 
+               "Language (Receptive)", 
                "",
                "ADHD symptoms", "Anxiety", "Mood related symptoms",
                "",
