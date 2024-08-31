@@ -25,25 +25,13 @@ $(document).ready(function () {
   $("#data-table").load(
     "../interventions/interventions_list.html",
     function () {
-      // var typeOptions = [];
-      // $("#data-table tbody tr").each(function () {
-      //   var type = $(this).find("td:eq(0)").text();
-      //   if ($.inArray(type, typeOptions) == -1) typeOptions.push(type);
-      // });
-      // typeOptions.sort();
-      // $.each(typeOptions, function (i, value) {
-      //   $("#filter1").append(
-      //     '<option value="' + value + '">' + value + "</option>"
-      //   );
-      // });
-      var typeOptions = ["Psychosocial", "Complementary"];
+      var typeOptions = ["Psychosocial", "Complementary", "Pharmacological"];
       $.each(typeOptions, function (i, value) {
         $("#filter1").append(
           '<option value="' + value + '">' + value + "</option>"
         );
       });
 
-      // Populate the second filter with the predefined age options
       var ageOptions = [
         "Very young children",
         "School-age children",
@@ -55,66 +43,43 @@ $(document).ready(function () {
           '<option value="' + value + '">' + value + "</option>"
         );
       });
-      // Populate the second filter with the predefined age options
-      //   "",
-      //   "",
-      //   "",
-      //   "",
-      //   "",
-      //   "",
-      //   "",
-      //   "",
 
       var outcomeOptions = [
         {
-          group: "Autism core symptoms",
+          group: "Key outcomes",
           options: [
-            "Overall ASD symptoms",
-            "Social communication",
-            "Restricted repetitive behaviors",
+            "Core ASD symptoms",
+            "Safety",
+            // "Overall ASD symptoms",
+            // "Social communication",
+            // "Restricted repetitive behaviors",
           ],
         },
         {
           group: "Associated symptoms",
-          options: ["Disruptive behaviors"],
-        },
-        {
-          group: "Functioning",
           options: [
-            "Adaptive behaviors",
-            "Global cognition (IQ)",
-            "Specific cognition (nvIQ)",
+            "Problematic behaviors",
+            "Psychiatric comorbidity",
+            "Language",
           ],
         },
         {
-          group: "Language",
-          options: ["Language"],
+          group: "Daily life variables",
+          options: ["Functioning", "Sleep"],
         },
-        // Define more groups and options as needed
       ];
 
-      // Loop through each group
       $.each(outcomeOptions, function (i, group) {
-        // Append the group header
         $("#filter3").append('<optgroup label="' + group.group + '">');
 
-        // Loop through options within the group
         $.each(group.options, function (j, option) {
-          // Append the option within the group
           $("#filter3").append(
             '<option value="' + option + '">' + option + "</option>"
           );
         });
 
-        // Close the optgroup tag after all options in the group
         $("#filter3").append("</optgroup>");
-      }); // var outcomeOptions = [
-      // ];
-      // $.each(outcomeOptions, function (i, value) {
-      //   $("#filter3").append(
-      //     '<option value="' + value + '">' + value + "</option>"
-      //   );
-      // });
+      });
     }
   );
 
@@ -184,20 +149,20 @@ $(document).ready(function () {
   }
 });
 // Themes begin
-am4core.useTheme(am4themes_animated);
+// am4core.useTheme(am4themes_animated);
 // Themes end
 
-var chart = am4core.create("chartdiv", am4plugins_wordCloud.WordCloud);
-var series = chart.series.push(new am4plugins_wordCloud.WordCloudSeries());
-chart.logo.disabled = true;
-series.randomness = 0;
-series.accuracy = 1;
-series.step = 50;
-series.maxCount = 150;
-series.minWordLength = 1;
-series.labels.template.tooltipText = "{word} (n clinical trial = {value})";
-// series.fontFamily = "Courier New";
-series.maxFontSize = am4core.percent(10);
+// var chart = am4core.create("chartdiv", am4plugins_wordCloud.WordCloud);
+// var series = chart.series.push(new am4plugins_wordCloud.WordCloudSeries());
+// chart.logo.disabled = true;
+// series.randomness = 0;
+// series.accuracy = 1;
+// series.step = 50;
+// series.maxCount = 150;
+// series.minWordLength = 1;
+// series.labels.template.tooltipText = "{word} (n clinical trial = {value})";
+// // series.fontFamily = "Courier New";
+// series.maxFontSize = am4core.percent(10);
 
-series.text =
-  "EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, CBT, CBT, CBT, CBT, CBT, CBT, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, AAI, ACUP, AIT, AMIN, DIET, DIET, DIET, DIET, MUSIC, OXYT, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PUFA";
+// series.text =
+//   "EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, EIBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, NDBI, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, DEV, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, SSG, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, PMI, CBT, CBT, CBT, CBT, CBT, CBT, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TECH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, TEACCH, AAI, ACUP, AIT, AMIN, DIET, DIET, DIET, DIET, MUSIC, OXYT, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PHYS, PUFA";

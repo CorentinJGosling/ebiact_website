@@ -587,10 +587,12 @@ dat$Group = ifelse(dat$Group == "Psychosocial",
                    paste0('<div class="classCOMP">', dat$Group, '</div>'), NA)))
 
 # TABLE INTERVENTIONS =============================================
-html_tbl = dat[, c("Group", "Interventions", "Age_bounds_list", "Outcome_clean",
-                   "Number of clinical trials<br>[meta-analyses]"#,  "N<br>(CCT)", "N<br>(SR/MA)", 
-                   # "More information"
-)] %>%
+html_tab = dat[, c("Group", "Interventions", "Age_bounds_list", "Outcome_clean",
+                   "Number of clinical trials<br>[meta-analyses]")]
+names(html_tab)[names(html_tab) == "Age_bounds_list"] <- "Age"
+names(html_tab)[names(html_tab) == "Outcome_clean"] <- "Outcome"
+
+html_tbl = html_tab %>%
   distinct() %>%
   arrange(Interventions) %>%
   tableHTML(class='table-fill', escape = FALSE,
